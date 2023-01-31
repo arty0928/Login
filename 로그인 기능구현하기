@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-31T13:32:45.532Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="NbEiOdsg8yUTeOWNZ-GU" version="20.8.13" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-01-31T13:34:02.062Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="45XO1bxLs04lV9B-J4c8" version="20.8.13" type="github" pages="5">
   <diagram id="pRH_pjUjlvLf6-ndeYeO" name="로그인 전체 흐름도">
-    <mxGraphModel dx="2269" dy="545" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2078" dy="376" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -828,14 +828,14 @@
         <mxCell id="K-TL8QMe3Hcy8l0owmiz-33" value="login을 먼저하기&lt;br&gt;post request 에서 login,&lt;br&gt;email, password 그대로 json 형식으로 하고 send" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-560" y="9020" width="290" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="K-TL8QMe3Hcy8l0owmiz-35" value="&amp;nbsp;브라우저 위라는 제한된 환경에서만 움직이던 JavaScript를 Python이나 Ruby와 같이 브라우저 위에서 움직이도록 해주는 것이 Node.js" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="180" y="240" width="60" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="K-TL8QMe3Hcy8l0owmiz-36" value="&lt;h1&gt;Nodejs 사용 이유&lt;/h1&gt;&lt;p&gt;js는 chrome같은 브라우저 위에서 동작하는 프로그래밍 언어&lt;/p&gt;&lt;p&gt;-&amp;gt; OS 접근 권한 X&lt;/p&gt;&lt;p&gt;Nodejs는 js도 OS에 접근 가능&lt;/p&gt;&lt;p&gt;= 브라우저에서 동작하고 있을때는 되지 않던 자유로운 파일 읽기 쓰기나 네트워크 통신 등의 OS 기능 다룰 수 있음&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-74.04" y="30" width="254.04" height="190" as="geometry" />
         </mxCell>
         <mxCell id="K-TL8QMe3Hcy8l0owmiz-37" value="브라우저에 접속했다는 이유로 내 컴퓨터로 파일이 읽어들어오면 불편하기 때문" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-400" y="90" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K-TL8QMe3Hcy8l0owmiz-39" value=": 서버사이드의 JS 실행환경" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="264" y="90" width="300" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
