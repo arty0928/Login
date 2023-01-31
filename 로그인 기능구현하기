@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-31T05:54:29.001Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="PtPvNrSa9vX9WvbNBe7i" version="20.8.13" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-01-31T05:55:40.572Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="OKozEitqb2pE-zu3fGom" version="20.8.13" type="github" pages="5">
   <diagram id="pRH_pjUjlvLf6-ndeYeO" name="Page-5">
     <mxGraphModel dx="1593" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -158,7 +158,7 @@
         <mxCell id="UVxzFqXRxpMpeskA79Rl-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontFamily=Helvetica;fontSize=9;fontColor=default;fillColor=#FFFFFF;" edge="1" parent="1" source="UVxzFqXRxpMpeskA79Rl-43" target="UVxzFqXRxpMpeskA79Rl-45">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UVxzFqXRxpMpeskA79Rl-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontFamily=Helvetica;fontSize=9;fontColor=default;fillColor=#FFFFFF;" edge="1" parent="1" source="UVxzFqXRxpMpeskA79Rl-43" target="UVxzFqXRxpMpeskA79Rl-47">
+        <mxCell id="UVxzFqXRxpMpeskA79Rl-48" value="3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontFamily=Helvetica;fontSize=9;fontColor=default;fillColor=#FFFFFF;" edge="1" parent="1" source="UVxzFqXRxpMpeskA79Rl-43" target="UVxzFqXRxpMpeskA79Rl-47">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UVxzFqXRxpMpeskA79Rl-43" value="&lt;font size=&quot;1&quot;&gt;npm install&amp;nbsp;&lt;/font&gt;mongoose -save&lt;font size=&quot;1&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=9;fontColor=default;fillColor=none;gradientColor=none;align=center;" vertex="1" parent="1">
@@ -167,8 +167,14 @@
         <mxCell id="UVxzFqXRxpMpeskA79Rl-45" value="&lt;font size=&quot;1&quot;&gt;mongoDB를 편하게 사용하는 툴&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=9;fontColor=default;fillColor=none;gradientColor=none;align=center;" vertex="1" parent="1">
           <mxGeometry x="620" y="1550" width="256" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="UVxzFqXRxpMpeskA79Rl-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontFamily=Helvetica;fontSize=9;fontColor=default;fillColor=#FFFFFF;" edge="1" parent="1" source="UVxzFqXRxpMpeskA79Rl-47" target="UVxzFqXRxpMpeskA79Rl-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="UVxzFqXRxpMpeskA79Rl-47" value="&lt;font size=&quot;1&quot;&gt;app에 mongoose 연결&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=9;fontColor=default;fillColor=none;gradientColor=none;align=center;" vertex="1" parent="1">
           <mxGeometry x="284" y="1660" width="256" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UVxzFqXRxpMpeskA79Rl-49" value="&lt;font size=&quot;1&quot;&gt;const mongoose = require(&#39;mongoose&#39;);&lt;br&gt;mongoose.connect(&#39;url&#39;);&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=9;fontColor=default;fillColor=none;gradientColor=none;align=center;" vertex="1" parent="1">
+          <mxGeometry x="630" y="1640" width="256" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
