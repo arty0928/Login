@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-31T00:48:33.759Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="mCLVghwNtkz0tERH_UMt" version="20.8.13" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-01-31T00:48:54.560Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="GxjRLgR2arzY2ROILV5p" version="20.8.13" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="838" dy="873" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -167,11 +167,70 @@
         <mxCell id="1fH3WdOIuRTaE-wzsFNn-2" value="그 유저의 토큰을 지워준다." style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="120" y="400" width="200" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="KI5igg_Dadj0Y2zNm7n3-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="1fH3WdOIuRTaE-wzsFNn-3" target="1fH3WdOIuRTaE-wzsFNn-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="1fH3WdOIuRTaE-wzsFNn-3" value="로그아웃 하려는 유저를 &lt;br&gt;데이터 베이스에서 찾아서" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="120" y="280" width="200" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="KI5igg_Dadj0Y2zNm7n3-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="1fH3WdOIuRTaE-wzsFNn-4" target="1fH3WdOIuRTaE-wzsFNn-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="1fH3WdOIuRTaE-wzsFNn-4" value="로그아웃 Route 만들기" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="120" y="160" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KI5igg_Dadj0Y2zNm7n3-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="120" y="560" width="230" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="KI5igg_Dadj0Y2zNm7n3-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="400" y="560" width="230" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="KI5igg_Dadj0Y2zNm7n3-3" value="&lt;h1&gt;Server&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="120" y="510" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="KI5igg_Dadj0Y2zNm7n3-4" value="&lt;h1&gt;Client&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="400" y="510" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="KI5igg_Dadj0Y2zNm7n3-5" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="140" y="605" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KI5igg_Dadj0Y2zNm7n3-6" value="Decode&lt;br&gt;Token&lt;br&gt;with JWT" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="KI5igg_Dadj0Y2zNm7n3-8" target="KI5igg_Dadj0Y2zNm7n3-14">
+          <mxGeometry x="0.4815" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="645" />
+              <mxPoint x="420" y="645" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KI5igg_Dadj0Y2zNm7n3-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=14;" edge="1" parent="1" source="KI5igg_Dadj0Y2zNm7n3-8" target="KI5igg_Dadj0Y2zNm7n3-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="705" />
+              <mxPoint x="170" y="705" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KI5igg_Dadj0Y2zNm7n3-8" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="530" y="605" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KI5igg_Dadj0Y2zNm7n3-9" value="&lt;b&gt;DB&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="140" y="575" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KI5igg_Dadj0Y2zNm7n3-10" value="Cookie" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="530" y="575" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KI5igg_Dadj0Y2zNm7n3-11" value="&lt;b&gt;Token&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="140" y="640" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KI5igg_Dadj0Y2zNm7n3-12" value="&lt;b&gt;Token&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="530" y="640" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KI5igg_Dadj0Y2zNm7n3-13" value="USER ID" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="250" y="629" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KI5igg_Dadj0Y2zNm7n3-14" value="" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=default;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="304" y="635" width="20" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
