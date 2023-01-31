@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-31T12:53:03.362Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="-hUvfs9bSgzeoXF-Lt06" version="20.8.13" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-01-31T12:55:45.866Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="LFjjnDwDE4ZVvxw0XU45" version="20.8.13" type="github" pages="5">
   <diagram id="pRH_pjUjlvLf6-ndeYeO" name="로그인 전체 흐름도">
-    <mxGraphModel dx="3085" dy="715" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2167" dy="454" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -773,8 +773,8 @@
         <mxCell id="K-TL8QMe3Hcy8l0owmiz-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=14;" edge="1" parent="1" source="K-TL8QMe3Hcy8l0owmiz-14" target="K-TL8QMe3Hcy8l0owmiz-11">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="594" y="9225" />
-              <mxPoint x="204" y="9225" />
+              <mxPoint x="594" y="9270" />
+              <mxPoint x="204" y="9270" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -798,6 +798,9 @@
         </mxCell>
         <mxCell id="K-TL8QMe3Hcy8l0owmiz-20" value="" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=default;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="338" y="9155" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="K-TL8QMe3Hcy8l0owmiz-22" value="인증시 client의 쿠키에 있는 토큰을 가져와서 db에 있는 토큰과 비교&amp;nbsp;&lt;br&gt;맞으면 인증&lt;br&gt;틀리면 인증X" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="387" y="8920" width="253" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
