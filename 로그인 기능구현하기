@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-31T00:52:12.655Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="YIt3znQeTHnPuwksBmc1" version="20.8.13" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-01-31T00:53:17.002Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="1yncg67JuJdd0MudEQIe" version="20.8.13" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="838" dy="873" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -155,7 +155,7 @@
         </mxCell>
         <UserObject label="&lt;b&gt;로그아웃 기능 만들기&lt;/b&gt;" link="https://viewer.diagrams.net/?page-id=oYkREVU_ZpE32vPLm5Yp&amp;highlight=0000ff&amp;edit=_blank&amp;layers=1&amp;nav=1&amp;page-id=oYkREVU_ZpE32vPLm5Yp#Harty0928%2FLogin_backendBeginner%2Fmain%2F%EB%A1%9C%EA%B7%B8%EC%9D%B8%20%EA%B8%B0%EB%8A%A5%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0" id="2A1dstDum7q-57v6L2zi-1">
           <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
-            <mxGeometry x="175" y="670" width="170" height="30" as="geometry" />
+            <mxGeometry x="185" y="640" width="170" height="30" as="geometry" />
           </mxCell>
         </UserObject>
       </root>
@@ -196,7 +196,7 @@
         <mxCell id="KI5igg_Dadj0Y2zNm7n3-4" value="&lt;h1&gt;Client&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="400" y="510" width="190" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="KI5igg_Dadj0Y2zNm7n3-5" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="KI5igg_Dadj0Y2zNm7n3-5" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontSize=14;fillColor=#45ECFF;" vertex="1" parent="1">
           <mxGeometry x="140" y="605" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="KI5igg_Dadj0Y2zNm7n3-6" value="Decode&lt;br&gt;Token&lt;br&gt;with JWT" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="KI5igg_Dadj0Y2zNm7n3-8" target="KI5igg_Dadj0Y2zNm7n3-14">
