@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-31T06:20:34.457Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="cKHERjzMW6AlwWjytLHb" version="20.8.13" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-01-31T06:21:51.932Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="JNkhzuqw1Tw0f9WXCQ1Y" version="20.8.13" type="github" pages="5">
   <diagram id="pRH_pjUjlvLf6-ndeYeO" name="Page-5">
     <mxGraphModel dx="1461" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -276,8 +276,23 @@
         <mxCell id="c2riBJWKCJVRLn6jc_Ex-2" value="&lt;h1&gt;Client&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="150" y="3580" width="90" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="c2riBJWKCJVRLn6jc_Ex-6" value="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontFamily=Helvetica;fontSize=9;fontColor=default;fillColor=#FFFFFF;" edge="1" parent="1" source="c2riBJWKCJVRLn6jc_Ex-4" target="c2riBJWKCJVRLn6jc_Ex-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="c2riBJWKCJVRLn6jc_Ex-4" value="클라이언트가 보내는 유저 정보를 바기 위해 Body&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="250" y="3620" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c2riBJWKCJVRLn6jc_Ex-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontFamily=Helvetica;fontSize=9;fontColor=default;fillColor=#FFFFFF;" edge="1" parent="1" source="c2riBJWKCJVRLn6jc_Ex-5" target="c2riBJWKCJVRLn6jc_Ex-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c2riBJWKCJVRLn6jc_Ex-5" value="Body-parser&amp;nbsp;&lt;br&gt;Dependency 필요" style="whiteSpace=wrap;html=1;rounded=0;fontFamily=Helvetica;fontSize=9;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="260" y="3715" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c2riBJWKCJVRLn6jc_Ex-7" value="클라이언트에서 보내주는 자료를 받을 수 있음" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="250" y="3790" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="c2riBJWKCJVRLn6jc_Ex-8" value="npm install body-parser --save" style="whiteSpace=wrap;html=1;rounded=0;fontFamily=Helvetica;fontSize=9;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="460" y="3715" width="180" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
