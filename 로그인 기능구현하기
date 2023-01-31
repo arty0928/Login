@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-31T08:02:31.226Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="ohGwAxqQCeeQVjTFJRH9" version="20.8.13" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-01-31T08:04:27.281Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="XRPTt2045Jz-k5_X4tU_" version="20.8.13" type="github" pages="5">
   <diagram id="pRH_pjUjlvLf6-ndeYeO" name="Page-5">
     <mxGraphModel dx="2542" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -575,6 +575,9 @@
         <mxCell id="RT_LHBhtrsJcuWyQoP1I-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontFamily=Helvetica;fontSize=14;fontColor=default;fillColor=#FFFFFF;" edge="1" parent="1" source="RT_LHBhtrsJcuWyQoP1I-7" target="RT_LHBhtrsJcuWyQoP1I-38">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="RT_LHBhtrsJcuWyQoP1I-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontFamily=Helvetica;fontSize=14;fontColor=default;fillColor=#FFFFFF;" edge="1" parent="1" source="RT_LHBhtrsJcuWyQoP1I-7" target="RT_LHBhtrsJcuWyQoP1I-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="RT_LHBhtrsJcuWyQoP1I-7" value="/api/user/regsiter&lt;br&gt;/api/user/login&lt;br&gt;등으로 바꾸기" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="170" y="7980" width="120" height="60" as="geometry" />
         </mxCell>
@@ -664,6 +667,15 @@
         </mxCell>
         <mxCell id="RT_LHBhtrsJcuWyQoP1I-38" value="나중에 express에서 제공되는 router로 파일 경로 정리 위해서" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="415" y="7995" width="350" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RT_LHBhtrsJcuWyQoP1I-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontFamily=Helvetica;fontSize=14;fontColor=default;fillColor=#FFFFFF;" edge="1" parent="1" source="RT_LHBhtrsJcuWyQoP1I-40" target="RT_LHBhtrsJcuWyQoP1I-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RT_LHBhtrsJcuWyQoP1I-40" value="index.js에 app.get(~auth) 생성" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="8120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RT_LHBhtrsJcuWyQoP1I-42" value="&lt;div style=&quot;color: rgb(255, 255, 255); background-color: rgb(0, 0, 0); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 16px; line-height: 22px;&quot;&gt;middleware 폴더 생성&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="8260" width="220" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
