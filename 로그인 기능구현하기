@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-31T05:42:47.170Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="8Su5iMFFz1DLhwmx--te" version="20.8.13" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-01-31T05:44:12.886Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="ZGWLYsK80L5Gtrmtg4Vp" version="20.8.13" type="github" pages="5">
   <diagram id="pRH_pjUjlvLf6-ndeYeO" name="Page-5">
     <mxGraphModel dx="634" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -81,11 +81,17 @@
         <mxCell id="UVxzFqXRxpMpeskA79Rl-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontFamily=Helvetica;fontSize=9;fontColor=default;fillColor=#FFFFFF;" edge="1" parent="1" source="UVxzFqXRxpMpeskA79Rl-19" target="UVxzFqXRxpMpeskA79Rl-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="UVxzFqXRxpMpeskA79Rl-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.574;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=1;fontFamily=Helvetica;fontSize=9;fontColor=default;fillColor=#FFFFFF;" edge="1" parent="1" source="UVxzFqXRxpMpeskA79Rl-19" target="UVxzFqXRxpMpeskA79Rl-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="UVxzFqXRxpMpeskA79Rl-19" value="EXPRESS JS 다운" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=9;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="354" y="720" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UVxzFqXRxpMpeskA79Rl-21" value="package.json 파일에 dependencies에 추가,&lt;br&gt;이걸 쓰고 있구나를 알려줌" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=9;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="554" y="720" width="206" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UVxzFqXRxpMpeskA79Rl-23" value="node module 폴더 생성됨&lt;br&gt;라이브러리 패키지들이 들어가 있음" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=9;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="554" y="810" width="206" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
