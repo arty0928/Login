@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-31T06:50:36.822Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="twB-wMCC6VwGCoUL5_zu" version="20.8.13" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-01-31T06:51:32.666Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="Sv8NDaL-T1ksGgHIfTVJ" version="20.8.13" type="github" pages="5">
   <diagram id="pRH_pjUjlvLf6-ndeYeO" name="Page-5">
     <mxGraphModel dx="1461" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -401,8 +401,19 @@
         <mxCell id="sCPDC_ajtY7WkvLbfOga-1" value="현재 데베에 있는 비번이 너무 그대로 있어서 보안취약&lt;br&gt;Bcrypt로 비번을 암호화해서 데베에 저장" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="527" y="5860" width="285" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="sCPDC_ajtY7WkvLbfOga-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontFamily=Helvetica;fontSize=9;fontColor=default;fillColor=#FFFFFF;" edge="1" parent="1" source="sCPDC_ajtY7WkvLbfOga-4" target="sCPDC_ajtY7WkvLbfOga-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sCPDC_ajtY7WkvLbfOga-8" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="sCPDC_ajtY7WkvLbfOga-7">
+          <mxGeometry x="-0.2845" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="sCPDC_ajtY7WkvLbfOga-4" value="npm install bcrypt --save" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=9;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="410" y="5980" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sCPDC_ajtY7WkvLbfOga-6" value="register router로 가기&lt;br&gt;register에서 save하기 전에 암호화" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=9;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="410" y="6120" width="160" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
