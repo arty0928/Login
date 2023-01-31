@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-31T07:52:32.318Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="89oW8CSN0Gmo6v_ZmKjl" version="20.8.13" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-01-31T07:52:50.957Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="xrtUn180OT5EvhMj-UUn" version="20.8.13" type="github" pages="5">
   <diagram id="pRH_pjUjlvLf6-ndeYeO" name="Page-5">
-    <mxGraphModel dx="1461" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1593" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -632,7 +632,7 @@
           <mxGeometry x="440" y="8380" width="280" height="210" as="geometry" />
         </mxCell>
         <mxCell id="RT_LHBhtrsJcuWyQoP1I-25" value="로그인된 유저만 사용할 수 있는 게시판~ 누구나 사용할 수 있는 게시판~~ 체크하기 위해 authentification" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="344.04" y="7690" width="60" height="30" as="geometry" />
+          <mxGeometry x="210" y="7690" width="460" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
