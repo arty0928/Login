@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-31T00:45:04.065Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="V2h7yilea-fwtQbuitNl" version="20.8.13" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-01-31T00:46:51.436Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="-EE96Q0sE1tFhgiYlO10" version="20.8.13" type="github" pages="2">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="838" dy="873" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -115,6 +115,23 @@
         <mxCell id="x3nb8pyCblEYMfAKqSwO-13" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="230" y="505" width="60" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="x3nb8pyCblEYMfAKqSwO-21" value="Decode&lt;br&gt;Token&lt;br&gt;with JWT" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="x3nb8pyCblEYMfAKqSwO-14" target="x3nb8pyCblEYMfAKqSwO-20">
+          <mxGeometry x="0.4815" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="510" y="545" />
+              <mxPoint x="510" y="545" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x3nb8pyCblEYMfAKqSwO-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=14;" edge="1" parent="1" source="x3nb8pyCblEYMfAKqSwO-14" target="x3nb8pyCblEYMfAKqSwO-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="605" />
+              <mxPoint x="260" y="605" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="x3nb8pyCblEYMfAKqSwO-14" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="620" y="505" width="60" height="80" as="geometry" />
         </mxCell>
@@ -126,6 +143,15 @@
         </mxCell>
         <mxCell id="x3nb8pyCblEYMfAKqSwO-17" value="Token" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="230" y="540" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="x3nb8pyCblEYMfAKqSwO-18" value="Token" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="620" y="540" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="x3nb8pyCblEYMfAKqSwO-19" value="USER ID" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="340" y="529" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="x3nb8pyCblEYMfAKqSwO-20" value="" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=default;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="394" y="535" width="20" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
