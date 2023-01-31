@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-31T05:56:16.448Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="mzZQBxMlmm1-iTPhqOMW" version="20.8.13" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-01-31T05:57:31.576Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="eR6H_ErzFaOMzT76BsoQ" version="20.8.13" type="github" pages="5">
   <diagram id="pRH_pjUjlvLf6-ndeYeO" name="Page-5">
-    <mxGraphModel dx="1461" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1752" dy="809" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -173,8 +173,14 @@
         <mxCell id="UVxzFqXRxpMpeskA79Rl-47" value="&lt;font size=&quot;1&quot;&gt;app에 mongoose 연결&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=9;fontColor=default;fillColor=none;gradientColor=none;align=center;" vertex="1" parent="1">
           <mxGeometry x="284" y="1660" width="256" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="UVxzFqXRxpMpeskA79Rl-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontFamily=Helvetica;fontSize=9;fontColor=default;fillColor=#FFFFFF;" edge="1" parent="1" source="UVxzFqXRxpMpeskA79Rl-49" target="UVxzFqXRxpMpeskA79Rl-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="UVxzFqXRxpMpeskA79Rl-49" value="&lt;div style=&quot;color: rgb(255, 255, 255); background-color: rgb(0, 0, 0); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 16px; line-height: 22px;&quot;&gt;&lt;div&gt;mongoose.&lt;span style=&quot;color: #dcdcaa;&quot;&gt;connect&lt;/span&gt;(&lt;span style=&quot;color: #9cdcfe;&quot;&gt;config&lt;/span&gt;.&lt;span style=&quot;color: #9cdcfe;&quot;&gt;mongoURI&lt;/span&gt;)&lt;/div&gt;&lt;div&gt;.&lt;span style=&quot;color: #dcdcaa;&quot;&gt;then&lt;/span&gt;(()&lt;span style=&quot;color: #569cd6;&quot;&gt;=&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;console&lt;/span&gt;.&lt;span style=&quot;color: #dcdcaa;&quot;&gt;log&lt;/span&gt;(&lt;span style=&quot;color: #ce9178;&quot;&gt;&#39;MongoDB Connected...&#39;&lt;/span&gt;))&lt;/div&gt;&lt;div&gt;.&lt;span style=&quot;color: #dcdcaa;&quot;&gt;catch&lt;/span&gt;(&lt;span style=&quot;color: #9cdcfe;&quot;&gt;err&lt;/span&gt; &lt;span style=&quot;color: #569cd6;&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;console&lt;/span&gt;.&lt;span style=&quot;color: #dcdcaa;&quot;&gt;log&lt;/span&gt;(&lt;span style=&quot;color: #9cdcfe;&quot;&gt;err&lt;/span&gt;));&lt;/div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=9;fontColor=default;fillColor=none;gradientColor=none;align=center;" vertex="1" parent="1">
-          <mxGeometry x="630" y="1640" width="400" height="70" as="geometry" />
+          <mxGeometry x="610" y="1640" width="510" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="UVxzFqXRxpMpeskA79Rl-51" value="&lt;div style=&quot;color: rgb(255, 255, 255); background-color: rgb(0, 0, 0); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 16px; line-height: 22px;&quot;&gt;&lt;div&gt;config.mongoURL 대신 여기서는 mongoDB URL&amp;nbsp;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=9;fontColor=default;fillColor=none;gradientColor=none;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="1640" width="510" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
