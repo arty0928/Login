@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-31T08:00:43.999Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="_hRO8gbIEcvtmLM9HoLu" version="20.8.13" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-01-31T08:01:45.584Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="z9_B7LdFsk2wldXUwRpL" version="20.8.13" type="github" pages="5">
   <diagram id="pRH_pjUjlvLf6-ndeYeO" name="Page-5">
-    <mxGraphModel dx="3134" dy="1295" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2542" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -572,7 +572,7 @@
         <mxCell id="RT_LHBhtrsJcuWyQoP1I-6" value="auth route 만들기" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="170" y="7860" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="RT_LHBhtrsJcuWyQoP1I-7" value="How?" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="RT_LHBhtrsJcuWyQoP1I-7" value="/api/user/regsiter&lt;br&gt;/api/user/login&lt;br&gt;등으로 바꾸기" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="170" y="7980" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RT_LHBhtrsJcuWyQoP1I-8" value="" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=default;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;rounded=0;" vertex="1" parent="1">
