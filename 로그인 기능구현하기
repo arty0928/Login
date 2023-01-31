@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-31T06:58:35.610Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="PSNxu0fxLyRIwW4_O07z" version="20.8.13" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-01-31T07:04:12.202Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="-ZikXwODPtdjPeC29g0Z" version="20.8.13" type="github" pages="5">
   <diagram id="pRH_pjUjlvLf6-ndeYeO" name="Page-5">
-    <mxGraphModel dx="1461" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1715" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -438,6 +438,63 @@
         </mxCell>
         <mxCell id="53Dez6vF1n7xnKNruoXt-1" value="10자리인 salt를 만들어서 비번 암호화 한다" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="700" y="6150" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7Z6hDcMYWBgCYjJd4pii-1" value="" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fillColor=#FFFFFF;" edge="1" parent="1" source="7Z6hDcMYWBgCYjJd4pii-2" target="7Z6hDcMYWBgCYjJd4pii-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7Z6hDcMYWBgCYjJd4pii-2" value="login route 만들기" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="6520" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7Z6hDcMYWBgCYjJd4pii-3" value="User.findOne()" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="534" y="6620" width="186" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7Z6hDcMYWBgCYjJd4pii-4" value="bcrypt를 이용하여 plain password와 암호화된 (Hashed) 패스워드가 같은지 확인" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="534" y="6700" width="186" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7Z6hDcMYWBgCYjJd4pii-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="7Z6hDcMYWBgCYjJd4pii-7" target="7Z6hDcMYWBgCYjJd4pii-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7Z6hDcMYWBgCYjJd4pii-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="7Z6hDcMYWBgCYjJd4pii-7" target="7Z6hDcMYWBgCYjJd4pii-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7Z6hDcMYWBgCYjJd4pii-7" value="1. 데이터 베이스에서 &lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;요청한 email 찾기" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="6610" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7Z6hDcMYWBgCYjJd4pii-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="7Z6hDcMYWBgCYjJd4pii-10" target="7Z6hDcMYWBgCYjJd4pii-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7Z6hDcMYWBgCYjJd4pii-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="7Z6hDcMYWBgCYjJd4pii-10" target="7Z6hDcMYWBgCYjJd4pii-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7Z6hDcMYWBgCYjJd4pii-10" value="2. 데이터 베이스에서 &lt;br&gt;요청한 email이 있다면 &lt;br&gt;비밀번호가 같은지 확인" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="6700" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7Z6hDcMYWBgCYjJd4pii-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="7Z6hDcMYWBgCYjJd4pii-13" target="7Z6hDcMYWBgCYjJd4pii-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7Z6hDcMYWBgCYjJd4pii-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="7Z6hDcMYWBgCYjJd4pii-13" target="7Z6hDcMYWBgCYjJd4pii-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7Z6hDcMYWBgCYjJd4pii-13" value="3. 비밀번호까지 같다면 Token 생성" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;strokeColor=default;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="310" y="6800" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7Z6hDcMYWBgCYjJd4pii-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="7Z6hDcMYWBgCYjJd4pii-15" target="7Z6hDcMYWBgCYjJd4pii-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7Z6hDcMYWBgCYjJd4pii-15" value="토큰 생성을 위해서 jsonwebtoken 라이브러리 다운로드" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;strokeColor=default;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="534" y="6800" width="176" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7Z6hDcMYWBgCYjJd4pii-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="7Z6hDcMYWBgCYjJd4pii-17" target="7Z6hDcMYWBgCYjJd4pii-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7Z6hDcMYWBgCYjJd4pii-17" value="npm install jsonwebtoken --save" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;strokeColor=default;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="534" y="6900" width="176" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7Z6hDcMYWBgCYjJd4pii-18" value="3. 비밀번호까지 같다면 Token 생성" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;strokeColor=default;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="310" y="6900" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7Z6hDcMYWBgCYjJd4pii-19" value="&lt;a href=&quot;https://www.npmjs.com/package/jsonwebtoken&quot;&gt;jsonwebtoken - npm (npmjs.com)&lt;/a&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;strokeColor=default;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="534" y="6995" width="176" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
