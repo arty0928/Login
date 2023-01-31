@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-31T06:40:02.908Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="n463DwFYJAEE8GvZPdL5" version="20.8.13" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-01-31T06:41:05.310Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="jqY5JTEBd9Tg06vgCMQ7" version="20.8.13" type="github" pages="5">
   <diagram id="pRH_pjUjlvLf6-ndeYeO" name="Page-5">
     <mxGraphModel dx="1461" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -350,8 +350,14 @@
         <mxCell id="D1CnuZLNUSf9m9RtOb2L-14" value="package.json의 start를 nodemon index.js&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=9;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="380" y="4870" width="210" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3fpnXgELqJFAx_qEAR1J-1" value="비밀정보 보호하기&lt;br&gt;&amp;nbsp;mongoDB 아이디랑 비번 -&amp;gt; config.key" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=9;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+        <mxCell id="3fpnXgELqJFAx_qEAR1J-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontFamily=Helvetica;fontSize=9;fontColor=default;fillColor=#FFFFFF;" edge="1" parent="1" source="3fpnXgELqJFAx_qEAR1J-1" target="3fpnXgELqJFAx_qEAR1J-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3fpnXgELqJFAx_qEAR1J-1" value="비밀정보 보호하기(깃헙에 올릴때 .gitignore)&lt;br&gt;&amp;nbsp;mongoDB 아이디랑 비번 -&amp;gt; config.key" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=9;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="191" y="5010" width="590" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3fpnXgELqJFAx_qEAR1J-2" value="config 폴더 안에 dev.js 만들기" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=9;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="380" y="5150" width="210" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
