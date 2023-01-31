@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-31T08:04:59.276Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="K4tZYvCY2demleSXEbSM" version="20.8.13" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-01-31T08:06:58.430Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="q1VoHkCVkwGcZIzXD7KJ" version="20.8.13" type="github" pages="5">
   <diagram id="pRH_pjUjlvLf6-ndeYeO" name="Page-5">
-    <mxGraphModel dx="2542" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2960" dy="1142" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -676,6 +676,18 @@
         </mxCell>
         <mxCell id="RT_LHBhtrsJcuWyQoP1I-42" value="&lt;div style=&quot;color: rgb(255, 255, 255); background-color: rgb(0, 0, 0); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 16px; line-height: 22px;&quot;&gt;middleware 폴더 생성후,&lt;/div&gt;&lt;div style=&quot;color: rgb(255, 255, 255); background-color: rgb(0, 0, 0); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 16px; line-height: 22px;&quot;&gt;안에 auth.js&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="8260" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RT_LHBhtrsJcuWyQoP1I-46" value="" style="curved=1;endArrow=classic;html=1;rounded=0;strokeWidth=1;fontFamily=Helvetica;fontSize=14;fontColor=default;fillColor=#FFFFFF;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="RT_LHBhtrsJcuWyQoP1I-42">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-160" y="7950" as="sourcePoint" />
+            <mxPoint x="-350" y="8020" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="30" y="8190" />
+              <mxPoint x="-100" y="8320" />
+              <mxPoint x="-160" y="7900" />
+              <mxPoint x="-290" y="8310" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
