@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-31T06:51:32.666Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="Sv8NDaL-T1ksGgHIfTVJ" version="20.8.13" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-01-31T06:51:40.493Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="iOBiWeqc79MZqHhUS6uP" version="20.8.13" type="github" pages="5">
   <diagram id="pRH_pjUjlvLf6-ndeYeO" name="Page-5">
     <mxGraphModel dx="1461" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -413,7 +413,7 @@
           <mxGeometry x="410" y="5980" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sCPDC_ajtY7WkvLbfOga-6" value="register router로 가기&lt;br&gt;register에서 save하기 전에 암호화" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=9;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="410" y="6120" width="160" height="60" as="geometry" />
+          <mxGeometry x="360" y="6120" width="260" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
