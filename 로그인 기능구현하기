@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-31T13:46:35.078Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="PJJtTMB8Q1vVuJqBAaKZ" version="20.8.13" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-01-31T13:52:57.112Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="_SHs3OgSRldy2rZ954Bz" version="20.8.13" type="github" pages="5">
   <diagram id="pRH_pjUjlvLf6-ndeYeO" name="로그인 전체 흐름도">
-    <mxGraphModel dx="2083" dy="1588" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2105" dy="1499" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -162,6 +162,9 @@
         </mxCell>
         <mxCell id="UVxzFqXRxpMpeskA79Rl-43" value="&lt;font size=&quot;1&quot;&gt;npm install&amp;nbsp;&lt;/font&gt;mongoose -save&lt;font size=&quot;1&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=9;fontColor=default;fillColor=none;gradientColor=none;align=center;" parent="1" vertex="1">
           <mxGeometry x="284" y="1550" width="256" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K-TL8QMe3Hcy8l0owmiz-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UVxzFqXRxpMpeskA79Rl-45" target="K-TL8QMe3Hcy8l0owmiz-45">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UVxzFqXRxpMpeskA79Rl-45" value="&lt;font size=&quot;1&quot;&gt;mongoDB를 편하게 사용하는 툴&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=9;fontColor=default;fillColor=none;gradientColor=none;align=center;" parent="1" vertex="1">
           <mxGeometry x="620" y="1550" width="256" height="30" as="geometry" />
@@ -850,6 +853,9 @@
         </mxCell>
         <mxCell id="K-TL8QMe3Hcy8l0owmiz-44" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial; font-size: 12px; font-weight: normal;&quot;&gt;npm 명령을 할때 옵션 추가 안하면 기본적으로 dependencies에 추가&lt;/span&gt;&lt;br&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1110" y="700" width="303" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="K-TL8QMe3Hcy8l0owmiz-45" value="&lt;h1&gt;mongoose&amp;nbsp;&lt;/h1&gt;&lt;p&gt;nodejs와 mongoDB를 연결해주는 ODM(Object Document Mapping)&lt;/p&gt;&lt;p&gt;: 객체(클래스)와 (관계형 데이터 베이스)를 1대 1로 매칭&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="949" y="1517.5" width="390" height="95" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
