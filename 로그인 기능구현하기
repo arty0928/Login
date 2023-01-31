@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-31T04:08:52.329Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="94QOqGLJVQN35vSas9Zn" version="20.8.13" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-01-31T04:10:14.241Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="CTJPtl0mtK6AAaev_pZ3" version="20.8.13" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1434" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -411,8 +411,11 @@
         <mxCell id="dP-OaRz-sq3EqmMomCEW-76" value="&lt;h1&gt;장점&lt;/h1&gt;&lt;div&gt;DB 필요 X&lt;/div&gt;&lt;div&gt;→ 생성된 토큰 추적X&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;1&quot;&gt;→ 토큰이 유효한가 여부만 알고 있음&lt;/font&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;1&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;1&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="40" y="790" width="190" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="dP-OaRz-sq3EqmMomCEW-77" value="&lt;h1&gt;단점&lt;/h1&gt;&lt;div&gt;웹사이트 내에서 다른 페이지 요청이 있을 시(브라우저 요청이 있을때마다), 2~4번 과정 반복, DB 용량 부담&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=9;" vertex="1" parent="1">
+        <mxCell id="dP-OaRz-sq3EqmMomCEW-77" value="&lt;h1&gt;단점&lt;/h1&gt;&lt;div&gt;토큰이 유효한지만 판단하므로 키값을 가지고만 있으면 통제X&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="275" y="790" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="dP-OaRz-sq3EqmMomCEW-78" value="정보를 가지고 있는 토큰, DB없이 검증 O" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="105" y="520" width="205" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
