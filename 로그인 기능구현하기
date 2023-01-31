@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-31T04:40:05.363Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="t_TA8SrKJRz1cQnCf90z" version="20.8.13" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-01-31T04:40:49.027Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="MIFGTgms9J3Zd7lPzHMz" version="20.8.13" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1434" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -242,7 +242,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="G42U9o1XdnjKVGYda-B6" name="Page-4">
-    <mxGraphModel dx="1089" dy="856" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="721" dy="588" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -450,49 +450,51 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="dP-OaRz-sq3EqmMomCEW-90" value="&lt;h1&gt;Token의 형태&lt;/h1&gt;&lt;div&gt;&lt;u&gt;xxxxxxxxx&lt;/u&gt;.yyyyyyyyyyy.zzzzzzzzzzz&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=8;" vertex="1" parent="1">
-          <mxGeometry x="40" y="1000" width="190" height="70" as="geometry" />
+          <mxGeometry x="50" y="1040" width="190" height="70" as="geometry" />
         </mxCell>
         <mxCell id="dP-OaRz-sq3EqmMomCEW-92" value="header" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="1">
-          <mxGeometry x="40" y="1052.5" width="60" height="15" as="geometry" />
+          <mxGeometry x="50" y="1092.5" width="60" height="15" as="geometry" />
         </mxCell>
         <mxCell id="dP-OaRz-sq3EqmMomCEW-93" value="payload" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="1">
-          <mxGeometry x="90" y="1045" width="60" height="30" as="geometry" />
+          <mxGeometry x="100" y="1085" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="dP-OaRz-sq3EqmMomCEW-94" value="signature" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="1">
-          <mxGeometry x="150" y="1045" width="60" height="30" as="geometry" />
+          <mxGeometry x="160" y="1085" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="dP-OaRz-sq3EqmMomCEW-99" value="signature" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="40" y="1140" width="70" height="20" as="geometry" />
+          <mxGeometry x="50" y="1210" width="70" height="20" as="geometry" />
         </mxCell>
         <mxCell id="dP-OaRz-sq3EqmMomCEW-100" value="payload" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="40" y="1110" width="70" height="20" as="geometry" />
+          <mxGeometry x="50" y="1180" width="70" height="20" as="geometry" />
         </mxCell>
         <mxCell id="dP-OaRz-sq3EqmMomCEW-109" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontSize=8;fillColor=#FFFFFF;" edge="1" parent="1" source="dP-OaRz-sq3EqmMomCEW-101" target="dP-OaRz-sq3EqmMomCEW-103">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="dP-OaRz-sq3EqmMomCEW-101" value="header" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="40" y="1080" width="70" height="20" as="geometry" />
+          <mxGeometry x="50" y="1150" width="70" height="20" as="geometry" />
         </mxCell>
         <mxCell id="dP-OaRz-sq3EqmMomCEW-102" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;fontSize=8;fillColor=#E6D0DE;" vertex="1" parent="1">
-          <mxGeometry x="20" y="1090" width="20" height="62.5" as="geometry" />
+          <mxGeometry x="30" y="1160" width="20" height="62.5" as="geometry" />
         </mxCell>
-        <mxCell id="dP-OaRz-sq3EqmMomCEW-108" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontSize=8;fillColor=#FFFFFF;" edge="1" parent="1" source="dP-OaRz-sq3EqmMomCEW-103" target="dP-OaRz-sq3EqmMomCEW-104">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="dP-OaRz-sq3EqmMomCEW-108" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontSize=8;fillColor=#FFFFFF;" edge="1" parent="1" source="dP-OaRz-sq3EqmMomCEW-103">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="382.5" y="1160" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="dP-OaRz-sq3EqmMomCEW-103" value="&lt;ol&gt;&lt;li&gt;토큰의 type: JWT&lt;/li&gt;&lt;li&gt;alg(알고리즘)&lt;/li&gt;&lt;/ol&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=8;fillColor=#FFFFFF;align=left;" vertex="1" parent="1">
-          <mxGeometry x="150" y="1070" width="150" height="40" as="geometry" />
+          <mxGeometry x="200" y="1140" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="dP-OaRz-sq3EqmMomCEW-104" value="signature값을 만드는데 사용되는 알고리즘" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=8;fillColor=#FFFFFF;align=left;" vertex="1" parent="1">
-          <mxGeometry x="332.5" y="1070" width="200" height="40" as="geometry" />
+          <mxGeometry x="390" y="1140" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="dP-OaRz-sq3EqmMomCEW-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=1;fontSize=8;fillColor=#FFFFFF;" edge="1" parent="1" source="dP-OaRz-sq3EqmMomCEW-110" target="dP-OaRz-sq3EqmMomCEW-99">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="dP-OaRz-sq3EqmMomCEW-110" value="header + payload + &lt;b&gt;서버의 key 값&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=8;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="150" y="1140" width="220" height="20" as="geometry" />
+          <mxGeometry x="200" y="1210" width="220" height="20" as="geometry" />
         </mxCell>
         <mxCell id="dP-OaRz-sq3EqmMomCEW-113" value="반대방향으로 알고리즘을 풀 수 없고, 서버의 key 값을 알 수 없어서 토큰만으로 조작X" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="1">
-          <mxGeometry x="383" y="1135" width="197" height="30" as="geometry" />
+          <mxGeometry x="433" y="1205" width="197" height="30" as="geometry" />
         </mxCell>
         <mxCell id="dP-OaRz-sq3EqmMomCEW-122" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontFamily=Helvetica;fontSize=9;fontColor=default;fillColor=#FFFFFF;" edge="1" parent="1" source="dP-OaRz-sq3EqmMomCEW-117" target="dP-OaRz-sq3EqmMomCEW-121">
           <mxGeometry relative="1" as="geometry" />
