@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-31T04:22:44.783Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="rYYqPTJl6wjk4PatyTAc" version="20.8.13" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-01-31T04:23:16.117Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="S9P_FKg30dudSH1ZO49G" version="20.8.13" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1434" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -242,7 +242,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="G42U9o1XdnjKVGYda-B6" name="Page-4">
-    <mxGraphModel dx="838" dy="806" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="491" dy="472" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -396,8 +396,8 @@
         <mxCell id="dP-OaRz-sq3EqmMomCEW-66" value="페이지 요청" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" vertex="1" parent="1">
           <mxGeometry x="552" y="660" width="58" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="dP-OaRz-sq3EqmMomCEW-67" value="Token이&amp;nbsp;&lt;br&gt;유효한지 검사" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" vertex="1" parent="1">
-          <mxGeometry x="543" y="600" width="66" height="30" as="geometry" />
+        <mxCell id="dP-OaRz-sq3EqmMomCEW-67" value="Token이&amp;nbsp;&lt;br&gt;유효한지 검사 결과" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="532.5" y="600" width="97" height="30" as="geometry" />
         </mxCell>
         <mxCell id="dP-OaRz-sq3EqmMomCEW-68" value="user정보를&lt;br&gt;DB에 저장X" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" vertex="1" parent="1">
           <mxGeometry x="105" y="647" width="60" height="30" as="geometry" />
