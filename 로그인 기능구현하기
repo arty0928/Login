@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-31T06:46:53.672Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="6ZFU8ZrnSPwKMbdUA8Q8" version="20.8.13" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-01-31T06:47:23.167Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="JTXT0DZJ-08-gBejJZBJ" version="20.8.13" type="github" pages="5">
   <diagram id="pRH_pjUjlvLf6-ndeYeO" name="Page-5">
     <mxGraphModel dx="1461" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -383,7 +383,7 @@
         <mxCell id="3fpnXgELqJFAx_qEAR1J-9" value="&lt;b&gt;process.env.NODE_ENV&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="370" y="5300" width="230" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3fpnXgELqJFAx_qEAR1J-11" value="index.js에서 const config.key" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=9;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+        <mxCell id="3fpnXgELqJFAx_qEAR1J-11" value="index.js에서 const config.key하고&lt;br&gt;mongoose.connect에 config.key" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=9;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="390" y="5560" width="210" height="60" as="geometry" />
         </mxCell>
       </root>
