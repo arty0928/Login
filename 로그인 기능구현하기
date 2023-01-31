@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-31T13:43:49.786Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="ImugdyM1ezUGFLVtXu8X" version="20.8.13" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-01-31T13:44:57.863Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="AKX9yueY_FRUx4ok_Rt2" version="20.8.13" type="github" pages="5">
   <diagram id="pRH_pjUjlvLf6-ndeYeO" name="로그인 전체 흐름도">
     <mxGraphModel dx="2083" dy="1588" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -839,11 +839,11 @@
         <mxCell id="K-TL8QMe3Hcy8l0owmiz-40" value="현재 프로젝트에 관한 정보와 패키지 매니저(npm, yarn)을 통해 설치한 모듈들의 의존성을 관리하는 파일" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="45" y="480" width="300" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="K-TL8QMe3Hcy8l0owmiz-41" value="&lt;h1&gt;dependencies&lt;/h1&gt;&lt;p&gt;npm install &#39;라이브러리&#39;&amp;nbsp;&lt;/p&gt;&lt;p&gt;npm 명령을 할때 옵션 추가 안하면 기본적으로 dependencies에 추가&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="827" y="670" width="263" height="120" as="geometry" />
+        <mxCell id="K-TL8QMe3Hcy8l0owmiz-41" value="&lt;h1&gt;dependencies&lt;/h1&gt;&lt;div&gt;npm install &#39;라이브러리&#39;&amp;nbsp;&lt;/div&gt;&lt;p&gt;npm 명령을 할때 옵션 추가 안하면 기본적으로 dependencies에 추가&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="827" y="670" width="303" height="120" as="geometry" />
         </mxCell>
         <mxCell id="K-TL8QMe3Hcy8l0owmiz-42" value="&lt;h1&gt;devDependencies&lt;/h1&gt;&lt;p&gt;npm install &#39;라이브러리&#39; --save -dev&lt;/p&gt;&lt;p&gt;npm install &#39;라이브러리&#39; -D&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="827" y="810" width="223" height="120" as="geometry" />
+          <mxGeometry x="827" y="830" width="223" height="120" as="geometry" />
         </mxCell>
         <mxCell id="K-TL8QMe3Hcy8l0owmiz-43" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;" vertex="1" parent="1">
           <mxGeometry x="800" y="750" width="30" height="130" as="geometry" />
