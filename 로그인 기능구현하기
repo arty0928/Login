@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-31T07:59:55.041Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="ty5tkFIcbFVb787OUOD4" version="20.8.13" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-01-31T08:00:19.155Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="c8Gznru_7ws2l7D4ctan" version="20.8.13" type="github" pages="5">
   <diagram id="pRH_pjUjlvLf6-ndeYeO" name="Page-5">
-    <mxGraphModel dx="1593" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3240" dy="1387" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -544,6 +544,14 @@
         <mxCell id="E43wXchYpue173YKkgSR-16" value="postman에서 post requset, locahost:5000/login에서&lt;br&gt;raw, json하고 json형식으로 email,pw를 send하면" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;strokeColor=default;strokeWidth=1;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="-166" y="7330" width="320" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="RT_LHBhtrsJcuWyQoP1I-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=1;fontFamily=Helvetica;fontSize=14;fontColor=default;fillColor=#FFFFFF;" edge="1" parent="1" source="RT_LHBhtrsJcuWyQoP1I-1" target="RT_LHBhtrsJcuWyQoP1I-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RT_LHBhtrsJcuWyQoP1I-37" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="RT_LHBhtrsJcuWyQoP1I-36">
+          <mxGeometry x="0.2964" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="RT_LHBhtrsJcuWyQoP1I-1" value="Auth 기능 만들기" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry y="7740" width="850" height="40" as="geometry" />
         </mxCell>
@@ -571,52 +579,52 @@
           <mxGeometry x="440" y="7880" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="RT_LHBhtrsJcuWyQoP1I-9" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="480" y="8170" width="230" height="140" as="geometry" />
+          <mxGeometry x="-300" y="7810" width="230" height="140" as="geometry" />
         </mxCell>
         <mxCell id="RT_LHBhtrsJcuWyQoP1I-10" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="160" y="8170" width="230" height="140" as="geometry" />
+          <mxGeometry x="-620" y="7810" width="230" height="140" as="geometry" />
         </mxCell>
         <mxCell id="RT_LHBhtrsJcuWyQoP1I-11" value="&lt;h1&gt;Server&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="480" y="8120" width="190" height="120" as="geometry" />
+          <mxGeometry x="-300" y="7760" width="190" height="120" as="geometry" />
         </mxCell>
         <mxCell id="RT_LHBhtrsJcuWyQoP1I-30" value="Decode&lt;br&gt;Token&lt;br&gt;with JWT" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=1;fontFamily=Helvetica;fontSize=14;fontColor=default;fillColor=#FFFFFF;" edge="1" parent="1" source="RT_LHBhtrsJcuWyQoP1I-12" target="RT_LHBhtrsJcuWyQoP1I-9">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="340" y="8240" />
-              <mxPoint x="340" y="8240" />
+              <mxPoint x="-440" y="7880" />
+              <mxPoint x="-440" y="7880" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="RT_LHBhtrsJcuWyQoP1I-12" value="&lt;h1&gt;Client&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="160" y="8120" width="190" height="120" as="geometry" />
+          <mxGeometry x="-620" y="7760" width="190" height="120" as="geometry" />
         </mxCell>
         <mxCell id="RT_LHBhtrsJcuWyQoP1I-15" value="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=14;" edge="1" parent="1" source="RT_LHBhtrsJcuWyQoP1I-16" target="RT_LHBhtrsJcuWyQoP1I-13">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="210" y="8330" />
-              <mxPoint x="630" y="8330" />
+              <mxPoint x="-570" y="7970" />
+              <mxPoint x="-150" y="7970" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="RT_LHBhtrsJcuWyQoP1I-21" value="USER ID" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="494" y="8225" width="60" height="30" as="geometry" />
+          <mxGeometry x="-286" y="7865" width="60" height="30" as="geometry" />
         </mxCell>
         <UserObject label="&lt;b&gt;로그아웃 기능 만들기&lt;/b&gt;" link="https://viewer.diagrams.net/?page-id=oYkREVU_ZpE32vPLm5Yp&amp;highlight=0000ff&amp;edit=_blank&amp;layers=1&amp;nav=1&amp;page-id=oYkREVU_ZpE32vPLm5Yp#Harty0928%2FLogin_backendBeginner%2Fmain%2F%EB%A1%9C%EA%B7%B8%EC%9D%B8%20%EA%B8%B0%EB%8A%A5%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0" id="RT_LHBhtrsJcuWyQoP1I-23">
           <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
-            <mxGeometry x="145" y="8390" width="170" height="30" as="geometry" />
+            <mxGeometry x="-635" y="8030" width="170" height="30" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="RT_LHBhtrsJcuWyQoP1I-24" value="&lt;h1&gt;쿠키&lt;/h1&gt;&lt;p&gt;사이트를 방문하고 이용할 때 브라우저에 저장되는 내용&lt;/p&gt;&lt;p&gt;: 브라우저는 내 컴퓨터에 있는 거니까 내가 갖고 있는 정보&lt;/p&gt;&lt;p&gt;&lt;b&gt;단점&lt;/b&gt;: 내가 임의로 고치거나 지울 수 있고, 보안 취약&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="-160" y="8150" width="280" height="210" as="geometry" />
+          <mxGeometry x="-940" y="7790" width="280" height="210" as="geometry" />
         </mxCell>
         <mxCell id="RT_LHBhtrsJcuWyQoP1I-25" value="로그인된 유저만 사용할 수 있는 게시판~ 누구나 사용할 수 있는 게시판~~ 체크하기 위해 authentification" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="210" y="7690" width="460" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RT_LHBhtrsJcuWyQoP1I-26" value="A-&amp;gt;B페이지로 이동할때" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="150" y="8100" width="185" height="30" as="geometry" />
+          <mxGeometry x="-630" y="7740" width="185" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RT_LHBhtrsJcuWyQoP1I-27" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="600" y="8185" width="60" height="110" as="geometry" />
+          <mxGeometry x="-180" y="7825" width="60" height="110" as="geometry" />
         </mxCell>
         <mxCell id="RT_LHBhtrsJcuWyQoP1I-13" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontSize=14;" vertex="1" parent="RT_LHBhtrsJcuWyQoP1I-27">
           <mxGeometry y="30" width="60" height="80" as="geometry" />
@@ -628,7 +636,7 @@
           <mxGeometry y="65" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RT_LHBhtrsJcuWyQoP1I-29" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="180" y="8185" width="60" height="110" as="geometry" />
+          <mxGeometry x="-600" y="7825" width="60" height="110" as="geometry" />
         </mxCell>
         <mxCell id="RT_LHBhtrsJcuWyQoP1I-16" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontSize=14;" vertex="1" parent="RT_LHBhtrsJcuWyQoP1I-29">
           <mxGeometry y="30" width="60" height="80" as="geometry" />
@@ -640,16 +648,16 @@
           <mxGeometry y="65" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RT_LHBhtrsJcuWyQoP1I-31" value="해당 유저가 B페이지로 이동할 수 있는지 &lt;br&gt;(인코드된)Token 전달" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="243.5" y="8340" width="346.5" height="30" as="geometry" />
+          <mxGeometry x="-536.5" y="7980" width="346.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RT_LHBhtrsJcuWyQoP1I-32" value="2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="300" y="8217" width="60" height="30" as="geometry" />
+          <mxGeometry x="-480" y="7857" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RT_LHBhtrsJcuWyQoP1I-33" value="3" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="491" y="8210" width="60" height="30" as="geometry" />
+          <mxGeometry x="-289" y="7850" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RT_LHBhtrsJcuWyQoP1I-34" value="해당 유저 id를 가진 db에 이 토큰이 있으면 인증됨" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="432.5" y="8183" width="177" height="30" as="geometry" />
+          <mxGeometry x="-347.5" y="7823" width="177" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
