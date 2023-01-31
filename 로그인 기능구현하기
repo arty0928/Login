@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-31T04:57:48.743Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="bVHYVCs4cqWEVDbuIXdQ" version="20.8.13" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-01-31T05:01:10.736Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="xwEEx4TZyQ3YcoYJQ1Pm" version="20.8.13" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1434" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -242,7 +242,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="G42U9o1XdnjKVGYda-B6" name="Page-4">
-    <mxGraphModel dx="1217" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="706" dy="388" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -410,8 +410,13 @@
         <mxCell id="dP-OaRz-sq3EqmMomCEW-68" value="user정보를&lt;br&gt;DB에 저장X" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" parent="1">
           <mxGeometry x="105" y="617" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="dP-OaRz-sq3EqmMomCEW-172" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontFamily=Helvetica;fontSize=9;fontColor=default;fillColor=#FFFFFF;" edge="1" parent="1" source="dP-OaRz-sq3EqmMomCEW-69">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="dP-OaRz-sq3EqmMomCEW-69" value="Token이 유효한지 검사" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" parent="1">
-          <mxGeometry x="436" y="690" width="130" height="30" as="geometry" />
+          <mxGeometry x="436" y="690" width="130" height="20" as="geometry" />
         </mxCell>
         <mxCell id="dP-OaRz-sq3EqmMomCEW-70" value="&lt;b&gt;브라우저&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" parent="1">
           <mxGeometry x="450" y="550" width="60" height="30" as="geometry" />
@@ -452,9 +457,6 @@
         </mxCell>
         <mxCell id="dP-OaRz-sq3EqmMomCEW-81" value="refresh 토큰 (기간 2주)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="520" y="1090" width="130" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="dP-OaRz-sq3EqmMomCEW-86" value="서버에 로그인이 되어있음이 지속되는 상태" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="1">
-          <mxGeometry x="150" y="20" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="dP-OaRz-sq3EqmMomCEW-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=1;fontSize=8;fillColor=#FFFFFF;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
@@ -501,19 +503,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="dP-OaRz-sq3EqmMomCEW-117" value="Token의 header와 payload 계산값 = signature 인지 확인" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=9;fontColor=default;fillColor=none;gradientColor=none;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" parent="1">
-          <mxGeometry x="370" y="720" width="266" height="30" as="geometry" />
+          <mxGeometry x="370" y="740" width="266" height="30" as="geometry" />
         </mxCell>
         <mxCell id="dP-OaRz-sq3EqmMomCEW-123" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontFamily=Helvetica;fontSize=9;fontColor=default;fillColor=#FFFFFF;" edge="1" parent="1" source="dP-OaRz-sq3EqmMomCEW-118" target="dP-OaRz-sq3EqmMomCEW-121">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="dP-OaRz-sq3EqmMomCEW-118" value="유효기간이 지나지 않았으면" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=9;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="370" y="760" width="266" height="30" as="geometry" />
+          <mxGeometry x="370" y="780" width="266" height="30" as="geometry" />
         </mxCell>
         <mxCell id="dP-OaRz-sq3EqmMomCEW-120" value="" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.annotation_1;align=left;pointerEvents=1;fontSize=8;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="350" y="735" width="20" height="40" as="geometry" />
+          <mxGeometry x="350" y="755" width="20" height="40" as="geometry" />
         </mxCell>
         <mxCell id="dP-OaRz-sq3EqmMomCEW-121" value="okay" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=9;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="700" y="740" width="60" height="30" as="geometry" />
+          <mxGeometry x="700" y="760" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="dP-OaRz-sq3EqmMomCEW-134" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontFamily=Helvetica;fontSize=9;fontColor=default;fillColor=#FFFFFF;" edge="1" parent="1" source="dP-OaRz-sq3EqmMomCEW-125" target="dP-OaRz-sq3EqmMomCEW-76">
           <mxGeometry relative="1" as="geometry" />
