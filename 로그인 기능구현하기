@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-31T04:53:56.174Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="4usnhSqt8YpLrsXE0e9w" version="20.8.13" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-01-31T04:55:13.672Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="diHMnmr5Lw_leE7M_s_-" version="20.8.13" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1434" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -242,12 +242,17 @@
     </mxGraphModel>
   </diagram>
   <diagram id="G42U9o1XdnjKVGYda-B6" name="Page-4">
-    <mxGraphModel dx="700" dy="571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="860" dy="474" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="dP-OaRz-sq3EqmMomCEW-159" value="6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=15;exitPerimeter=0;strokeWidth=1;fontFamily=Helvetica;fontSize=9;fontColor=default;fillColor=#FFFFFF;" edge="1" parent="1" source="dP-OaRz-sq3EqmMomCEW-144">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1000" y="1034.7804878048782" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="dP-OaRz-sq3EqmMomCEW-144" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontSize=14;fillColor=#FFFFFF;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" parent="1">
-          <mxGeometry x="744" y="1020" width="60" height="80" as="geometry" />
+          <mxGeometry x="744" y="1020" width="60" height="90" as="geometry" />
         </mxCell>
         <mxCell id="dP-OaRz-sq3EqmMomCEW-1" value="&lt;h1&gt;Session&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=14;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" vertex="1" parent="1">
           <mxGeometry x="30" y="10" width="190" height="40" as="geometry" />
@@ -582,6 +587,9 @@
         </mxCell>
         <mxCell id="dP-OaRz-sq3EqmMomCEW-148" value="받은 refresh토큰과 DB에 저장된 값과 대조" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="1">
           <mxGeometry x="863" y="1070" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dP-OaRz-sq3EqmMomCEW-160" value="일치하면 새로운 access 토큰 발급" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="810" y="1010" width="180" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
