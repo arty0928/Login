@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-31T08:32:58.993Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="uVY-bZeSt0iNKpyFuiGg" version="20.8.13" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-01-31T08:33:37.460Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="W37MkzVuXpgBE3znpTeN" version="20.8.13" type="github" pages="5">
   <diagram id="pRH_pjUjlvLf6-ndeYeO" name="Page-5">
     <mxGraphModel dx="2348" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -723,8 +723,8 @@
         <mxCell id="RT_LHBhtrsJcuWyQoP1I-57" value="Schema" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=36;fontColor=default;fillColor=#E6E6E6;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="304" y="1760" width="250" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="RT_LHBhtrsJcuWyQoP1I-58" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;mongoDB를 편하게 사용하기 위해서 mongoose를 사용,&lt;br&gt;사용자의 데이터를 몽고db에 저장하기 위해 mongoose.schema&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=36;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="460" y="2110" width="250" height="30" as="geometry" />
+        <mxCell id="RT_LHBhtrsJcuWyQoP1I-58" value="&lt;blockquote&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;mongoDB를 편하게 사용하기 위해서 mongoose를 사용,&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;사용자의 데이터를 몽고db에 저장하기 위해 mongoose.schema&lt;/font&gt;&lt;/blockquote&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=36;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="380" y="2130" width="420" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
