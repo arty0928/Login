@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-31T05:46:21.771Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="wBuWLuX1Qfrctd4JVjhd" version="20.8.13" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-01-31T05:49:07.606Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="XPJdjVt_N0HY5kGK7TdC" version="20.8.13" type="github" pages="5">
   <diagram id="pRH_pjUjlvLf6-ndeYeO" name="Page-5">
-    <mxGraphModel dx="1593" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1356" dy="462" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -107,6 +107,9 @@
             <mxGeometry x="-20" y="1010" width="256" height="30" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="UVxzFqXRxpMpeskA79Rl-29" value="1. express module을 가져옴&lt;br&gt;2. express function을 사용해서 새로운&amp;nbsp; app을 만들고&lt;br&gt;3. 백서버로 5000 PORT&lt;br&gt;4. app.get의 root dir에 hello world 출력&lt;br&gt;5. app.listen으로 PORT인 5000번 백서버에서 nodejs를 실행하는데 시작점이 index.js" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="560" y="970" width="280" height="140" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
