@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-31T00:48:54.560Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="GxjRLgR2arzY2ROILV5p" version="20.8.13" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-01-31T00:49:31.837Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="zW63BXmB7P7Sd7zNCooh" version="20.8.13" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="838" dy="873" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -141,6 +141,9 @@
         <mxCell id="x3nb8pyCblEYMfAKqSwO-16" value="Cookie" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="620" y="475" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="2A1dstDum7q-57v6L2zi-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="x3nb8pyCblEYMfAKqSwO-17" target="2A1dstDum7q-57v6L2zi-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="x3nb8pyCblEYMfAKqSwO-17" value="&lt;b&gt;Token&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="230" y="540" width="60" height="30" as="geometry" />
         </mxCell>
@@ -152,6 +155,9 @@
         </mxCell>
         <mxCell id="x3nb8pyCblEYMfAKqSwO-20" value="" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=default;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="394" y="535" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="2A1dstDum7q-57v6L2zi-1" value="&lt;b&gt;로그아웃 기능 만들기&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="230" y="650" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -170,7 +176,7 @@
         <mxCell id="KI5igg_Dadj0Y2zNm7n3-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="1fH3WdOIuRTaE-wzsFNn-3" target="1fH3WdOIuRTaE-wzsFNn-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1fH3WdOIuRTaE-wzsFNn-3" value="로그아웃 하려는 유저를 &lt;br&gt;데이터 베이스에서 찾아서" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="1fH3WdOIuRTaE-wzsFNn-3" value="로그아웃 하려는 유저를 &lt;br&gt;&lt;b&gt;데이터 베이스&lt;/b&gt;에서 찾아서" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="120" y="280" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KI5igg_Dadj0Y2zNm7n3-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="1fH3WdOIuRTaE-wzsFNn-4" target="1fH3WdOIuRTaE-wzsFNn-3">
