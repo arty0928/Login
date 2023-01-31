@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-31T04:07:14.940Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="R18dszzBQV_OHMVzZP47" version="20.8.13" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-01-31T04:07:23.480Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="63lczjfOu9WUCMHxtwN0" version="20.8.13" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1434" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -342,7 +342,7 @@
         <mxCell id="dP-OaRz-sq3EqmMomCEW-55" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=14;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="60" y="610" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dP-OaRz-sq3EqmMomCEW-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=1;fontSize=9;fillColor=#FFFFFF;" edge="1" parent="1" source="dP-OaRz-sq3EqmMomCEW-58" target="dP-OaRz-sq3EqmMomCEW-65">
+        <mxCell id="dP-OaRz-sq3EqmMomCEW-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=1;fontSize=9;fillColor=#FFFFFF;" edge="1" parent="1" source="dP-OaRz-sq3EqmMomCEW-72" target="dP-OaRz-sq3EqmMomCEW-65">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="dP-OaRz-sq3EqmMomCEW-57" value="3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=9;" vertex="1" connectable="0" parent="dP-OaRz-sq3EqmMomCEW-56">
@@ -394,7 +394,7 @@
           <mxGeometry x="105" y="647" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="dP-OaRz-sq3EqmMomCEW-69" value="Token이 유효한지 검사" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
-          <mxGeometry x="370" y="720" width="130" height="30" as="geometry" />
+          <mxGeometry x="436" y="720" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="dP-OaRz-sq3EqmMomCEW-70" value="&lt;b&gt;브라우저&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="450" y="580" width="60" height="30" as="geometry" />
