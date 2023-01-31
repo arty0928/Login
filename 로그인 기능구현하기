@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-31T13:22:19.706Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="wNqwNZklSpIEVbsG29-w" version="20.8.13" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-01-31T13:23:00.971Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="b18cPHyd6hSOV2jqrHQ6" version="20.8.13" type="github" pages="5">
   <diagram id="pRH_pjUjlvLf6-ndeYeO" name="로그인 전체 흐름도">
-    <mxGraphModel dx="2378" dy="641" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2078" dy="376" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -805,11 +805,22 @@
         <mxCell id="K-TL8QMe3Hcy8l0owmiz-22" value="인증시 client의 쿠키에 있는 토큰을 가져와서 db에 있는 토큰과 비교&amp;nbsp;&lt;br&gt;맞으면 인증&lt;br&gt;틀리면 인증X" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="387" y="8920" width="253" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="K-TL8QMe3Hcy8l0owmiz-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="K-TL8QMe3Hcy8l0owmiz-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-80" y="9010" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="K-TL8QMe3Hcy8l0owmiz-24" value="postman에서 확인하기" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-160" y="8920" width="160" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="K-TL8QMe3Hcy8l0owmiz-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="K-TL8QMe3Hcy8l0owmiz-28" target="K-TL8QMe3Hcy8l0owmiz-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="K-TL8QMe3Hcy8l0owmiz-28" value="get request&lt;br&gt;localhost:5000/api/users/logout&lt;br&gt;=&amp;gt; send 버튼 누르면" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-460" y="8920" width="260" height="60" as="geometry" />
+          <mxGeometry x="-210" y="9030" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K-TL8QMe3Hcy8l0owmiz-29" value="몽고db에서 유저 정보 사라짐" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="9135" width="260" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
