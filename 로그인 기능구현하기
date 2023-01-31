@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-31T03:54:32.136Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="Cf0E_10wnEyuG0Vn9kRS" version="20.8.13" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-01-31T03:57:06.276Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="t43BNA7AJohdUJ15TRsD" version="20.8.13" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1434" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -313,6 +313,15 @@
         </mxCell>
         <mxCell id="dP-OaRz-sq3EqmMomCEW-47" value="DB에 저장된 sessionID를&lt;br&gt;&amp;nbsp;찾아서 Server에 전달" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
           <mxGeometry x="300" y="190" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dP-OaRz-sq3EqmMomCEW-48" value="&lt;h1&gt;장점&lt;/h1&gt;&lt;div&gt;User의 정보가 DB에 저장&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;1&quot;&gt;→ 한기기에서 로그인되었을때, 다른 기기에서 로그인되면 이전 기기 로그아웃 등 &lt;b&gt;통제가능&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="620" y="50" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="dP-OaRz-sq3EqmMomCEW-49" value="&lt;h1&gt;단점&lt;/h1&gt;&lt;div&gt;같은 사이트의 다른 페이지로 이동시,&amp;nbsp;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="620" y="190" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="dP-OaRz-sq3EqmMomCEW-50" value="&lt;b&gt;브라우저&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="340" y="50" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
