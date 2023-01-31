@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-31T13:37:19.317Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="M3Y6emQUt3E6nBEpdoys" version="20.8.13" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-01-31T13:38:36.168Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="b7H8bDwUwnsaUmpBXSo1" version="20.8.13" type="github" pages="5">
   <diagram id="pRH_pjUjlvLf6-ndeYeO" name="로그인 전체 흐름도">
     <mxGraphModel dx="2127" dy="1588" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -835,6 +835,9 @@
         </mxCell>
         <mxCell id="K-TL8QMe3Hcy8l0owmiz-39" value="Nodejs: 서버사이드의 JS 실행환경&lt;br&gt;&lt;br&gt;서버사이드: 클라이언트 - 서버 구조의 서버쪽에서 행해지는 네트워크 방식" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="260" y="-10" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K-TL8QMe3Hcy8l0owmiz-40" value="현재 프로젝트에 관한 정보와 패키지 매니저(npm, yarn)을 통해 설치한 모듈들의 의존성을 관리하는 파일" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="45" y="480" width="300" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
