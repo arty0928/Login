@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-31T04:33:24.631Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="sUlvX5TWSpziyMI8aI1-" version="20.8.13" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-01-31T04:34:49.998Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="eHR0iNBdObnGy7g2EyCd" version="20.8.13" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1434" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -242,7 +242,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="G42U9o1XdnjKVGYda-B6" name="Page-4">
-    <mxGraphModel dx="498" dy="391" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="601" dy="472" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -480,7 +480,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="dP-OaRz-sq3EqmMomCEW-103" value="&lt;ol&gt;&lt;li&gt;토큰의 type: JWT&lt;/li&gt;&lt;li&gt;alg(알고리즘)&lt;/li&gt;&lt;/ol&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=8;fillColor=#FFFFFF;align=left;" vertex="1" parent="1">
-          <mxGeometry x="150" y="1070" width="130" height="40" as="geometry" />
+          <mxGeometry x="150" y="1070" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="dP-OaRz-sq3EqmMomCEW-104" value="signature값을 만드는데 사용되는 알고리즘" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=8;fillColor=#FFFFFF;align=left;" vertex="1" parent="1">
           <mxGeometry x="332.5" y="1070" width="200" height="40" as="geometry" />
@@ -488,8 +488,11 @@
         <mxCell id="dP-OaRz-sq3EqmMomCEW-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=1;fontSize=8;fillColor=#FFFFFF;" edge="1" parent="1" source="dP-OaRz-sq3EqmMomCEW-110" target="dP-OaRz-sq3EqmMomCEW-99">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dP-OaRz-sq3EqmMomCEW-110" value="header + payload + 서버의 key 값" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=8;fillColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="dP-OaRz-sq3EqmMomCEW-110" value="header + payload + &lt;b&gt;서버의 key 값&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=8;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="150" y="1140" width="220" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="dP-OaRz-sq3EqmMomCEW-113" value="반대방향으로 알고리즘을 풀 수 없고, 서버의 key 값을 알 수 없어서 토큰만으로 조작X" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="383" y="1135" width="197" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
