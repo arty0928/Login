@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-31T08:37:57.483Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="xSK5XY-ifIxfXozN54tC" version="20.8.13" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-01-31T08:38:55.285Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="7kBrG5Zs87S6hBNA6GZm" version="20.8.13" type="github" pages="5">
   <diagram id="pRH_pjUjlvLf6-ndeYeO" name="Page-5">
-    <mxGraphModel dx="2630" dy="776" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2477" dy="654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -418,7 +418,7 @@
         <mxCell id="sCPDC_ajtY7WkvLbfOga-6" value="register router로 가기&lt;br&gt;register에서 save하기 전에 암호화&lt;br&gt;몽구스의 기능 이용" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=9;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="360" y="6120" width="260" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="sCPDC_ajtY7WkvLbfOga-9" value="model 폴더 속 user로 와서&amp;nbsp;&lt;br&gt;userSchema를 가져와서 pre(save), pre가 다끝나야 index.js에서 save 함수 호출,&lt;br&gt;User.js에서 bcrypt, salt~ require" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=9;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+        <mxCell id="sCPDC_ajtY7WkvLbfOga-9" value="model 폴더 속 user로 와서&amp;nbsp;&lt;br&gt;userSchema를 가져와서 pre(save), &lt;br&gt;pre가 다끝나야 index.js에서 save 함수 호출,&lt;br&gt;User.js에서 bcrypt, salt~ require" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=9;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="360" y="6260" width="260" height="60" as="geometry" />
         </mxCell>
         <mxCell id="sCPDC_ajtY7WkvLbfOga-11" value="salt를 이용해서 비번 암호화해야 함" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=9;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
@@ -437,7 +437,7 @@
           <mxGeometry x="646" y="6100" width="260" height="60" as="geometry" />
         </mxCell>
         <mxCell id="53Dez6vF1n7xnKNruoXt-1" value="10자리인 salt를 만들어서 비번 암호화 한다" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="700" y="6150" width="210" height="30" as="geometry" />
+          <mxGeometry x="760" y="6135" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7Z6hDcMYWBgCYjJd4pii-1" value="" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fillColor=#FFFFFF;" edge="1" parent="1" source="7Z6hDcMYWBgCYjJd4pii-2" target="7Z6hDcMYWBgCYjJd4pii-7">
           <mxGeometry relative="1" as="geometry" />
