@@ -1,63 +1,82 @@
-const mongoose = require('mongoose');
+const mongoose = require('mongoose'); //1. mongoose를 가져오고
+
+//비밀번호 암호화
 const bcrypt = require('bcrypt');
+//salt를 10글자만들어서 비번 암호화
 const saltRounds = 10;
+
+//로그인 기능: Token
 const jwt = require('jsonwebtoken');
 
-const userSchema = mongoose.Schema({
+const userSchema = mongoose.Schema({ //2. 스키마 생성
     name: {
         type: String,
         maxlength: 50
     },
     email: {
         type: String,
-        trim: true,
-        unique:1
+        trim: true, //공백제거
+        unique:1 //똑같은 이메일은 쓰지 못하게
     },
     password: {
         type: String,
         maxlength: 50
     },
-    role:{
-        type: Number,
-        default: 0
+    role:{ //일반유저인지, 관리자유저인지
+        type: Number, 
+        default: 0 
     },
     image: String,
-    token: {
+    token: { //유효성 관리
         type: String
     },
-    tokenExp: {
+    tokenExp: { //토큰 기한
         type: Number
     }
-
 })
 
+//유저 정보 저장전에, 다 끝나면 next() 콜백으로 index.js의 save호출
 userSchema.pre('save', function(next){
 
     var user = this;
 
+    //비번이 수정되었을때만
     if(user.isModified('password')){
         //비번 암호화
+        //salt를 생성해서
+        //err가 나면 return
+        //성공하면 salt
         bcrypt.genSalt(saltRounds, function(err, salt){
             if(err) return next(err)
 
+            //순수하게 넣은 비밀번호: user.password
+            //userShema의 password가져오기 위해 user = this;
+            //생성한 salt를 넣어주고,
             bcrypt.hash(user.password, salt, function(err, hash) {
                 if(err) return next(err);
+
+                //암호화해서 보내주기
                 user.password = hash;
+                //index.js의 save호출
                 next();
             })
         })
-    }else{
+    }
+    //비번이 수정된것이 아니면 그냥 저장
+    else{
         next();
     }
 })
 
 userSchema.methods.comparePassword = function(plainPassword, cb){
     //plainpassword 1234567 === 암호화된 비번 "$2b$10$1bWGrIolGafj2Tbsv2VUbOn2tQmi8sVGGTHeap2ImLfG48Bxd7HtG"
+    //this.password 는 암호화된 pw
     bcrypt.compare(plainPassword, this.password, function(err, isMatch){
         if(err) return cb(err);
             cb(null, isMatch);
     });
 };
+
 
 userSchema.methods.generateToken = function(cb){
     var user = this;
@@ -65,6 +84,7 @@ userSchema.methods.generateToken = function(cb){
     //jsonwebtoken을 이용해서 token을 생성하기
     var token = jwt.sign(user._id.toHexString(),'secretToken')
     
+    //'secretToken은 keyObject
     user.token = token;
     user.save(function(err, user){
         if(err) return cb(err);
@@ -74,10 +94,13 @@ userSchema.methods.generateToken = function(cb){
 
 userSchema.statics.findByToken = function (token, cb){
     var user = this;
+
     //토큰을 decode한다.
+    //generateToken시 secretToken(keyObject)을 했으니까
     jwt.verify(token, 'secretToken', function(err,decoded){
-    
-        //유저 아이디를 이용해서 유저를 찾은 다음에
+        
+        //decoded == userid
+        //유저 아이디(decoded)를 이용해서 유저를 찾은 다음에
         //클라이언트에서 가져온 token과 DB에 보관된 토큰이 일치하는지 확인
 
         user.findOne({"_id:":decoded, "token": token}, function(err,user){
@@ -87,5 +110,5 @@ userSchema.statics.findByToken = function (token, cb){
     });
 }
 
-const User = mongoose.model('User',userSchema);
+const User = mongoose.model('User',userSchema); //스키마를 모델로 감싸줌
 module.exports = {User};
