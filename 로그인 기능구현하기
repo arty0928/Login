@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-31T04:32:18.055Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="B0b_5RcC5T-TsUCnycZu" version="20.8.13" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-01-31T04:33:24.631Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="sUlvX5TWSpziyMI8aI1-" version="20.8.13" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1434" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -484,6 +484,12 @@
         </mxCell>
         <mxCell id="dP-OaRz-sq3EqmMomCEW-104" value="signature값을 만드는데 사용되는 알고리즘" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=8;fillColor=#FFFFFF;align=left;" vertex="1" parent="1">
           <mxGeometry x="332.5" y="1070" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dP-OaRz-sq3EqmMomCEW-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=1;fontSize=8;fillColor=#FFFFFF;" edge="1" parent="1" source="dP-OaRz-sq3EqmMomCEW-110" target="dP-OaRz-sq3EqmMomCEW-99">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dP-OaRz-sq3EqmMomCEW-110" value="header + payload + 서버의 key 값" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=8;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="150" y="1140" width="220" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
