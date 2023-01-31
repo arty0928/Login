@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-31T13:23:00.971Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="b18cPHyd6hSOV2jqrHQ6" version="20.8.13" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-01-31T13:24:23.511Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="yai3xFCXFXKiPFvkvDE7" version="20.8.13" type="github" pages="5">
   <diagram id="pRH_pjUjlvLf6-ndeYeO" name="로그인 전체 흐름도">
-    <mxGraphModel dx="2078" dy="376" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2269" dy="545" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -817,10 +817,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="K-TL8QMe3Hcy8l0owmiz-28" value="get request&lt;br&gt;localhost:5000/api/users/logout&lt;br&gt;=&amp;gt; send 버튼 누르면" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-210" y="9030" width="260" height="60" as="geometry" />
+          <mxGeometry x="-210" y="9020" width="260" height="60" as="geometry" />
         </mxCell>
         <mxCell id="K-TL8QMe3Hcy8l0owmiz-29" value="몽고db에서 유저 정보 사라짐" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-210" y="9135" width="260" height="60" as="geometry" />
+          <mxGeometry x="-210" y="9135" width="260" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="K-TL8QMe3Hcy8l0owmiz-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="K-TL8QMe3Hcy8l0owmiz-33" target="K-TL8QMe3Hcy8l0owmiz-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K-TL8QMe3Hcy8l0owmiz-33" value="login을 먼저하기&lt;br&gt;post request 에서 login,&lt;br&gt;email, password 그대로 json 형식으로 하고 send" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-560" y="9020" width="290" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
