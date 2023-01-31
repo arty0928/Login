@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-31T08:06:58.430Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="q1VoHkCVkwGcZIzXD7KJ" version="20.8.13" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-01-31T08:14:21.205Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="jzklK8sfTf2RCB93Zv6b" version="20.8.13" type="github" pages="5">
   <diagram id="pRH_pjUjlvLf6-ndeYeO" name="Page-5">
-    <mxGraphModel dx="2960" dy="1142" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2579" dy="873" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -674,6 +674,9 @@
         <mxCell id="RT_LHBhtrsJcuWyQoP1I-40" value="index.js에 app.get(~auth) 생성" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="170" y="8120" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="RT_LHBhtrsJcuWyQoP1I-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontFamily=Helvetica;fontSize=14;fontColor=default;fillColor=#FFFFFF;" edge="1" parent="1" source="RT_LHBhtrsJcuWyQoP1I-42" target="RT_LHBhtrsJcuWyQoP1I-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="RT_LHBhtrsJcuWyQoP1I-42" value="&lt;div style=&quot;color: rgb(255, 255, 255); background-color: rgb(0, 0, 0); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 16px; line-height: 22px;&quot;&gt;middleware 폴더 생성후,&lt;/div&gt;&lt;div style=&quot;color: rgb(255, 255, 255); background-color: rgb(0, 0, 0); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 16px; line-height: 22px;&quot;&gt;안에 auth.js&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="8260" width="220" height="30" as="geometry" />
         </mxCell>
@@ -688,6 +691,20 @@
               <mxPoint x="-290" y="8310" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="RT_LHBhtrsJcuWyQoP1I-47" value="middleware/auth.js" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="RT_LHBhtrsJcuWyQoP1I-46">
+          <mxGeometry x="0.3471" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RT_LHBhtrsJcuWyQoP1I-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontFamily=Helvetica;fontSize=14;fontColor=default;fillColor=#FFFFFF;" edge="1" parent="1" source="RT_LHBhtrsJcuWyQoP1I-48" target="RT_LHBhtrsJcuWyQoP1I-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RT_LHBhtrsJcuWyQoP1I-48" value="클라이언트 쿠키에서 토큰을 가져온다" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="8260" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RT_LHBhtrsJcuWyQoP1I-50" value="가져온 토큰을 decode한 후, 유저가 있는지 찾는다" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="8310" width="300" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
