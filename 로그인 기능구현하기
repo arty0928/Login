@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-31T06:35:42.378Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="jyRua-D0QQGr4wbzfV6e" version="20.8.13" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-01-31T06:36:44.049Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="CEBbwgb9QcgndKoXsm5E" version="20.8.13" type="github" pages="5">
   <diagram id="pRH_pjUjlvLf6-ndeYeO" name="Page-5">
     <mxGraphModel dx="1461" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -328,6 +328,15 @@
         </mxCell>
         <mxCell id="D1CnuZLNUSf9m9RtOb2L-7" value="postman에서 POST 하고&amp;nbsp;&lt;br&gt;localhost:5000/register&lt;br&gt;body의 raw json형식으로 보내기&lt;br&gt;&lt;br&gt;{&lt;br&gt;name:~~&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;email:~~&lt;br&gt;~~&lt;br&gt;}&lt;br&gt;&lt;br&gt;send 버튼 누르면 success true가 뜸" style="whiteSpace=wrap;html=1;rounded=0;fontFamily=Helvetica;fontSize=9;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="193" y="4275" width="254" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="D1CnuZLNUSf9m9RtOb2L-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontFamily=Helvetica;fontSize=9;fontColor=default;fillColor=#FFFFFF;" edge="1" parent="1" source="D1CnuZLNUSf9m9RtOb2L-9" target="D1CnuZLNUSf9m9RtOb2L-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D1CnuZLNUSf9m9RtOb2L-9" value="nodemon 설치&lt;br&gt;node 서버를 킨후에 업데이트 된것이 있으면 서버를 다시 껐다가 켜야 함&lt;br&gt;nodemon은 자동 업데이트 감지" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=9;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="190" y="4590" width="590" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D1CnuZLNUSf9m9RtOb2L-10" value="nodemon 설치&lt;br&gt;node 서버를 킨후에 업데이트 된것이 있으면 서버를 다시 껐다가 켜야 함&lt;br&gt;nodemon은 자동 업데이트 감지" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=9;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="190" y="4730" width="590" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
