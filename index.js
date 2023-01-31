@@ -40,7 +40,7 @@ app.post('/register',(req,res)=>{
     });
 });
 
-app.post('/api/users/login',(req,res)=>{
+app.post('/login',(req,res)=>{
   //요청된 이메일을 데이터 베이스에서 있는지 찾는다.
   User.findOne({ email: req.body.email }, (err, user) => {
     if(!user){
@@ -81,6 +81,19 @@ app.get('/api/users/auth',auth,(req,res)=>{
     role: req.user.role,
     image: req.user.image
   })
+})
+
+
+//로그아웃 Logout: DB에서 해당 유저를 찾아서 그 토큰을 지워준다.
+app.get('/logout',auth, (req, res) => {
+  User.findOneAndUpdate({_id: req.user._id},
+    {token: ""}
+    ,(err,user)=>{
+      if(err) return res.json({success: false, err});
+      return res.status(200).send({
+        success: true
+      })
+    })
 })
 
 
