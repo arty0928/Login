@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-01T07:24:05.197Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="PdzlniWvBnOdZRDXkbPa" version="20.8.14" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-02-01T07:47:27.233Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="GaundeaGAx13KPpvw-k2" version="20.8.14" type="github" pages="6">
   <diagram id="pRH_pjUjlvLf6-ndeYeO" name="로그인 전체 흐름도">
-    <mxGraphModel dx="4879" dy="1862" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5034" dy="2007" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1954,6 +1954,20 @@
         </mxCell>
         <mxCell id="dP-OaRz-sq3EqmMomCEW-94" value="signature" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" parent="dP-OaRz-sq3EqmMomCEW-164" vertex="1">
           <mxGeometry x="110" y="45" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="3TNsC8TOcGMrDLVH-64h" name="Frontend">
+    <mxGraphModel dx="744" dy="693" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="eftqX06P7KNCJWQlax3H-1" value="&lt;b&gt;React&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=18;fontColor=#E6E6E6;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120" y="20" width="560" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eftqX06P7KNCJWQlax3H-2" value="바뀐 내용만 update, 전체를 업데이트하는 것이 아니라" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#E6E6E6;" vertex="1" parent="1">
+          <mxGeometry x="160" y="90" width="470" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
