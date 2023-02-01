@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-01T06:52:42.186Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="p2kZpGQGJPFb3rIS4aJL" version="20.8.14" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-02-01T06:53:57.937Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="i-HQ977gnkzVSLtA_Dib" version="20.8.14" type="github" pages="5">
   <diagram id="pRH_pjUjlvLf6-ndeYeO" name="로그인 전체 흐름도">
     <mxGraphModel dx="5122" dy="2082" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1008,7 +1008,7 @@
         <mxCell id="6DYhPaXd62YM3kuNb1A6-5" value="&lt;h1&gt;Server&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=14;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" parent="1">
           <mxGeometry x="-1705" y="5300" width="130" height="53" as="geometry" />
         </mxCell>
-        <mxCell id="rMyn5wNb7rmv-0nCtmz4-11" value="" style="endArrow=none;html=1;rounded=0;fontSize=24;fillColor=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=6;" edge="1" parent="1">
+        <mxCell id="rMyn5wNb7rmv-0nCtmz4-11" value="" style="endArrow=none;html=1;rounded=0;fontSize=24;fillColor=none;exitDx=0;exitDy=0;strokeWidth=6;startArrow=none;" edge="1" parent="1" source="rMyn5wNb7rmv-0nCtmz4-131">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-1655" y="5360" as="sourcePoint" />
             <mxPoint x="-1654.5" y="6628.5" as="targetPoint" />
@@ -1265,7 +1265,10 @@
         <mxCell id="rMyn5wNb7rmv-0nCtmz4-112" value="http요청과 응답 중간에 진행 = 미들웨어" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#E6E6E6;" vertex="1" parent="1">
           <mxGeometry x="-2266" y="6240" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rMyn5wNb7rmv-0nCtmz4-113" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;1. 가져온 jwt 토큰을 decode&lt;/b&gt;&lt;/div&gt;&lt;b&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;2. userID를 찾는다&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;3. 서버에 있는 유저 정보중 Token&lt;/b&gt;&lt;/div&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=14;fontColor=#E6E6E6;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="rMyn5wNb7rmv-0nCtmz4-132" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#000000;strokeColor=#FFFFFF;strokeWidth=2;fontSize=14;fontColor=#E6E6E6;fillColor=none;" edge="1" parent="1" source="rMyn5wNb7rmv-0nCtmz4-113" target="rMyn5wNb7rmv-0nCtmz4-131">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rMyn5wNb7rmv-0nCtmz4-113" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;1. 가져온 jwt 토큰을 decode&lt;/b&gt;&lt;/div&gt;&lt;b&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;2. userID를 찾는다&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;3. 서버에 있는 유저 정보중 Token&lt;/b&gt;&lt;/div&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=14;fontColor=#E6E6E6;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-2203.25" y="6443" width="237.25" height="97" as="geometry" />
         </mxCell>
         <mxCell id="rMyn5wNb7rmv-0nCtmz4-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#000000;strokeColor=#FFFFFF;strokeWidth=2;fontSize=14;fontColor=#E6E6E6;fillColor=none;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rMyn5wNb7rmv-0nCtmz4-102" target="rMyn5wNb7rmv-0nCtmz4-113">
@@ -1306,6 +1309,15 @@
         </mxCell>
         <mxCell id="rMyn5wNb7rmv-0nCtmz4-129" value="&lt;h1&gt;Token을 인코드하는 이유&lt;/h1&gt;&lt;p&gt;토큰이 암호화되어 있지 않으면 토큰을 도둑맞았을 때 그대로 악용될 수 있음&lt;/p&gt;&lt;p&gt;토큰: 키와 값으로 구성&amp;nbsp;&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=14;fontColor=#E6E6E6;" vertex="1" parent="1">
           <mxGeometry x="-1406" y="6050" width="210" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="rMyn5wNb7rmv-0nCtmz4-134" value="" style="endArrow=none;html=1;rounded=0;fontSize=24;fillColor=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=6;" edge="1" parent="1" target="rMyn5wNb7rmv-0nCtmz4-131">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1655" y="5360" as="sourcePoint" />
+            <mxPoint x="-1654.5" y="6628.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rMyn5wNb7rmv-0nCtmz4-131" value="" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;fontSize=14;fontColor=#E6E6E6;rounded=0;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-1665.005" y="6481.5" width="20" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
