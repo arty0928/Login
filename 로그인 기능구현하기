@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-01T03:51:50.951Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="ExWvyHNBUJfFheDAwU7W" version="20.8.14" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-02-01T03:53:39.652Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="wvxSHhRH426antDsx5m-" version="20.8.14" type="github" pages="5">
   <diagram id="pRH_pjUjlvLf6-ndeYeO" name="로그인 전체 흐름도">
-    <mxGraphModel dx="2366" dy="1945" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2671" dy="2278" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -887,8 +887,8 @@
         <mxCell id="R2q6xUSt1ub2haAqkZsL-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=24;" edge="1" parent="1" source="R2q6xUSt1ub2haAqkZsL-5" target="R2q6xUSt1ub2haAqkZsL-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="R2q6xUSt1ub2haAqkZsL-5" value="&lt;b&gt;Token&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-590" y="6780" width="120" height="60" as="geometry" />
+        <mxCell id="R2q6xUSt1ub2haAqkZsL-5" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Token&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-570" y="6810" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="R2q6xUSt1ub2haAqkZsL-6" value="&lt;b&gt;Cookie&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-590" y="6960" width="120" height="60" as="geometry" />
