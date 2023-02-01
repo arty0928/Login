@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-01T06:32:26.511Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="hRNCfXQI4EpecAmQc_hQ" version="20.8.14" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-02-01T06:33:34.533Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="XJ29fMbNNzahK81F0Uci" version="20.8.14" type="github" pages="5">
   <diagram id="pRH_pjUjlvLf6-ndeYeO" name="로그인 전체 흐름도">
-    <mxGraphModel dx="3570" dy="2580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3186" dy="2082" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1245,6 +1245,15 @@
         <mxCell id="rMyn5wNb7rmv-0nCtmz4-108" value="&lt;font color=&quot;#e6e6e6&quot;&gt;10&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontColor=#000000;" vertex="1" connectable="0" parent="rMyn5wNb7rmv-0nCtmz4-107">
           <mxGeometry x="0.053" y="-3" relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rMyn5wNb7rmv-0nCtmz4-109" value="&lt;b&gt;AUTH&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=4;fontSize=14;fontColor=#E6E6E6;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1178.75" y="6290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rMyn5wNb7rmv-0nCtmz4-110" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=#000000;strokeColor=#FFFFFF;strokeWidth=2;fontSize=14;fontColor=#E6E6E6;fillColor=none;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="rMyn5wNb7rmv-0nCtmz4-109">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1650" y="6320" as="sourcePoint" />
+            <mxPoint x="-890" y="6410" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
