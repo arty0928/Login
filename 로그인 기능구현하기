@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-01T06:12:00.189Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="1YK51V9VbxKSFJnoKibp" version="20.8.14" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-02-01T06:12:35.470Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="Kafem1M6DOuYxjAMSuSX" version="20.8.14" type="github" pages="5">
   <diagram id="pRH_pjUjlvLf6-ndeYeO" name="로그인 전체 흐름도">
-    <mxGraphModel dx="3680" dy="2278" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3180" dy="1816" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1061,6 +1061,9 @@
         <mxCell id="rMyn5wNb7rmv-0nCtmz4-94" value="&lt;font color=&quot;#000000&quot;&gt;jwt&lt;/font&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontSize=24;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="rMyn5wNb7rmv-0nCtmz4-58">
           <mxGeometry x="340" y="120" width="60" height="45" as="geometry" />
         </mxCell>
+        <mxCell id="rMyn5wNb7rmv-0nCtmz4-96" value="&lt;b&gt;x-auth&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#000000;" vertex="1" parent="rMyn5wNb7rmv-0nCtmz4-58">
+          <mxGeometry x="340" y="109" width="60" height="30" as="geometry" />
+        </mxCell>
         <mxCell id="rMyn5wNb7rmv-0nCtmz4-60" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontSize=24;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
           <mxGeometry x="-426" y="5826.17" width="60" height="45" as="geometry" />
         </mxCell>
@@ -1208,7 +1211,7 @@
           <mxGeometry x="-269" y="6105" width="129" height="30" as="geometry" />
         </mxCell>
         <mxCell id="rMyn5wNb7rmv-0nCtmz4-95" value="&lt;div style=&quot;color: rgb(255, 255, 255); background-color: rgb(0, 0, 0); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 16px; line-height: 22px;&quot;&gt;x-auth라는 이름의 쿠키에 생성한 user.token을 넣어주고 res로 보냄&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="-226" y="6178" width="60" height="30" as="geometry" />
+          <mxGeometry x="-733.5" y="6230" width="386" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
