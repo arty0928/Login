@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-01T01:30:47.962Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="oEiZ9KGA01wr6iMpViyp" version="20.8.13" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-02-01T01:30:54.440Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="q1cpUzPdlcU8hjYhDysc" version="20.8.13" type="github" pages="5">
   <diagram id="pRH_pjUjlvLf6-ndeYeO" name="로그인 전체 흐름도">
-    <mxGraphModel dx="5778" dy="5357" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3372" dy="2914" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -876,7 +876,7 @@
           <mxGeometry x="628" y="5150" width="362" height="30" as="geometry" />
         </mxCell>
         <mxCell id="zDgsybQLeiPekrMoiQsn-1" value="&lt;h1&gt;쿠키&lt;/h1&gt;&lt;p&gt;사이트를 방문하고 이용할 때 브라우저에 저장되는 내용&lt;/p&gt;&lt;p&gt;: 브라우저는 내 컴퓨터에 있는 거니까 내가 갖고 있는 정보&lt;/p&gt;&lt;p&gt;&lt;b&gt;단점&lt;/b&gt;: 내가 임의로 고치거나 지울 수 있고, 보안 취약&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="250" y="7440" width="280" height="210" as="geometry" />
+          <mxGeometry x="260" y="7400" width="280" height="210" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
