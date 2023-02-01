@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-01T05:06:46.452Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="ArfccOIxUyGfx_N3xnS_" version="20.8.14" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-02-01T05:07:47.955Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="udDIpqCY2wXMZ4UMQlxQ" version="20.8.14" type="github" pages="5">
   <diagram id="pRH_pjUjlvLf6-ndeYeO" name="로그인 전체 흐름도">
     <mxGraphModel dx="4393" dy="2222" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -962,7 +962,7 @@
         <mxCell id="6DYhPaXd62YM3kuNb1A6-23" value="브라우저로 사이트 접속" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="-930" y="5360" width="227" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="6DYhPaXd62YM3kuNb1A6-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=18;fillColor=none;" edge="1" parent="1" source="6DYhPaXd62YM3kuNb1A6-24">
+        <mxCell id="6DYhPaXd62YM3kuNb1A6-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=18;fillColor=none;entryX=0.96;entryY=0.7;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6DYhPaXd62YM3kuNb1A6-24" target="rMyn5wNb7rmv-0nCtmz4-16">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-1037.5" y="5468.5" as="targetPoint" />
           </mxGeometry>
@@ -973,7 +973,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="8IpEsel3QSPb5MEyWlWk-5" value="생성된 쿠키를 &lt;br&gt;브라우저로 전송" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="-820" y="5493.5" width="137" height="30" as="geometry" />
+          <mxGeometry x="-850" y="5493.5" width="137" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8IpEsel3QSPb5MEyWlWk-6" value="client: 정보를 제공받는 사람&lt;br&gt;브라우저: 서버랑 통신하는 소프트웨어 (explorer, chrome)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="-1270" y="5120" width="500" height="75" as="geometry" />
@@ -989,6 +989,15 @@
         </mxCell>
         <mxCell id="rMyn5wNb7rmv-0nCtmz4-3" value="" style="swimlane;startSize=0;fontSize=18;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-1580" y="5360" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="rMyn5wNb7rmv-0nCtmz4-14" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontSize=24;fontColor=#000000;fillColor=none;" vertex="1" parent="rMyn5wNb7rmv-0nCtmz4-3">
+          <mxGeometry x="12" y="25" width="60" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="rMyn5wNb7rmv-0nCtmz4-15" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontSize=24;fontColor=#000000;fillColor=none;" vertex="1" parent="rMyn5wNb7rmv-0nCtmz4-3">
+          <mxGeometry x="80" y="25" width="60" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="rMyn5wNb7rmv-0nCtmz4-16" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontSize=24;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="rMyn5wNb7rmv-0nCtmz4-3">
+          <mxGeometry x="12" y="77.5" width="60" height="45" as="geometry" />
         </mxCell>
         <mxCell id="rMyn5wNb7rmv-0nCtmz4-5" value="쿠키 폴더" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="-1530" y="5345" width="100" height="40" as="geometry" />
