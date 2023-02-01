@@ -68,6 +68,7 @@ userSchema.pre('save', function(next){
     }
 })
 
+//this: UserSchema의 Document 하나 
 userSchema.methods.comparePassword = function(plainPassword, cb){
     //plainpassword 1234567 === 암호화된 비번 "$2b$10$1bWGrIolGafj2Tbsv2VUbOn2tQmi8sVGGTHeap2ImLfG48Bxd7HtG"
     //this.password 는 암호화된 pw
@@ -77,11 +78,13 @@ userSchema.methods.comparePassword = function(plainPassword, cb){
     });
 };
 
-
+//this: UserSchema의 Document 하나 
 userSchema.methods.generateToken = function(cb){
     var user = this;
 
     //jsonwebtoken을 이용해서 token을 생성하기
+    //xxxx.yyyy.zzzz
+    //header+ payload + keyObject
     var token = jwt.sign(user._id.toHexString(),'secretToken')
     
     //'secretToken은 keyObject
@@ -92,6 +95,7 @@ userSchema.methods.generateToken = function(cb){
     })
 }
 
+//static의 this는 schema 전체 즉, user collection 전체
 userSchema.statics.findByToken = function (token, cb){
     var user = this;
 
@@ -101,7 +105,7 @@ userSchema.statics.findByToken = function (token, cb){
         
         //decoded == userid
         //유저 아이디(decoded)를 이용해서 유저를 찾은 다음에
-        //클라이언트에서 가져온 token과 DB에 보관된 토큰이 일치하는지 확인
+        //클라이언트에서 가져온 token과 서버DB에 보관된 토큰이 일치하는지 확인
 
         user.findOne({"_id:":decoded, "token": token}, function(err,user){
             if(err) return cb(err);
@@ -110,5 +114,8 @@ userSchema.statics.findByToken = function (token, cb){
     });
 }
 
+console.log(`typeof(userSchema) : ${typeof(userSchema)}`); //object
 const User = mongoose.model('User',userSchema); //스키마를 모델로 감싸줌
+console.log(`typeof(User): ${typeof(User)}`); //funciton
+
 module.exports = {User};

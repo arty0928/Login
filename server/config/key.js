@@ -2,5 +2,5 @@
 if(process.env.NODE_ENV === 'production'){
     module.exports = require('./prod'); //배포했으면
 }else{
-    module.exports = require('./dev') //로컬 환경이면
+    module.exports = require('./dev') //로컬 환경이면 development
 }

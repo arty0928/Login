@@ -3,16 +3,16 @@ const app = express();
 const port = 5000
 const bodyParser = require('body-parser');
 const cookieParser = require('cookie-parser');
-const config = require('./config/key');
-const { auth } = require('./middleware/auth');
-const {User} = require('./models/User');
+const config = require('./server/config/key.js');
+const { auth } = require('./server/middleware/auth');
+const {User} = require('./server/models/User');
 
 //클라이언트에서 오는 자료를 서버에서 분석해서 받을 수 있도록 body-parser
 //application/x-wwww-form-urlencoded 이런 데이터를 분석해서가져옴
 app.use(bodyParser.urlencoded({extended: true})); 
 //application.json : json타입을 가져와서 분석
 app.use(bodyParser.json());
-
+//body parser 종류 타입
 
 app.use(cookieParser());
 
@@ -77,7 +77,8 @@ app.post('/login',(req,res)=>{
       if(err) return res.status(400).send(err);
 
       //토큰을 저장한다. 어디에? 쿠키, 로컬스토리지 ...
-      //cookieParser 라이브러리 설치
+      //cookieParser 라이브러리 설치 
+      //x-auth라는 이름의 쿠키에 생성한 user.token을 넣어주고 res로 보냄
           res.cookie("x-auth",user.token)
           .status(200)
           .json({loginSuccess: true, userId:user._id})  
@@ -120,7 +121,7 @@ app.get('/logout',auth, (req, res) => {
 
 
 
-
+console.log(app.listen); //function: listen
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
   }
