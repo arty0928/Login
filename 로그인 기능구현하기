@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-01T03:51:12.800Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="nTNMHponH2RvH73Dohy_" version="20.8.14" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-02-01T03:51:50.951Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="ExWvyHNBUJfFheDAwU7W" version="20.8.14" type="github" pages="5">
   <diagram id="pRH_pjUjlvLf6-ndeYeO" name="로그인 전체 흐름도">
     <mxGraphModel dx="2366" dy="1945" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -916,6 +916,9 @@
         </mxCell>
         <mxCell id="R2q6xUSt1ub2haAqkZsL-14" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;cookie&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=24;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-940" y="6930" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R2q6xUSt1ub2haAqkZsL-16" value="request에 담김" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-1070" y="6945" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
