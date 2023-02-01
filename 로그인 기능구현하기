@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-01T07:22:46.955Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="VLok31_3Pw824YqlW_O0" version="20.8.14" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-02-01T07:24:05.197Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="PdzlniWvBnOdZRDXkbPa" version="20.8.14" type="github" pages="5">
   <diagram id="pRH_pjUjlvLf6-ndeYeO" name="로그인 전체 흐름도">
     <mxGraphModel dx="4879" dy="1862" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1351,6 +1351,12 @@
         </mxCell>
         <mxCell id="0-Q3z6oUtJjexbjhXnMQ-55" value="&lt;b&gt;&lt;font color=&quot;#000000&quot;&gt;Token&lt;/font&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=18;fontColor=#E6E6E6;fillColor=#C3ABD0;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="-1600" y="6443" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0-Q3z6oUtJjexbjhXnMQ-60" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;auth가 완료되면&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;디른 페이지로 이동을 요청한&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;사용자의 권한정보를 업데이트&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#E6E6E6;" vertex="1" parent="1">
+          <mxGeometry x="-1936" y="6340" width="201" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0-Q3z6oUtJjexbjhXnMQ-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=#000000;strokeColor=#FFFFFF;strokeWidth=2;fontSize=18;fontColor=#E6E6E6;fillColor=none;" edge="1" parent="1" source="0-Q3z6oUtJjexbjhXnMQ-60" target="0-Q3z6oUtJjexbjhXnMQ-60">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
