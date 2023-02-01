@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-01T05:54:20.901Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="5pkgUC-3RMZiF0NLOtrr" version="20.8.14" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-02-01T05:54:58.741Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="nWG8ZHTt6A8ZU7GQVv75" version="20.8.14" type="github" pages="5">
   <diagram id="pRH_pjUjlvLf6-ndeYeO" name="로그인 전체 흐름도">
     <mxGraphModel dx="3879" dy="2462" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -938,8 +938,8 @@
         <mxCell id="FeSYRY5e3noZ1MtPClWL-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=18;fillColor=none;" edge="1" parent="1" source="FeSYRY5e3noZ1MtPClWL-1" target="FeSYRY5e3noZ1MtPClWL-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FeSYRY5e3noZ1MtPClWL-3" value="요청시 단순히 http 헤더에 토큰 첨부해서 데이터 요청" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="-664" y="6660" width="278" height="30" as="geometry" />
+        <mxCell id="FeSYRY5e3noZ1MtPClWL-3" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;요청시 단순히 http 헤더에 토큰 첨부해서 데이터 요청&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="-347.5" y="5837.33" width="207.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FeSYRY5e3noZ1MtPClWL-5" value="서버에서 생성" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="-440" y="6885" width="126" height="30" as="geometry" />
@@ -1126,6 +1126,9 @@
         </mxCell>
         <mxCell id="rMyn5wNb7rmv-0nCtmz4-57" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://blog.kakaocdn.net/dn/bhue8H/btrFFB1OcZf/6PMLEI7rbXyaUQny5CRizk/img.png;" vertex="1" parent="rMyn5wNb7rmv-0nCtmz4-58">
           <mxGeometry x="0.5" y="30" width="520" height="247" as="geometry" />
+        </mxCell>
+        <mxCell id="rMyn5wNb7rmv-0nCtmz4-60" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontSize=24;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+          <mxGeometry x="-426" y="5826.17" width="60" height="45" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
