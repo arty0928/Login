@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-01T00:52:48.920Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="0Fykjuj8viShp0zOVsJu" version="20.8.13" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-02-01T00:55:02.097Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="-kuR_iUzvBLeWv775QKJ" version="20.8.13" type="github" pages="5">
   <diagram id="pRH_pjUjlvLf6-ndeYeO" name="로그인 전체 흐름도">
     <mxGraphModel dx="2685" dy="2216" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -871,6 +871,9 @@
         </mxCell>
         <mxCell id="u_5pPewn8D55d8hpTf3X-6" value="스키마 개념을 도입하여 정형화된 데이터를 보장해줄 수 있게 해준다" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="930" y="1487.5" width="370" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="u_5pPewn8D55d8hpTf3X-7" value="config:&amp;nbsp;설정이나 프로그램의 실행 일부 등을 저장해둔 파일" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="628" y="5150" width="362" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
