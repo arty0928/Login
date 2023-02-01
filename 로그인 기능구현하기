@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-01T04:48:59.976Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="6XK40oPW-ciUHmc1CjUZ" version="20.8.14" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-02-01T04:54:07.737Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="ODSJ7DxceFg7PWGpJyl6" version="20.8.14" type="github" pages="5">
   <diagram id="pRH_pjUjlvLf6-ndeYeO" name="로그인 전체 흐름도">
     <mxGraphModel dx="2769" dy="2204" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -968,7 +968,7 @@
           <mxGeometry x="-1230" y="5776.5" width="155" height="90" as="geometry" />
         </mxCell>
         <mxCell id="6DYhPaXd62YM3kuNb1A6-23" value="사이트 접속" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="-930" y="5770" width="137" height="30" as="geometry" />
+          <mxGeometry x="-930" y="5776.5" width="137" height="30" as="geometry" />
         </mxCell>
         <mxCell id="6DYhPaXd62YM3kuNb1A6-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=18;fillColor=none;" edge="1" parent="1" source="6DYhPaXd62YM3kuNb1A6-24" target="6DYhPaXd62YM3kuNb1A6-4">
           <mxGeometry relative="1" as="geometry" />
@@ -989,6 +989,9 @@
         </mxCell>
         <mxCell id="8IpEsel3QSPb5MEyWlWk-5" value="생성된 쿠키를 &lt;br&gt;브라우저로 전송" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="-820" y="5975" width="137" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8IpEsel3QSPb5MEyWlWk-6" value="client: 정보를 제공받는 사람&lt;br&gt;브라우저: 서버랑 통신하는 소프트웨어 (explorer, chrome)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="-1390" y="5701.5" width="500" height="75" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
