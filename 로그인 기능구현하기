@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-01T06:45:10.510Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="rGi47DK_dGezpyaXuHvv" version="20.8.14" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-02-01T06:46:16.261Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="M8FzwEBx8adW1YPBmj2n" version="20.8.14" type="github" pages="5">
   <diagram id="pRH_pjUjlvLf6-ndeYeO" name="로그인 전체 흐름도">
-    <mxGraphModel dx="4159" dy="2721" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3320" dy="1945" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -613,11 +613,6 @@
         <mxCell id="RT_LHBhtrsJcuWyQoP1I-21" value="USER ID" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" parent="1" vertex="1">
           <mxGeometry x="-286" y="7865" width="60" height="30" as="geometry" />
         </mxCell>
-        <UserObject label="&lt;b&gt;로그아웃 기능 만들기&lt;/b&gt;" link="https://viewer.diagrams.net/?page-id=oYkREVU_ZpE32vPLm5Yp&amp;highlight=0000ff&amp;edit=_blank&amp;layers=1&amp;nav=1&amp;page-id=oYkREVU_ZpE32vPLm5Yp#Harty0928%2FLogin_backendBeginner%2Fmain%2F%EB%A1%9C%EA%B7%B8%EC%9D%B8%20%EA%B8%B0%EB%8A%A5%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0" id="RT_LHBhtrsJcuWyQoP1I-23">
-          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" parent="1" vertex="1">
-            <mxGeometry x="-635" y="8030" width="170" height="30" as="geometry" />
-          </mxCell>
-        </UserObject>
         <mxCell id="RT_LHBhtrsJcuWyQoP1I-24" value="&lt;h1&gt;쿠키&lt;/h1&gt;&lt;p&gt;사이트를 방문하고 이용할 때 브라우저에 저장되는 내용&lt;/p&gt;&lt;p&gt;: 브라우저는 내 컴퓨터에 있는 거니까 내가 갖고 있는 정보&lt;/p&gt;&lt;p&gt;&lt;b&gt;단점&lt;/b&gt;: 내가 임의로 고치거나 지울 수 있고, 보안 취약&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=14;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" parent="1" vertex="1">
           <mxGeometry x="-940" y="7790" width="280" height="210" as="geometry" />
         </mxCell>
@@ -1265,7 +1260,7 @@
         <mxCell id="rMyn5wNb7rmv-0nCtmz4-112" value="http요청과 응답 중간에 진행 = 미들웨어" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#E6E6E6;" vertex="1" parent="1">
           <mxGeometry x="-1240" y="6250" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rMyn5wNb7rmv-0nCtmz4-113" value="&lt;b&gt;1. 가져온 jwt 토큰을 decode&lt;br&gt;2. userID를 찾는다&lt;br&gt;3.&amp;nbsp;&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=14;fontColor=#E6E6E6;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="rMyn5wNb7rmv-0nCtmz4-113" value="&lt;b&gt;1. 가져온 jwt 토큰을 decode&lt;br&gt;2. userID를 찾는다&lt;br&gt;3. 서버에 있는 유저 정보중 Token&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=14;fontColor=#E6E6E6;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-1178.75" y="6400" width="318.75" height="240" as="geometry" />
         </mxCell>
         <mxCell id="rMyn5wNb7rmv-0nCtmz4-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#000000;strokeColor=#FFFFFF;strokeWidth=2;fontSize=14;fontColor=#E6E6E6;fillColor=none;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rMyn5wNb7rmv-0nCtmz4-102" target="rMyn5wNb7rmv-0nCtmz4-113">
@@ -1292,6 +1287,9 @@
         </mxCell>
         <mxCell id="rMyn5wNb7rmv-0nCtmz4-120" value="&lt;b&gt;x-auth&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#000000;" vertex="1" parent="rMyn5wNb7rmv-0nCtmz4-118">
           <mxGeometry width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rMyn5wNb7rmv-0nCtmz4-125" value="서버에 있는 &lt;br&gt;유저 정보의 token" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Helvetica;fontColor=default;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="-658.5" y="7970" width="177" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
