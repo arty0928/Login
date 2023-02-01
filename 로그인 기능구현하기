@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-01T05:05:04.649Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="HI2fsNG87QHhyY1rJIGV" version="20.8.14" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-02-01T05:06:46.452Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="ArfccOIxUyGfx_N3xnS_" version="20.8.14" type="github" pages="5">
   <diagram id="pRH_pjUjlvLf6-ndeYeO" name="로그인 전체 흐름도">
-    <mxGraphModel dx="4878" dy="2222" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4393" dy="2222" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -972,15 +972,6 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6DYhPaXd62YM3kuNb1A6-24" value="사이트의 정보를 담은 쿠키 생성" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="-600" y="5453.5" width="150" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="6DYhPaXd62YM3kuNb1A6-26" value="2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="-600" y="5410" width="138.5" height="33.5" as="geometry" />
-        </mxCell>
-        <mxCell id="8IpEsel3QSPb5MEyWlWk-3" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontSize=18;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-610" y="5408.5" width="160" height="115" as="geometry" />
-        </mxCell>
         <mxCell id="8IpEsel3QSPb5MEyWlWk-5" value="생성된 쿠키를 &lt;br&gt;브라우저로 전송" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="-820" y="5493.5" width="137" height="30" as="geometry" />
         </mxCell>
@@ -1005,17 +996,29 @@
         <mxCell id="rMyn5wNb7rmv-0nCtmz4-7" value="&lt;b&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;쿠키&lt;/font&gt;&lt;/b&gt;&lt;br&gt;클라이언트 로컬에 저장되는 키와&amp;nbsp;&lt;br&gt;값이 들어있는 작은 데이터 파일" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="-1780" y="5360" width="170" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="rMyn5wNb7rmv-0nCtmz4-10" value="" style="endArrow=none;html=1;rounded=0;fontSize=24;fillColor=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+        <mxCell id="rMyn5wNb7rmv-0nCtmz4-10" value="" style="endArrow=none;html=1;rounded=0;fontSize=24;fillColor=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=3;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-1080.5" y="5359.5" as="sourcePoint" />
             <mxPoint x="-1080" y="6628" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rMyn5wNb7rmv-0nCtmz4-11" value="" style="endArrow=none;html=1;rounded=0;fontSize=24;fillColor=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+        <mxCell id="rMyn5wNb7rmv-0nCtmz4-11" value="" style="endArrow=none;html=1;rounded=0;fontSize=24;fillColor=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=3;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-520" y="5360" as="sourcePoint" />
             <mxPoint x="-519.5" y="6628.5" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="8IpEsel3QSPb5MEyWlWk-3" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontSize=18;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+          <mxGeometry x="-600" y="5402.5" width="160" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="rMyn5wNb7rmv-0nCtmz4-12" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-594" y="5410" width="150" height="73.5" as="geometry" />
+        </mxCell>
+        <mxCell id="6DYhPaXd62YM3kuNb1A6-24" value="&lt;font color=&quot;#000000&quot;&gt;사이트의 정보를 담은 쿠키 생성&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="rMyn5wNb7rmv-0nCtmz4-12">
+          <mxGeometry y="43.5" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6DYhPaXd62YM3kuNb1A6-26" value="&lt;font color=&quot;#000000&quot;&gt;2&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="rMyn5wNb7rmv-0nCtmz4-12">
+          <mxGeometry width="138.5" height="33.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
