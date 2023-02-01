@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-01T04:43:02.208Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="-3BM1GBSaBzzIFe2B4V7" version="20.8.14" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-02-01T04:47:57.533Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="qDa0RI0zwbrJIsVreRcj" version="20.8.14" type="github" pages="5">
   <diagram id="pRH_pjUjlvLf6-ndeYeO" name="로그인 전체 흐름도">
     <mxGraphModel dx="2769" dy="2204" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -964,14 +964,19 @@
             <mxPoint x="-640" y="5820" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6DYhPaXd62YM3kuNb1A6-7" value="&lt;h1&gt;Client&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=14;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" parent="1">
-          <mxGeometry x="-1165" y="5800" width="90" height="40" as="geometry" />
+        <mxCell id="6DYhPaXd62YM3kuNb1A6-7" value="&lt;h1&gt;Client PC&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=14;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="-1210" y="5800" width="135" height="40" as="geometry" />
         </mxCell>
         <mxCell id="6DYhPaXd62YM3kuNb1A6-23" value="사이트 접속" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="-930" y="5770" width="137" height="30" as="geometry" />
         </mxCell>
         <mxCell id="6DYhPaXd62YM3kuNb1A6-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=18;fillColor=none;" edge="1" parent="1" source="6DYhPaXd62YM3kuNb1A6-24" target="6DYhPaXd62YM3kuNb1A6-4">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8IpEsel3QSPb5MEyWlWk-4" value="3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=18;" vertex="1" connectable="0" parent="6DYhPaXd62YM3kuNb1A6-27">
+          <mxGeometry x="-0.1157" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="6DYhPaXd62YM3kuNb1A6-24" value="사이트의 정보를 담은 쿠키 생성" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="-600" y="5935" width="150" height="30" as="geometry" />
@@ -981,6 +986,9 @@
         </mxCell>
         <mxCell id="8IpEsel3QSPb5MEyWlWk-3" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontSize=18;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-610" y="5890" width="160" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="8IpEsel3QSPb5MEyWlWk-5" value="사이트 접속" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="-820" y="5975" width="137" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
