@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-31T14:56:03.842Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="_wKVLcKSC0y7b66vws8R" version="20.8.13" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-02-01T00:21:04.170Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="Ugx1R8TUxed6yt5WtNB8" version="20.8.13" type="github" pages="5">
   <diagram id="pRH_pjUjlvLf6-ndeYeO" name="로그인 전체 흐름도">
-    <mxGraphModel dx="8104" dy="3959" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2479" dy="2007" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -856,6 +856,12 @@
         </mxCell>
         <mxCell id="K-TL8QMe3Hcy8l0owmiz-45" value="&lt;h1&gt;mongoose&amp;nbsp;&lt;/h1&gt;&lt;p&gt;nodejs와 mongoDB를 연결해주는 ODM(Object Document Mapping)&lt;/p&gt;&lt;p&gt;: 객체(클래스)와 (관계형 데이터 베이스)를 1대 1로 매칭&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" parent="1" vertex="1">
           <mxGeometry x="949" y="1517.5" width="390" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="u_5pPewn8D55d8hpTf3X-1" value="&lt;h1&gt;body parser&lt;/h1&gt;&lt;p&gt;middleware&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-14.039999999999992" y="3700" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="u_5pPewn8D55d8hpTf3X-2" value="frontend" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="165" y="3560" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
