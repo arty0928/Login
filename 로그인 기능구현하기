@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2023-02-01T07:05:05.022Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="WDunILjxTMyQbLf_p7wS" version="20.8.14" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-02-01T07:06:10.225Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="DCYPmNHNl1oHLRzGoWjM" version="20.8.14" type="github" pages="5">
   <diagram id="pRH_pjUjlvLf6-ndeYeO" name="로그인 전체 흐름도">
-    <mxGraphModel dx="4694" dy="1686" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5122" dy="2082" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="0-Q3z6oUtJjexbjhXnMQ-14" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=18;fontColor=#E6E6E6;fillColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="-3175" y="5353" width="200" height="1237" as="geometry" />
+        </mxCell>
         <mxCell id="0-Q3z6oUtJjexbjhXnMQ-1" value="" style="swimlane;startSize=0;fontSize=18;fillColor=none;strokeWidth=4;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" parent="1">
           <mxGeometry x="-1654" y="5353" width="330" height="1280" as="geometry" />
         </mxCell>
@@ -924,35 +927,6 @@
         <mxCell id="rMyn5wNb7rmv-0nCtmz4-2" value="&lt;h1&gt;Client Local PC&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=14;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" parent="1">
           <mxGeometry x="-3130" y="5250" width="155" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="rMyn5wNb7rmv-0nCtmz4-3" value="" style="swimlane;startSize=0;fontSize=18;fillColor=#999999;strokeWidth=4;" vertex="1" parent="1">
-          <mxGeometry x="-3175" y="5360" width="200" height="1280" as="geometry">
-            <mxRectangle x="-3175" y="5360" width="50" height="40" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="rMyn5wNb7rmv-0nCtmz4-14" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontSize=24;fontColor=#000000;fillColor=none;" vertex="1" parent="rMyn5wNb7rmv-0nCtmz4-3">
-          <mxGeometry x="12" y="25" width="60" height="45" as="geometry" />
-        </mxCell>
-        <mxCell id="rMyn5wNb7rmv-0nCtmz4-15" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontSize=24;fontColor=#000000;fillColor=none;" vertex="1" parent="rMyn5wNb7rmv-0nCtmz4-3">
-          <mxGeometry x="80" y="25" width="60" height="45" as="geometry" />
-        </mxCell>
-        <mxCell id="rMyn5wNb7rmv-0nCtmz4-16" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontSize=24;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="rMyn5wNb7rmv-0nCtmz4-3">
-          <mxGeometry x="12" y="88.5" width="60" height="45" as="geometry" />
-        </mxCell>
-        <mxCell id="rMyn5wNb7rmv-0nCtmz4-22" value="4" style="endArrow=classic;html=1;rounded=0;fontSize=18;fillColor=none;exitX=-0.003;exitY=0.853;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.96;entryY=0.7;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;" edge="1" parent="rMyn5wNb7rmv-0nCtmz4-3" target="rMyn5wNb7rmv-0nCtmz4-16">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="475.5500000000002" y="120" as="sourcePoint" />
-            <mxPoint x="20" y="120.90999999999985" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="rMyn5wNb7rmv-0nCtmz4-101" value="" style="group" vertex="1" connectable="0" parent="rMyn5wNb7rmv-0nCtmz4-3">
-          <mxGeometry x="59" y="690" width="60" height="56" as="geometry" />
-        </mxCell>
-        <mxCell id="rMyn5wNb7rmv-0nCtmz4-102" value="&lt;font color=&quot;#000000&quot;&gt;jwt&lt;/font&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontSize=24;fillColor=#fad7ac;strokeColor=#b46504;container=1;" vertex="1" parent="rMyn5wNb7rmv-0nCtmz4-101">
-          <mxGeometry y="11" width="60" height="45" as="geometry" />
-        </mxCell>
-        <mxCell id="rMyn5wNb7rmv-0nCtmz4-103" value="&lt;b&gt;x-auth&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#000000;" vertex="1" parent="rMyn5wNb7rmv-0nCtmz4-101">
-          <mxGeometry width="60" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="rMyn5wNb7rmv-0nCtmz4-5" value="쿠키 폴더" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="-3125" y="5330" width="100" height="40" as="geometry" />
         </mxCell>
@@ -1160,8 +1134,9 @@
         <mxCell id="rMyn5wNb7rmv-0nCtmz4-76" value="로컬 PC에 저장되어 있던 쿠키는 서버에 요청시 헤더에 담아 보냄" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="-3110.5" y="5802.67" width="326" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rMyn5wNb7rmv-0nCtmz4-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.55;exitY=0.95;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=#000000;strokeColor=#FFFFFF;strokeWidth=2;fontSize=14;fontColor=#FFFFFF;fillColor=none;" edge="1" parent="1" source="rMyn5wNb7rmv-0nCtmz4-16" target="rMyn5wNb7rmv-0nCtmz4-32">
+        <mxCell id="rMyn5wNb7rmv-0nCtmz4-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.55;exitY=0.95;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=#000000;strokeColor=#FFFFFF;strokeWidth=2;fontSize=14;fontColor=#FFFFFF;fillColor=none;" edge="1" parent="1" target="rMyn5wNb7rmv-0nCtmz4-32">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-3130" y="5491.25" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="-3135" y="5491" />
               <mxPoint x="-3135" y="5765" />
@@ -1199,8 +1174,9 @@
             <mxPoint x="-1185.5" y="6627.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rMyn5wNb7rmv-0nCtmz4-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.96;entryY=0.7;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=#000000;strokeColor=#FFFFFF;strokeWidth=2;fontSize=14;fontColor=#000000;fillColor=none;" edge="1" parent="1" source="rMyn5wNb7rmv-0nCtmz4-57" target="rMyn5wNb7rmv-0nCtmz4-102">
+        <mxCell id="rMyn5wNb7rmv-0nCtmz4-107" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.96;entryY=0.7;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=#000000;strokeColor=#FFFFFF;strokeWidth=2;fontSize=14;fontColor=#000000;fillColor=none;" edge="1" parent="1" source="rMyn5wNb7rmv-0nCtmz4-57">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-3058.4" y="6092.5" as="targetPoint" />
             <Array as="points">
               <mxPoint x="-2556" y="6093" />
               <mxPoint x="-2556" y="6093" />
@@ -1241,8 +1217,9 @@
         <mxCell id="rMyn5wNb7rmv-0nCtmz4-113" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;1. 가져온 jwt 토큰을 decode&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b&gt;= jwt.verify&lt;/b&gt;&lt;/div&gt;&lt;b&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;2. userID를 찾는다 (decoded==userid)&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;3. 서버에 있는 유저 정보중 Token&lt;/b&gt;&lt;/div&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=14;fontColor=#E6E6E6;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-2203.25" y="6443" width="237.25" height="137" as="geometry" />
         </mxCell>
-        <mxCell id="rMyn5wNb7rmv-0nCtmz4-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#000000;strokeColor=#FFFFFF;strokeWidth=2;fontSize=14;fontColor=#E6E6E6;fillColor=none;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rMyn5wNb7rmv-0nCtmz4-102" target="rMyn5wNb7rmv-0nCtmz4-113">
+        <mxCell id="rMyn5wNb7rmv-0nCtmz4-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#000000;strokeColor=#FFFFFF;strokeWidth=2;fontSize=14;fontColor=#E6E6E6;fillColor=none;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="rMyn5wNb7rmv-0nCtmz4-113">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-3086" y="6106" as="sourcePoint" />
             <mxPoint x="-2336" y="6520" as="targetPoint" />
             <Array as="points">
               <mxPoint x="-3086" y="6510" />
@@ -1307,6 +1284,21 @@
         </mxCell>
         <mxCell id="rMyn5wNb7rmv-0nCtmz4-95" value="&lt;div style=&quot;color: rgb(255, 255, 255); background-color: rgb(0, 0, 0); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 16px; line-height: 22px;&quot;&gt;x-auth라는 이름의 쿠키에 생성한 user.token을 넣어주고 res로 보냄&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="-1868" y="6150" width="386" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0-Q3z6oUtJjexbjhXnMQ-15" value="&lt;font color=&quot;#000000&quot;&gt;jwt&lt;/font&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontSize=24;fillColor=#fad7ac;strokeColor=#b46504;container=1;" vertex="1" parent="1">
+          <mxGeometry x="-3119" y="6055" width="60" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="0-Q3z6oUtJjexbjhXnMQ-16" value="&lt;b&gt;x-auth&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-3120" y="6044" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0-Q3z6oUtJjexbjhXnMQ-17" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontSize=24;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
+          <mxGeometry x="-3160" y="5450" width="60" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="0-Q3z6oUtJjexbjhXnMQ-18" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=18;fontColor=#E6E6E6;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-3160.5" y="5371.5" width="50" height="52.5" as="geometry" />
+        </mxCell>
+        <mxCell id="0-Q3z6oUtJjexbjhXnMQ-19" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=18;fontColor=#E6E6E6;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-3100" y="5371.5" width="50" height="52.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
