@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-01T06:40:56.001Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="PM6aBSNi0sqm7ncvNvmk" version="20.8.14" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-02-01T06:41:09.521Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="Q6yW-Z3uK6RFaFsVTlNF" version="20.8.14" type="github" pages="5">
   <diagram id="pRH_pjUjlvLf6-ndeYeO" name="로그인 전체 흐름도">
     <mxGraphModel dx="3180" dy="1816" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1250,7 +1250,7 @@
         <mxCell id="rMyn5wNb7rmv-0nCtmz4-117" value="12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#000000;strokeColor=#FFFFFF;strokeWidth=2;fontSize=14;fontColor=#E6E6E6;fillColor=none;" edge="1" parent="1" source="rMyn5wNb7rmv-0nCtmz4-109" target="rMyn5wNb7rmv-0nCtmz4-113">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rMyn5wNb7rmv-0nCtmz4-109" value="&lt;b&gt;AUTH&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=4;fontSize=14;fontColor=#E6E6E6;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="rMyn5wNb7rmv-0nCtmz4-109" value="&lt;b&gt;AUTH&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=14;fontColor=#E6E6E6;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-1178.75" y="6290" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rMyn5wNb7rmv-0nCtmz4-110" value="11" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=#000000;strokeColor=#FFFFFF;strokeWidth=2;fontSize=14;fontColor=#E6E6E6;fillColor=none;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="rMyn5wNb7rmv-0nCtmz4-109">
@@ -1265,7 +1265,7 @@
         <mxCell id="rMyn5wNb7rmv-0nCtmz4-112" value="http요청과 응답 중간에 진행 = 미들웨어" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#E6E6E6;" vertex="1" parent="1">
           <mxGeometry x="-1240" y="6250" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rMyn5wNb7rmv-0nCtmz4-113" value="&lt;b&gt;1. 가져온 jwt 토큰을 decode&lt;br&gt;&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=4;fontSize=14;fontColor=#E6E6E6;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="rMyn5wNb7rmv-0nCtmz4-113" value="&lt;b&gt;1. 가져온 jwt 토큰을 decode&lt;br&gt;&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=14;fontColor=#E6E6E6;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-1178.75" y="6400" width="318.75" height="240" as="geometry" />
         </mxCell>
         <mxCell id="rMyn5wNb7rmv-0nCtmz4-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=#000000;strokeColor=#FFFFFF;strokeWidth=2;fontSize=14;fontColor=#E6E6E6;fillColor=none;" edge="1" parent="1" source="rMyn5wNb7rmv-0nCtmz4-102" target="rMyn5wNb7rmv-0nCtmz4-113">
