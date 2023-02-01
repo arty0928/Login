@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-01T06:41:39.763Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="7P6d57hllZde30wWVvHy" version="20.8.14" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-02-01T06:43:31.656Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="77aiRBb-cGDsZFm3w0AL" version="20.8.14" type="github" pages="5">
   <diagram id="pRH_pjUjlvLf6-ndeYeO" name="로그인 전체 흐름도">
-    <mxGraphModel dx="3060" dy="1704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3879" dy="2462" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1265,7 +1265,7 @@
         <mxCell id="rMyn5wNb7rmv-0nCtmz4-112" value="http요청과 응답 중간에 진행 = 미들웨어" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#E6E6E6;" vertex="1" parent="1">
           <mxGeometry x="-1240" y="6250" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rMyn5wNb7rmv-0nCtmz4-113" value="&lt;b&gt;1. 가져온 jwt 토큰을 decode&lt;br&gt;&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=14;fontColor=#E6E6E6;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="rMyn5wNb7rmv-0nCtmz4-113" value="&lt;b&gt;1. 가져온 jwt 토큰을 decode&lt;br&gt;2. userID를 찾는다&lt;br&gt;3.&amp;nbsp;&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=14;fontColor=#E6E6E6;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-1178.75" y="6400" width="318.75" height="240" as="geometry" />
         </mxCell>
         <mxCell id="rMyn5wNb7rmv-0nCtmz4-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#000000;strokeColor=#FFFFFF;strokeWidth=2;fontSize=14;fontColor=#E6E6E6;fillColor=none;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rMyn5wNb7rmv-0nCtmz4-102" target="rMyn5wNb7rmv-0nCtmz4-113">
