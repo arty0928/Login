@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-01T07:09:03.097Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="4xIkKkcZmtS6kYgTMWOz" version="20.8.14" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-02-01T07:09:27.195Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="d9hvxPCM-0RADDMsE-SV" version="20.8.14" type="github" pages="5">
   <diagram id="pRH_pjUjlvLf6-ndeYeO" name="로그인 전체 흐름도">
-    <mxGraphModel dx="5533" dy="2462" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4806" dy="1790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1268,7 +1268,7 @@
           <mxGeometry y="43.5" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="rMyn5wNb7rmv-0nCtmz4-95" value="&lt;div style=&quot;color: rgb(255, 255, 255); background-color: rgb(0, 0, 0); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 16px; line-height: 22px;&quot;&gt;x-auth라는 이름의 쿠키에 생성한 user.token을 넣어주고 res로 보냄&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="-1868" y="6150" width="386" height="30" as="geometry" />
+          <mxGeometry x="-2000" y="6230" width="386" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0-Q3z6oUtJjexbjhXnMQ-15" value="&lt;font color=&quot;#000000&quot;&gt;jwt&lt;/font&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontSize=24;fillColor=#fad7ac;strokeColor=#b46504;container=1;" vertex="1" parent="1">
           <mxGeometry x="-3119" y="6055" width="60" height="45" as="geometry" />
@@ -1289,7 +1289,7 @@
           <mxGeometry x="-1775" y="5970" width="228" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0-Q3z6oUtJjexbjhXnMQ-33" value="&lt;b&gt;&lt;font color=&quot;#000000&quot;&gt;Token&lt;/font&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=18;fontColor=#E6E6E6;fillColor=#C3ABD0;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-1630" y="6400" width="120" height="80" as="geometry" />
+          <mxGeometry x="-1590" y="6085" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
