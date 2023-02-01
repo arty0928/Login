@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-01T07:18:48.108Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="RJvB7gErzDbYQw6nYwNg" version="20.8.14" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-02-01T07:19:53.840Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="60WS_YwHh5bfzrZ1BDOw" version="20.8.14" type="github" pages="5">
   <diagram id="pRH_pjUjlvLf6-ndeYeO" name="로그인 전체 흐름도">
-    <mxGraphModel dx="4495" dy="1504" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4649" dy="1648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1282,6 +1282,11 @@
         <mxCell id="0-Q3z6oUtJjexbjhXnMQ-22" value="2. 이메일이 있다면 비밀번호와 비교" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontColor=#FFFFFF;fillColor=none;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" parent="1">
           <mxGeometry x="-1775" y="5970" width="228" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="0-Q3z6oUtJjexbjhXnMQ-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#000000;strokeColor=#FFFFFF;strokeWidth=2;fontSize=18;fontColor=#E6E6E6;fillColor=none;" edge="1" parent="1" source="0-Q3z6oUtJjexbjhXnMQ-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1540" y="6419.999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="0-Q3z6oUtJjexbjhXnMQ-33" value="&lt;b&gt;&lt;font color=&quot;#000000&quot;&gt;Token&lt;/font&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=18;fontColor=#E6E6E6;fillColor=#C3ABD0;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="-1600" y="6130" width="120" height="80" as="geometry" />
         </mxCell>
@@ -1292,7 +1297,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="0-Q3z6oUtJjexbjhXnMQ-38" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;인증정보를 서버와 &lt;br&gt;클라이언트에 각각 저장&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="-1610" y="6220" width="200" height="30" as="geometry" />
+          <mxGeometry x="-1590" y="6074" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0-Q3z6oUtJjexbjhXnMQ-39" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;인증정보를 서버와 &lt;br&gt;클라이언트에 각각 저장&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="-2890" y="6105" width="200" height="30" as="geometry" />
@@ -1312,8 +1317,8 @@
         <mxCell id="0-Q3z6oUtJjexbjhXnMQ-43" value="14" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#E6E6E6;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="-2317" y="6420" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0-Q3z6oUtJjexbjhXnMQ-45" value="&lt;b style=&quot;font-size: 14px; text-align: left; background-color: initial;&quot;&gt;서버에 있는 유저 정보중 Token&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#E6E6E6;" vertex="1" parent="1">
-          <mxGeometry x="-1665" y="6480" width="250" height="30" as="geometry" />
+        <mxCell id="0-Q3z6oUtJjexbjhXnMQ-45" value="&lt;span style=&quot;font-size: 14px; text-align: left; background-color: initial;&quot;&gt;서버에 있는 유저 정보의 &lt;br&gt;Token과 비교&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#E6E6E6;" vertex="1" parent="1">
+          <mxGeometry x="-1665" y="6514" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0-Q3z6oUtJjexbjhXnMQ-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#000000;strokeColor=#FFFFFF;strokeWidth=2;fontSize=14;fontColor=#E6E6E6;fillColor=none;endArrow=none;" edge="1" parent="1" source="rMyn5wNb7rmv-0nCtmz4-113" target="0-Q3z6oUtJjexbjhXnMQ-49">
           <mxGeometry relative="1" as="geometry">
@@ -1331,6 +1336,9 @@
         </mxCell>
         <mxCell id="0-Q3z6oUtJjexbjhXnMQ-50" value="&lt;b&gt;x-auth&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#000000;" vertex="1" parent="0-Q3z6oUtJjexbjhXnMQ-48">
           <mxGeometry width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0-Q3z6oUtJjexbjhXnMQ-55" value="&lt;b&gt;&lt;font color=&quot;#000000&quot;&gt;Token&lt;/font&gt;&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=18;fontColor=#E6E6E6;fillColor=#C3ABD0;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1600" y="6420" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
