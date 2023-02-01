@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-01T00:46:28.569Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="A6xw4qNzBKhEtolWdAEw" version="20.8.13" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-02-01T00:52:48.920Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="0Fykjuj8viShp0zOVsJu" version="20.8.13" type="github" pages="5">
   <diagram id="pRH_pjUjlvLf6-ndeYeO" name="로그인 전체 흐름도">
-    <mxGraphModel dx="2867" dy="2401" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2685" dy="2216" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -868,6 +868,9 @@
         </mxCell>
         <mxCell id="u_5pPewn8D55d8hpTf3X-5" value="http 요청에는 크게 헤더와 요청을 한 실제 데이터 정보를 담고 있는 바디가 있는데 request 요청에는 readableStream 인터페이스를 가지고 있다. 이 stream을 듣거나 파이프로 다른 곳에 전달가능.&lt;br&gt;스트림의 &#39;data&#39; &#39;event&#39;를 이용해 스트림의 데이터를 읽고, 지금 받으려는 데이터가 스트링이라는 것을 알고 있다면, &#39;data&#39; 이벤트마다 chunk를 모아놨다가 &#39;end&#39; 이벤트가 일어나면 모은 chunl를 합쳐서 문자열화한다.(문자열하기 전에는 객체 타입) 이렇게 원하는 데이터가 stream으로 들어오는데 이 과정을 body-parser이 진행&lt;br&gt;req.body로 데이터 접근 가능&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-230" y="3390" width="350" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="u_5pPewn8D55d8hpTf3X-6" value="스키마 개념을 도입하여 정형화된 데이터를 보장해줄 수 있게 해준다" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="930" y="1487.5" width="370" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
