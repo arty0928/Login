@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-01T04:18:24.942Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="et5O4xHyXG36JsGlW30_" version="20.8.14" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-02-01T04:20:29.649Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="vUP490nTzT_QEKIiUldt" version="20.8.14" type="github" pages="5">
   <diagram id="pRH_pjUjlvLf6-ndeYeO" name="로그인 전체 흐름도">
     <mxGraphModel dx="2514" dy="2278" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -946,6 +946,9 @@
         </mxCell>
         <mxCell id="6DYhPaXd62YM3kuNb1A6-1" value="서버에서 사이트의 정보를 저장한 쿠키 생성" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="-430" y="6975" width="126" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6DYhPaXd62YM3kuNb1A6-2" value="클라이언트의 쿠키파일에 쿠키 저장" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-268" y="6975" width="126" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
