@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-01T05:11:45.190Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="MOBRnCb0uq8k0GLGhe_i" version="20.8.14" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-02-01T05:11:54.402Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="dX3_4i1Or5gZNPapdWTo" version="20.8.14" type="github" pages="5">
   <diagram id="pRH_pjUjlvLf6-ndeYeO" name="로그인 전체 흐름도">
     <mxGraphModel dx="3121" dy="1945" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1025,7 +1025,7 @@
         <mxCell id="6DYhPaXd62YM3kuNb1A6-26" value="&lt;font color=&quot;#000000&quot;&gt;2&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="rMyn5wNb7rmv-0nCtmz4-12">
           <mxGeometry width="138.5" height="33.5" as="geometry" />
         </mxCell>
-        <mxCell id="rMyn5wNb7rmv-0nCtmz4-17" value="브라우저는 서버로부터 받은 쿠키 정볼ㄹ 쿠키 파일에 저장" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+        <mxCell id="rMyn5wNb7rmv-0nCtmz4-17" value="브라우저는 서버로부터 받은 쿠키 정보를 쿠키 파일에 저장" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="-1297" y="5510" width="137" height="30" as="geometry" />
         </mxCell>
         <mxCell id="rMyn5wNb7rmv-0nCtmz4-18" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontSize=24;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
