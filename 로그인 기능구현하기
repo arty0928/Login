@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-01T03:57:41.097Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="H54pocJSsMmH-eJWB09E" version="20.8.14" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-02-01T03:58:58.751Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="NASrzEkRZEH3b48rWKv2" version="20.8.14" type="github" pages="5">
   <diagram id="pRH_pjUjlvLf6-ndeYeO" name="로그인 전체 흐름도">
     <mxGraphModel dx="2514" dy="2278" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -929,11 +929,17 @@
         <mxCell id="R2q6xUSt1ub2haAqkZsL-19" value="메모리나 스토리지에 저장안해서 서버 부담 덜함" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="-76" y="6885" width="206" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="FeSYRY5e3noZ1MtPClWL-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;fillColor=none;" edge="1" parent="1" source="FeSYRY5e3noZ1MtPClWL-1" target="FeSYRY5e3noZ1MtPClWL-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="FeSYRY5e3noZ1MtPClWL-1" value="토큰 자체에 사용자의 권한 정보나 서비스를 사용하기 위한 정보 포함" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="-664" y="6770" width="278" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FeSYRY5e3noZ1MtPClWL-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=18;fillColor=none;" edge="1" parent="1" source="FeSYRY5e3noZ1MtPClWL-1" target="FeSYRY5e3noZ1MtPClWL-1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FeSYRY5e3noZ1MtPClWL-3" value="요청시 단순히 http 헤더에 토큰 첨부해서 데이터 요청" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="-664" y="6660" width="278" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
