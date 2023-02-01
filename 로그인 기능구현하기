@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-01T05:56:35.364Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="HHsm54MoYTVAYsusU7IJ" version="20.8.14" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-02-01T05:57:24.183Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="WYVYgx48CozimKCZdsdL" version="20.8.14" type="github" pages="5">
   <diagram id="pRH_pjUjlvLf6-ndeYeO" name="로그인 전체 흐름도">
-    <mxGraphModel dx="3879" dy="2462" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3152" dy="1790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1135,6 +1135,18 @@
         </mxCell>
         <mxCell id="R2q6xUSt1ub2haAqkZsL-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="rMyn5wNb7rmv-0nCtmz4-63" source="R2q6xUSt1ub2haAqkZsL-18" target="R2q6xUSt1ub2haAqkZsL-19">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rMyn5wNb7rmv-0nCtmz4-66" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-140" y="5985" width="160" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="rMyn5wNb7rmv-0nCtmz4-67" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontSize=18;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="rMyn5wNb7rmv-0nCtmz4-66">
+          <mxGeometry width="160" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="rMyn5wNb7rmv-0nCtmz4-68" value="" style="group" vertex="1" connectable="0" parent="rMyn5wNb7rmv-0nCtmz4-66">
+          <mxGeometry x="6" y="7.5" width="150" height="73.5" as="geometry" />
+        </mxCell>
+        <mxCell id="rMyn5wNb7rmv-0nCtmz4-69" value="&lt;font color=&quot;#000000&quot;&gt;JWT 생성&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="rMyn5wNb7rmv-0nCtmz4-68">
+          <mxGeometry y="43.5" width="150" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
