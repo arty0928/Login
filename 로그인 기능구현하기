@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-01T06:34:55.433Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="S3Zpgrf9_AbMaYytRwAk" version="20.8.14" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-02-01T06:36:47.475Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="TlRdn5YcycOWJbcB8RTu" version="20.8.14" type="github" pages="5">
   <diagram id="pRH_pjUjlvLf6-ndeYeO" name="로그인 전체 흐름도">
-    <mxGraphModel dx="3186" dy="2082" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3337" dy="2278" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1258,6 +1258,9 @@
         </mxCell>
         <mxCell id="rMyn5wNb7rmv-0nCtmz4-111" value="A-&amp;gt;B 페이지 이동시 사용자의 권한 체크" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#E6E6E6;" vertex="1" parent="1">
           <mxGeometry x="-1540" y="6340" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rMyn5wNb7rmv-0nCtmz4-112" value="http요청과 응답 중간에 진행 = 미들웨어" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#E6E6E6;" vertex="1" parent="1">
+          <mxGeometry x="-1240" y="6250" width="250" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
