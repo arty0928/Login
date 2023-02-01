@@ -1,11 +1,29 @@
-<mxfile host="app.diagrams.net" modified="2023-02-01T07:02:29.581Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="ydFB5wnJMdVw2QbDy2HR" version="20.8.14" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-02-01T07:04:43.444Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="AU_w4b8CjyhvEB_BXMk9" version="20.8.14" type="github" pages="5">
   <diagram id="pRH_pjUjlvLf6-ndeYeO" name="로그인 전체 흐름도">
-    <mxGraphModel dx="5660" dy="2580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4974" dy="1945" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="0-Q3z6oUtJjexbjhXnMQ-1" value="" style="swimlane;startSize=0;fontSize=18;fillColor=none;strokeWidth=4;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" parent="1">
-          <mxGeometry x="-1654" y="5353" width="200" height="1280" as="geometry" />
+          <mxGeometry x="-1654" y="5353" width="330" height="1280" as="geometry" />
+        </mxCell>
+        <mxCell id="0-Q3z6oUtJjexbjhXnMQ-10" value="" style="group" vertex="1" connectable="0" parent="0-Q3z6oUtJjexbjhXnMQ-1">
+          <mxGeometry x="75" y="871" width="60" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="0-Q3z6oUtJjexbjhXnMQ-11" value="&lt;font color=&quot;#000000&quot;&gt;jwt&lt;/font&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontSize=24;fillColor=#fad7ac;strokeColor=#b46504;container=1;" vertex="1" parent="0-Q3z6oUtJjexbjhXnMQ-10">
+          <mxGeometry y="11" width="60" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="0-Q3z6oUtJjexbjhXnMQ-12" value="&lt;b&gt;x-auth&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#000000;" vertex="1" parent="0-Q3z6oUtJjexbjhXnMQ-10">
+          <mxGeometry width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rMyn5wNb7rmv-0nCtmz4-83" value="2. 이메일이 있다면 비번이 같은지" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontColor=#FFFFFF;fillColor=none;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" vertex="1" parent="0-Q3z6oUtJjexbjhXnMQ-1">
+          <mxGeometry x="-108" y="608" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rMyn5wNb7rmv-0nCtmz4-126" value="토큰 인코드" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#E6E6E6;" vertex="1" parent="0-Q3z6oUtJjexbjhXnMQ-1">
+          <mxGeometry y="767" width="105" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rMyn5wNb7rmv-0nCtmz4-129" value="&lt;h1&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Token을 인코드하는 이유&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;토큰이 암호화되어 있지 않으면 토큰을 도둑맞았을 때 그대로 악용될 수 있음&lt;/p&gt;&lt;p&gt;토큰: 키와 값으로 구성&amp;nbsp;&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=14;fontColor=#E6E6E6;" vertex="1" parent="0-Q3z6oUtJjexbjhXnMQ-1">
+          <mxGeometry x="104" y="667" width="225" height="117" as="geometry" />
         </mxCell>
         <mxCell id="37fV-XTiWw6ycrgmw_H7-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontFamily=Helvetica;fontSize=9;fontColor=default;fillColor=#FFFFFF;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" parent="1" source="37fV-XTiWw6ycrgmw_H7-1" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -1153,31 +1171,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rMyn5wNb7rmv-0nCtmz4-84" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#000000;strokeColor=#FFFFFF;strokeWidth=2;fontSize=14;fontColor=#FFFFFF;fillColor=none;" edge="1" parent="1" source="rMyn5wNb7rmv-0nCtmz4-82" target="rMyn5wNb7rmv-0nCtmz4-83">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="rMyn5wNb7rmv-0nCtmz4-82" value="1. 이메일이 DB에 있는지" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontColor=#FFFFFF;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-1641" y="5920" width="220" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="rMyn5wNb7rmv-0nCtmz4-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=#000000;strokeColor=#FFFFFF;strokeWidth=2;fontSize=14;fontColor=#FFFFFF;fillColor=none;" edge="1" parent="1" source="rMyn5wNb7rmv-0nCtmz4-83" target="rMyn5wNb7rmv-0nCtmz4-69">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="rMyn5wNb7rmv-0nCtmz4-83" value="2. 이메일이 있다면 비번이 같은지" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontColor=#FFFFFF;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-1641" y="5970" width="220" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="rMyn5wNb7rmv-0nCtmz4-87" value="" style="endArrow=classic;html=1;rounded=0;labelBackgroundColor=#000000;strokeColor=#FFFFFF;strokeWidth=2;fontSize=14;fontColor=#FFFFFF;fillColor=none;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="rMyn5wNb7rmv-0nCtmz4-82">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-1655" y="5880" as="sourcePoint" />
-            <mxPoint x="-1515" y="5970" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="-1531" y="5880" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="rMyn5wNb7rmv-0nCtmz4-88" value="7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontColor=#FFFFFF;" vertex="1" connectable="0" parent="rMyn5wNb7rmv-0nCtmz4-87">
-          <mxGeometry x="-0.0091" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
+        <mxCell id="rMyn5wNb7rmv-0nCtmz4-82" value="1. 이메일이 DB에 있는지" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontColor=#FFFFFF;fillColor=none;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="-1762" y="5920" width="220" height="30" as="geometry" />
         </mxCell>
         <mxCell id="rMyn5wNb7rmv-0nCtmz4-90" value="" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;fontSize=14;fontColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="-1894" y="6061" width="20" height="20" as="geometry" />
@@ -1272,17 +1267,6 @@
         <mxCell id="rMyn5wNb7rmv-0nCtmz4-125" value="서버에 있는 &lt;br&gt;유저 정보의 token" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontFamily=Helvetica;fontColor=default;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" parent="1">
           <mxGeometry x="-658.5" y="7970" width="177" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rMyn5wNb7rmv-0nCtmz4-128" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#000000;strokeColor=#FFFFFF;strokeWidth=2;fontSize=14;fontColor=#E6E6E6;fillColor=none;" edge="1" parent="1" source="rMyn5wNb7rmv-0nCtmz4-126">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-1409.5" y="6094.999999999999" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="rMyn5wNb7rmv-0nCtmz4-126" value="토큰 인코드" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#E6E6E6;" vertex="1" parent="1">
-          <mxGeometry x="-1587" y="6080" width="105" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="rMyn5wNb7rmv-0nCtmz4-129" value="&lt;h1&gt;Token을 인코드하는 이유&lt;/h1&gt;&lt;p&gt;토큰이 암호화되어 있지 않으면 토큰을 도둑맞았을 때 그대로 악용될 수 있음&lt;/p&gt;&lt;p&gt;토큰: 키와 값으로 구성&amp;nbsp;&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=14;fontColor=#E6E6E6;" vertex="1" parent="1">
-          <mxGeometry x="-1406" y="6050" width="210" height="180" as="geometry" />
-        </mxCell>
         <mxCell id="rMyn5wNb7rmv-0nCtmz4-134" value="" style="endArrow=none;html=1;rounded=0;fontSize=24;fillColor=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=6;" edge="1" parent="1" target="rMyn5wNb7rmv-0nCtmz4-131">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-1655" y="5360" as="sourcePoint" />
@@ -1307,13 +1291,13 @@
         <mxCell id="6DYhPaXd62YM3kuNb1A6-26" value="&lt;font color=&quot;#000000&quot;&gt;2&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="rMyn5wNb7rmv-0nCtmz4-12">
           <mxGeometry width="138.5" height="33.5" as="geometry" />
         </mxCell>
-        <mxCell id="rMyn5wNb7rmv-0nCtmz4-66" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="rMyn5wNb7rmv-0nCtmz4-66" value="" style="group;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" vertex="1" connectable="0" parent="1">
           <mxGeometry x="-1735" y="6005" width="160" height="115" as="geometry" />
         </mxCell>
-        <mxCell id="rMyn5wNb7rmv-0nCtmz4-67" value="2" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontSize=18;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="rMyn5wNb7rmv-0nCtmz4-66">
+        <mxCell id="rMyn5wNb7rmv-0nCtmz4-67" value="2" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontSize=18;fillColor=#fad7ac;strokeColor=#b46504;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" vertex="1" parent="rMyn5wNb7rmv-0nCtmz4-66">
           <mxGeometry width="160" height="115" as="geometry" />
         </mxCell>
-        <mxCell id="rMyn5wNb7rmv-0nCtmz4-68" value="" style="group" vertex="1" connectable="0" parent="rMyn5wNb7rmv-0nCtmz4-66">
+        <mxCell id="rMyn5wNb7rmv-0nCtmz4-68" value="" style="group;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" vertex="1" connectable="0" parent="rMyn5wNb7rmv-0nCtmz4-66">
           <mxGeometry x="6" y="7.5" width="154" height="73.5" as="geometry" />
         </mxCell>
         <mxCell id="rMyn5wNb7rmv-0nCtmz4-69" value="&lt;font color=&quot;#000000&quot;&gt;8&lt;br&gt;JWT 생성&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="rMyn5wNb7rmv-0nCtmz4-68">
