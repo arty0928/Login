@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-01T07:17:23.825Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="z5EPEkIU2RYyVIBqG5Za" version="20.8.14" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-02-01T07:18:48.108Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="RJvB7gErzDbYQw6nYwNg" version="20.8.14" type="github" pages="5">
   <diagram id="pRH_pjUjlvLf6-ndeYeO" name="로그인 전체 흐름도">
-    <mxGraphModel dx="4879" dy="1862" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4495" dy="1504" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1185,7 +1185,7 @@
         <mxCell id="rMyn5wNb7rmv-0nCtmz4-112" value="http요청과 응답 중간에 진행 = 미들웨어" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#E6E6E6;" vertex="1" parent="1">
           <mxGeometry x="-2266" y="6240" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rMyn5wNb7rmv-0nCtmz4-132" value="15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#000000;strokeColor=#FFFFFF;strokeWidth=2;fontSize=14;fontColor=#E6E6E6;fillColor=none;" edge="1" parent="1" source="rMyn5wNb7rmv-0nCtmz4-113">
+        <mxCell id="rMyn5wNb7rmv-0nCtmz4-132" value="15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#000000;strokeColor=#FFFFFF;strokeWidth=2;fontSize=14;fontColor=#E6E6E6;fillColor=none;startArrow=none;" edge="1" parent="1" source="0-Q3z6oUtJjexbjhXnMQ-49">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-1660" y="6490" as="targetPoint" />
           </mxGeometry>
@@ -1212,7 +1212,7 @@
           <mxGeometry x="-2586" y="6536" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="rMyn5wNb7rmv-0nCtmz4-118" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="-2606" y="6480" width="60" height="56" as="geometry" />
+          <mxGeometry x="-2580" y="6480" width="60" height="56" as="geometry" />
         </mxCell>
         <mxCell id="rMyn5wNb7rmv-0nCtmz4-119" value="&lt;font color=&quot;#000000&quot;&gt;jwt&lt;/font&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontSize=24;fillColor=#fad7ac;strokeColor=#b46504;container=1;" vertex="1" parent="rMyn5wNb7rmv-0nCtmz4-118">
           <mxGeometry x="1" y="11" width="60" height="45" as="geometry" />
@@ -1314,6 +1314,23 @@
         </mxCell>
         <mxCell id="0-Q3z6oUtJjexbjhXnMQ-45" value="&lt;b style=&quot;font-size: 14px; text-align: left; background-color: initial;&quot;&gt;서버에 있는 유저 정보중 Token&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#E6E6E6;" vertex="1" parent="1">
           <mxGeometry x="-1665" y="6480" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0-Q3z6oUtJjexbjhXnMQ-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#000000;strokeColor=#FFFFFF;strokeWidth=2;fontSize=14;fontColor=#E6E6E6;fillColor=none;endArrow=none;" edge="1" parent="1" source="rMyn5wNb7rmv-0nCtmz4-113" target="0-Q3z6oUtJjexbjhXnMQ-49">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1966" y="6491.5" as="sourcePoint" />
+            <mxPoint x="-1660" y="6490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0-Q3z6oUtJjexbjhXnMQ-49" value="&lt;font color=&quot;#000000&quot;&gt;jwt&lt;/font&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontSize=24;fillColor=#fad7ac;strokeColor=#b46504;container=1;" vertex="1" parent="1">
+          <mxGeometry x="-1775" y="6469" width="60" height="45" as="geometry">
+            <mxRectangle x="-2480" y="6501" width="70" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0-Q3z6oUtJjexbjhXnMQ-48" value="" style="group" vertex="1" connectable="0" parent="0-Q3z6oUtJjexbjhXnMQ-49">
+          <mxGeometry x="-1" y="-15" width="60" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="0-Q3z6oUtJjexbjhXnMQ-50" value="&lt;b&gt;x-auth&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#000000;" vertex="1" parent="0-Q3z6oUtJjexbjhXnMQ-48">
+          <mxGeometry width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
