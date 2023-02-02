@@ -7,6 +7,7 @@ const saltRounds = 10;
 
 //로그인 기능: Token
 const jwt = require('jsonwebtoken');
+const type = require('mongoose/lib/schema/operators/type');
 
 const userSchema = mongoose.Schema({ //2. 스키마 생성
     name: {
@@ -20,7 +21,7 @@ const userSchema = mongoose.Schema({ //2. 스키마 생성
     },
     password: {
         type: String,
-        maxlength: 50
+        maxlength: 60
     },
     role:{ //일반유저인지, 관리자유저인지
         type: Number, 
@@ -85,10 +86,20 @@ userSchema.methods.generateToken = function(cb){
     //jsonwebtoken을 이용해서 token을 생성하기
     //xxxx.yyyy.zzzz
     //header+ payload + keyObject
-    var token = jwt.sign(user._id.toHexString(),'secretToken')
+    console.log(`generateToken : user._id = ${user._id}`) //63db3c7443efbf7412e5032b
+    console.log(`generateToken : user._id.toHexString() = ${user._id.toHexString()}`) //63db3c7443efbf7412e5032b
     
+    if(user._id == user._id.toHexString() ? console.log("true"): console.log("false")); //false
+    console.log(`user._id = ${typeof(user._id)}`); //obect
+    console.log(`user._id.toHexString() = ${typeof(user._id.toHexString())}`); //string
+    
+    var token = jwt.sign(user._id.toHexString(),'secretToken')
+    console.log(`'generatetoken' after signing token = ${token}`);
+
     //'secretToken은 keyObject
     user.token = token;
+    console.log(`token : ${typeof(token)}`); //string
+
     user.save(function(err, user){
         if(err) return cb(err);
         cb(null, user)
@@ -101,12 +112,15 @@ userSchema.statics.findByToken = function (token, cb){
 
     //토큰을 decode한다.
     //generateToken시 secretToken(keyObject)을 했으니까
+    console.log('jwt.verify 사용직전');
     jwt.verify(token, 'secretToken', function(err,decoded){
         
         //decoded == userid
         //유저 아이디(decoded)를 이용해서 유저를 찾은 다음에
         //클라이언트에서 가져온 token과 서버DB에 보관된 토큰이 일치하는지 확인
-
+        //"_id:":decoded -> client가 보낸 쿠키의 토큰
+        // "token" :token -> db에 저장된 토큰
+        //위 2개가 같은지를 find
         user.findOne({"_id:":decoded, "token": token}, function(err,user){
             if(err) return cb(err);
             cb(null, user)
