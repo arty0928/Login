@@ -29,6 +29,12 @@ app.get('/hello', (req, res) => {
   res.send('Hello World!')
 })
 
+app.get('/api/hello', (req,res) =>{
+  res.send("hihi");
+})
+
+
+
 //post: 서버의 값이나 상태 바꿀때
 app.post('/register',(req,res)=>{
     //회원가입시 필요한 정보를 client(postman)에게서 가져오면
@@ -44,8 +50,14 @@ app.post('/register',(req,res)=>{
     //user 모델에 회원정보 저장
     //콜백으로 에러있으면 에러있다고 json 형식으로 전달
     user.save((err,userInfo) => {
-        if(err) 
+        if(err) {
+          console.log('회원가입 실패');
+          if(err.keyPattern.email==1){
+            return res.json({success: false, message: "이미 사용중인 이메일입니다.", err});
+          }
           return res.json({success: false, err});
+        }
+          
         
         //회원정보를 잘 저장했으면 status 200 success status response 
         return res.status(200).json({
@@ -76,6 +88,7 @@ app.post('/login',(req,res)=>{
     user.generateToken((err, user) =>{
       if(err) return res.status(400).send(err);
 
+      console.log(`1:1로 매핑된 db의 user = ${user}`);
       //토큰을 저장한다. 어디에? 쿠키, 로컬스토리지 ...
       //cookieParser 라이브러리 설치 
       //x-auth라는 이름의 쿠키에 생성한 user.token을 넣어주고 res로 보냄
