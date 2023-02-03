@@ -43,8 +43,7 @@ app.post('/register',(req,res)=>{
     //model의 user를 require해서 가져오고, body-parser을 require해서 가져오기
     //회원정보들을 데베에 넣기위해 request.body
     //body안에 json형식으로 들어있게 -> body parser 덕분
-    const user = new User(req.body);
-
+    const user = new User(req.body); //typeof(user) : 객체
 
     //몽고디비 메소드
     //user 모델에 회원정보 저장
@@ -52,13 +51,12 @@ app.post('/register',(req,res)=>{
     user.save((err,userInfo) => {
         if(err) {
           console.log('회원가입 실패');
-          if(err.keyPattern.email==1){
-            return res.json({success: false, message: "이미 사용중인 이메일입니다.", err});
-          }
+          // if(err.keyPattern.email==1){
+          //   return res.json({success: false, message: "이미 사용중인 이메일입니다.", err});
+          // }
           return res.json({success: false, err});
         }
-          
-        
+
         //회원정보를 잘 저장했으면 status 200 success status response 
         return res.status(200).json({
             success: true,
@@ -91,8 +89,8 @@ app.post('/login',(req,res)=>{
       console.log(`1:1로 매핑된 db의 user = ${user}`);
       //토큰을 저장한다. 어디에? 쿠키, 로컬스토리지 ...
       //cookieParser 라이브러리 설치 
-      //x-auth라는 이름의 쿠키에 생성한 user.token을 넣어주고 res로 보냄
-          res.cookie("x-auth",user.token)
+      //x_auth라는 이름의 쿠키에 생성한 user.token을 넣어주고 res로 보냄
+          res.cookie("x_auth",user.token)
           .status(200)
           .json({loginSuccess: true, userId:user._id})  
     })
@@ -103,7 +101,7 @@ app.post('/login',(req,res)=>{
 
 //middleware 폴더 생성
 //auth를 미들웨어로 보내줌 -> require middleware/auth
-app.get('/api/users/auth',auth,(req,res)=>{
+app.get('/auth',auth,(req,res)=>{
 
   //여기까지 미들웨어를 통과해왔다는 얘기는 Authentification이 True
   res.status(200).json({
@@ -122,12 +120,14 @@ app.get('/api/users/auth',auth,(req,res)=>{
 
 //로그아웃 Logout: DB에서 해당 유저를 찾아서 그 토큰을 지워준다.
 app.get('/logout',auth, (req, res) => {
-  User.findOneAndUpdate({_id: req.user._id},
-    {token: ""}
-    ,(err,user)=>{
+  User.findOneAndUpdate({_id: req.user._id}, //filter 
+    {token: ""} //update 정보
+    ,(err,user)=>{ //callback 함수
       if(err) return res.json({success: false, err});
+      //console.log(user);
       return res.status(200).send({
-        success: true
+        success: true,
+        message: "Logout 완료"
       })
     })
 })

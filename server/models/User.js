@@ -37,19 +37,23 @@ const userSchema = mongoose.Schema({ //2. 스키마 생성
 })
 
 //유저 정보 저장전에, 다 끝나면 next() 콜백으로 index.js의 save호출
+//'save'라는 메소드 이름과 match되는 메소드 이전에 진행
+//callback으로 function
 userSchema.pre('save', function(next){
 
     var user = this;
+    //console.log(`typeof(user): ${typeof(user)}`); //object
 
     //비번이 수정되었을때만
+    //isModified는 mongoose의 모듈
     if(user.isModified('password')){
-        //비번 암호화
-        //salt를 생성해서
-        //err가 나면 return
-        //성공하면 salt
+        //비번 암호화: salt를 생성해서 err가 나면 return 성공하면 salt
+        //genSaltSync는 string을 반환,
+        //saltRounds : becrypt된 값을 해쉬하는데 걸리는 시간 (2의 10승만큼 계산 반복)
         bcrypt.genSalt(saltRounds, function(err, salt){
             if(err) return next(err)
 
+            console.log(`salt : ${salt}`);
             //순수하게 넣은 비밀번호: user.password
             //userShema의 password가져오기 위해 user = this;
             //생성한 salt를 넣어주고,
@@ -62,6 +66,26 @@ userSchema.pre('save', function(next){
                 next();
             })
         })
+
+        //bycrypt.genSalt 안하고 그냥 bcryt.hash(plainpassword,saltRounds)로 auto-generateSalt 후 hash가능
+        // bcrypt.hash(user.password, 10, function(err, hash) {
+        //     if(err) return next(err);
+
+        //     //암호화해서 보내주기
+        //     user.password = hash;
+        //     //index.js의 save호출
+        //     next();
+        // })
+        
+        //hashSync(동기) vs hash, genSaltSync(동기) vs genSalt 비교
+        //hashSync와 genSaltSync는 인자로 callback을 받지 않음
+
+        // const salt = bcrypt.genSaltSync(saltRounds); 
+        // const hashSalt = bcrypt.hashSync(user.password, salt);
+        // if(hashSalt){
+        //     next(); 
+        // }
+
     }
     //비번이 수정된것이 아니면 그냥 저장
     else{
@@ -86,19 +110,20 @@ userSchema.methods.generateToken = function(cb){
     //jsonwebtoken을 이용해서 token을 생성하기
     //xxxx.yyyy.zzzz
     //header+ payload + keyObject
-    console.log(`generateToken : user._id = ${user._id}`) //63db3c7443efbf7412e5032b
-    console.log(`generateToken : user._id.toHexString() = ${user._id.toHexString()}`) //63db3c7443efbf7412e5032b
+    // console.log(`generateToken : user._id = ${user._id}`) //63db3c7443efbf7412e5032b
+    // console.log(`generateToken : user._id.toHexString() = ${user._id.toHexString()}`) //63db3c7443efbf7412e5032b
     
-    if(user._id == user._id.toHexString() ? console.log("true"): console.log("false")); //false
-    console.log(`user._id = ${typeof(user._id)}`); //obect
-    console.log(`user._id.toHexString() = ${typeof(user._id.toHexString())}`); //string
+    // if(user._id == user._id.toHexString() ? console.log("true"): console.log("false")); //false
+    // console.log(`user._id = ${typeof(user._id)}`); //obect
+    // console.log(`user._id.toHexString() = ${typeof(user._id.toHexString())}`); //string
     
-    var token = jwt.sign(user._id.toHexString(),'secretToken')
+    var token = jwt.sign(user._id.toHexString(),'secretToken');
+    //xxxxx.yyyyy.zzz
     console.log(`'generatetoken' after signing token = ${token}`);
 
     //'secretToken은 keyObject
     user.token = token;
-    console.log(`token : ${typeof(token)}`); //string
+    //console.log(`token : ${typeof(token)}`); //string
 
     user.save(function(err, user){
         if(err) return cb(err);
@@ -112,9 +137,10 @@ userSchema.statics.findByToken = function (token, cb){
 
     //토큰을 decode한다.
     //generateToken시 secretToken(keyObject)을 했으니까
-    console.log('jwt.verify 사용직전');
-    jwt.verify(token, 'secretToken', function(err,decoded){
-        
+    console.log('jwt.verify');
+
+    //'secretToken' 은 대칭키(암호화, 복화화시 같은 키 사용)
+    jwt.verify(token, 'secretToken', function(err,decoded){ 
         //decoded == userid
         //유저 아이디(decoded)를 이용해서 유저를 찾은 다음에
         //클라이언트에서 가져온 token과 서버DB에 보관된 토큰이 일치하는지 확인
@@ -123,7 +149,7 @@ userSchema.statics.findByToken = function (token, cb){
         //위 2개가 같은지를 find
         user.findOne({"_id:":decoded, "token": token}, function(err,user){
             if(err) return cb(err);
-            cb(null, user)
+            cb(null, user);
         })
     });
 }
