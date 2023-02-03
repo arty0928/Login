@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2023-02-03T03:56:17.094Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 Edg/109.0.1518.70" etag="ftEEC-IZHoVe2niD4tSY" version="20.8.15" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2023-02-03T03:57:05.034Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 Edg/109.0.1518.70" etag="X5KnoBPGk38p0d5Rh0qV" version="20.8.15" type="github" pages="6">
   <diagram id="pRH_pjUjlvLf6-ndeYeO" name="로그인 전체 흐름도">
-    <mxGraphModel dx="9871" dy="4193" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6525" dy="2429" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="rMyn5wNb7rmv-0nCtmz4-134" value="" style="endArrow=none;html=1;rounded=0;fontSize=24;fillColor=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=6;entryX=0;entryY=1;entryDx=0;entryDy=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;fontColor=#000000;labelBackgroundColor=none;strokeColor=#000000;" parent="1" target="0-Q3z6oUtJjexbjhXnMQ-20" edge="1">
+        <mxCell id="rMyn5wNb7rmv-0nCtmz4-134" value="" style="endArrow=none;html=1;rounded=0;fontSize=24;fillColor=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=6;entryX=0;entryY=1;entryDx=0;entryDy=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;fontColor=#000000;labelBackgroundColor=none;strokeColor=none;" parent="1" target="0-Q3z6oUtJjexbjhXnMQ-20" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-1655" y="5360" as="sourcePoint" />
             <mxPoint x="-1655" y="7040" as="targetPoint" />
