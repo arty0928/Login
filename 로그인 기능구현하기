@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-05T06:04:53.012Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="jLwUunySNdpOyJfvFkKc" version="20.8.16" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-02-05T06:05:26.156Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="4zCm5Dz5efJeQ3oHbsQ4" version="20.8.16" type="github" pages="7">
   <diagram id="pRH_pjUjlvLf6-ndeYeO" name="로그인 전체 흐름도">
     <mxGraphModel dx="5697" dy="1947" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1998,7 +1998,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="XXKA7nV5Is5oOiKedZCX" name="Page-7">
-    <mxGraphModel dx="1250" dy="209" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1693" dy="427" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2075,6 +2075,9 @@
         </mxCell>
         <mxCell id="m5-4p9vbtx2ncHHcRBw0-26" value="child" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="40" y="480" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m5-4p9vbtx2ncHHcRBw0-28" value="Redux는 State을 관리하는 툴" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="630" width="210" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
