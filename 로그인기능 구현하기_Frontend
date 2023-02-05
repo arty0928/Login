@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-05T10:22:25.938Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="oxnbHP7Ic9Y06BP1H3B2" version="20.8.16" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-05T10:25:23.415Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="fkFb1WHu6liDaJwsYt2l" version="20.8.16" type="github">
   <diagram name="Frontend" id="wE_yGzpXLcuxHNGQyTZH">
-    <mxGraphModel dx="1254" dy="619" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="727" dy="359" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -351,11 +351,14 @@
         <mxCell id="Ol-GIm4VQXagcsWr8nHF-110" value="생성" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" parent="Ol-GIm4VQXagcsWr8nHF-107" vertex="1">
           <mxGeometry x="101.17" y="30" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Ol-GIm4VQXagcsWr8nHF-111" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" parent="1" source="Ol-GIm4VQXagcsWr8nHF-112" target="Ol-GIm4VQXagcsWr8nHF-113" edge="1">
+        <mxCell id="CZP-98qxyWmdREDxBlum-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#F0F0F0;strokeWidth=1;fontColor=#FFFFFF;" edge="1" parent="1" source="Ol-GIm4VQXagcsWr8nHF-112" target="Ol-GIm4VQXagcsWr8nHF-113">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Ol-GIm4VQXagcsWr8nHF-112" value="이거를 funcitonal component에서 사용X&lt;br&gt;=&amp;gt; functional 에서는 빠르지만 못쓰는게 너무 많음" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="200" y="4960" width="544.7" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CZP-98qxyWmdREDxBlum-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#000000;strokeWidth=1;fontColor=#FFFFFF;" edge="1" parent="1" source="Ol-GIm4VQXagcsWr8nHF-113" target="CZP-98qxyWmdREDxBlum-9">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Ol-GIm4VQXagcsWr8nHF-113" value="Hook 등장" style="whiteSpace=wrap;html=1;fontSize=18;" parent="1" vertex="1">
           <mxGeometry x="412.35" y="5100" width="120" height="60" as="geometry" />
@@ -398,6 +401,12 @@
         </mxCell>
         <mxCell id="CZP-98qxyWmdREDxBlum-6" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;fillColor=none;strokeColor=#F0FF1C;strokeWidth=4;" vertex="1" parent="1">
           <mxGeometry x="778" y="5301" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CZP-98qxyWmdREDxBlum-8" value="Class Component" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="120" y="5140" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CZP-98qxyWmdREDxBlum-9" value="Functional Component + Hook" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="600" y="5140" width="340" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
