@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-05T09:52:45.132Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="KpJDSHR4UcrRi_gT_uc4" version="20.8.16" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-02-05T09:53:54.877Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="EWnRMfnY2lPc6AksgSSb" version="20.8.16" type="github" pages="7">
   <diagram id="pRH_pjUjlvLf6-ndeYeO" name="로그인 전체 흐름도">
     <mxGraphModel dx="5953" dy="2066" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2258,6 +2258,12 @@
         </mxCell>
         <mxCell id="5Sv-qNXogr0UFF7O9DR8-9" value="Store안에 reducer가 여러개 &lt;br&gt;-&amp;gt; 이걸 combine Reducer이 합쳐줌" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="440" y="2680" width="390" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5Sv-qNXogr0UFF7O9DR8-10" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;fontSize=18;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="622.5" y="2227.5" width="25" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="5Sv-qNXogr0UFF7O9DR8-11" value="CombineReducer =&amp;gt; Root Reducer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="440" y="2360" width="377.5" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
