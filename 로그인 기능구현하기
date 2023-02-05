@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-05T05:57:38.876Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="ozyCYNJwE6ilFK0PVfmp" version="20.8.16" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-02-05T05:58:35.731Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="hDEzycZ90j2oDLpDuLjs" version="20.8.16" type="github" pages="7">
   <diagram id="pRH_pjUjlvLf6-ndeYeO" name="로그인 전체 흐름도">
     <mxGraphModel dx="5697" dy="1947" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1998,7 +1998,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="XXKA7nV5Is5oOiKedZCX" name="Page-7">
-    <mxGraphModel dx="1720" dy="445" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1571" dy="370" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2011,8 +2011,8 @@
         <mxCell id="m5-4p9vbtx2ncHHcRBw0-3" value="vs" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="370" y="55" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="m5-4p9vbtx2ncHHcRBw0-4" value="1. property의 줄임말&lt;br&gt;&lt;br&gt;2. components가 서로 대화하는 방법&lt;br&gt;&lt;br&gt;3. 소통하는 방식: 위에서 아래로(부모 component로 자식component로만 보낼 수 있음)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="160" y="120" width="160" height="150" as="geometry" />
+        <mxCell id="m5-4p9vbtx2ncHHcRBw0-4" value="1. property의 줄임말&lt;br&gt;&lt;br&gt;2. components가 서로 대화하는 방법&lt;br&gt;&lt;br&gt;3. 소통하는 방식: 위에서 아래로(부모 component로 자식component로만 보낼 수 있음)&lt;br&gt;&lt;br&gt;4. 부모에서 자식으로 1을 넘기면 자식에서는 1을 변경할 수 없음(immutable)&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="160" y="120" width="160" height="220" as="geometry" />
         </mxCell>
         <mxCell id="m5-4p9vbtx2ncHHcRBw0-5" value="1. parent component에서 child component로 data를 전달하는 게 아닌,&lt;br&gt;&amp;nbsp;그 component 안에서 data를 전달하기 위해 -&amp;gt; State&lt;br&gt;&lt;br&gt;예를 들어 검색 창에 글을 입력할때 글이 변하는 것은 state를 바꿈" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="480" y="120" width="160" height="150" as="geometry" />
@@ -2028,6 +2028,15 @@
         </mxCell>
         <mxCell id="m5-4p9vbtx2ncHHcRBw0-9" value="child" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-40" y="170" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m5-4p9vbtx2ncHHcRBw0-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m5-4p9vbtx2ncHHcRBw0-10" target="m5-4p9vbtx2ncHHcRBw0-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m5-4p9vbtx2ncHHcRBw0-10" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry y="110" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m5-4p9vbtx2ncHHcRBw0-11" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry y="185" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
