@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-05T05:53:30.030Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="9NI1OVY4s-z9T4WEAINr" version="20.8.16" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-02-05T05:55:31.955Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="SEepAScBWHWDdxP8EkGz" version="20.8.16" type="github" pages="7">
   <diagram id="pRH_pjUjlvLf6-ndeYeO" name="로그인 전체 흐름도">
     <mxGraphModel dx="5697" dy="1947" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2003,13 +2003,19 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="m5-4p9vbtx2ncHHcRBw0-1" value="Props" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="40" width="120" height="60" as="geometry" />
+          <mxGeometry x="160" y="40" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="m5-4p9vbtx2ncHHcRBw0-2" value="Props" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="40" width="120" height="60" as="geometry" />
+        <mxCell id="m5-4p9vbtx2ncHHcRBw0-2" value="State" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="40" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="m5-4p9vbtx2ncHHcRBw0-3" value="vs" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="370" y="55" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m5-4p9vbtx2ncHHcRBw0-4" value="1. property의 줄임말&lt;br&gt;2. components가 서로 대화하는 방법&lt;br&gt;&lt;br&gt;3.&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="120" width="160" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="m5-4p9vbtx2ncHHcRBw0-5" value="1. parent component에서 child component로 data를 전달하는 게 아닌,&lt;br&gt;&amp;nbsp;그 component 안에서 data를 전달하기 위해 -&amp;gt; State" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="120" width="160" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
