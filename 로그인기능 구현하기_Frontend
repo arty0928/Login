@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-05T10:28:27.951Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="hc-EwraU70PjeLcJ7l1P" version="20.8.16" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-05T10:29:53.187Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="oExYHZQQG8oE66cpCUOC" version="20.8.16" type="github" pages="2">
   <diagram name="Frontend" id="wE_yGzpXLcuxHNGQyTZH">
     <mxGraphModel dx="1254" dy="619" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -414,6 +414,17 @@
             <mxPoint x="707.65" y="5020" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="vChJ23vnKdGPFm58mrAW-2" value="&lt;b&gt;&lt;font style=&quot;font-size: 36px;&quot;&gt;Login 페이지&lt;/font&gt;&lt;/b&gt;" style="whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="30" y="5750" width="1000" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="orYG0s56h6taJi6NCz0r" name="Login 페이지 만들기">
+    <mxGraphModel dx="1818" dy="897" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
