@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-05T06:24:04.642Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="5V8eqO6XHUoqWA_E2_pR" version="20.8.16" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2023-02-05T06:33:22.591Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="1-J0UbcdWyIuWGafxEqP" version="20.8.16" type="github" pages="7">
   <diagram id="pRH_pjUjlvLf6-ndeYeO" name="로그인 전체 흐름도">
     <mxGraphModel dx="5697" dy="1947" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2148,6 +2148,48 @@
         </mxCell>
         <mxCell id="m5-4p9vbtx2ncHHcRBw0-53" value="reudx는 한방향으로만 흐름" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="800" y="1150" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m5-4p9vbtx2ncHHcRBw0-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m5-4p9vbtx2ncHHcRBw0-54" target="m5-4p9vbtx2ncHHcRBw0-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m5-4p9vbtx2ncHHcRBw0-54" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Action&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="1450" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m5-4p9vbtx2ncHHcRBw0-55" value="무엇이 일어났는지 설명하는 plain obejct(상태를 알려줌)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="1450" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m5-4p9vbtx2ncHHcRBw0-57" value="&lt;div style=&quot;color: rgb(255, 255, 255); background-color: rgb(0, 0, 0); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 16px; line-height: 22px;&quot;&gt;{type: &#39;FETCH_USER_SUCCESS&#39;, response: {id: &lt;span style=&quot;color: #b5cea8;&quot;&gt;3&lt;/span&gt;, &lt;span style=&quot;color: #9cdcfe;&quot;&gt;name&lt;/span&gt;: &lt;span style=&quot;color: #ce9178;&quot;&gt;&#39;Mary&#39;&lt;/span&gt;}&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="465" y="1480" width="550" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="m5-4p9vbtx2ncHHcRBw0-58" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;이름이 mary, id가 3인 user를 가지고 오는 것을 성공&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="350" y="1510" width="490" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m5-4p9vbtx2ncHHcRBw0-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" parent="1" source="m5-4p9vbtx2ncHHcRBw0-59" target="m5-4p9vbtx2ncHHcRBw0-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m5-4p9vbtx2ncHHcRBw0-59" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;Reducer&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="1590" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m5-4p9vbtx2ncHHcRBw0-60" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&#39;state가 action을 통해 원래 2-&amp;gt;3으로 변했다&#39; 를 설명&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="620" y="1582.5" width="350" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="m5-4p9vbtx2ncHHcRBw0-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=14;" edge="1" parent="1" source="m5-4p9vbtx2ncHHcRBw0-62" target="m5-4p9vbtx2ncHHcRBw0-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m5-4p9vbtx2ncHHcRBw0-62" value="&lt;div style=&quot;color: rgb(255, 255, 255); background-color: rgb(0, 0, 0); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 16px; line-height: 22px;&quot;&gt;(previousState, &lt;span style=&quot;color: #9cdcfe;&quot;&gt;action&lt;/span&gt;) &lt;span style=&quot;color: #569cd6;&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span style=&quot;color: #9cdcfe;&quot;&gt;nextState&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="465" y="1640" width="340" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="m5-4p9vbtx2ncHHcRBw0-63" value="이전 state와 aaction obejct를 받은 후에 next state를 return" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="665" y="1680" width="390" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m5-4p9vbtx2ncHHcRBw0-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="m5-4p9vbtx2ncHHcRBw0-67" target="m5-4p9vbtx2ncHHcRBw0-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m5-4p9vbtx2ncHHcRBw0-67" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;Store&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="1770" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m5-4p9vbtx2ncHHcRBw0-68" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;application의 state을 감싸주는 역할,&lt;/span&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;store안에는 많은 method가 있음&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;method를 이용해 state관리&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="620" y="1770" width="260" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
