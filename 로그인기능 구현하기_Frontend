@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-06T05:29:46.927Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="IcW3PbOjwZ-mpdFsg9Mz" version="20.8.16" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-02-06T05:49:34.969Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="8pULpYGpgwg4cxMTVwpk" version="20.8.16" type="github" pages="2">
   <diagram id="orYG0s56h6taJi6NCz0r" name="React">
-    <mxGraphModel dx="3643" dy="3814" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2195" dy="3055" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -544,14 +544,41 @@
         <mxCell id="oRP0CzGoQcEz_cqfvVox-66" value="&lt;span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;hoc안에 여러가지 component를 넣어서 자격이 있는지를 판단해서 다음 action 취하게 함&lt;/span&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="oRP0CzGoQcEz_cqfvVox-72">
           <mxGeometry x="20.049999999999955" y="160" width="517.25" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="oRP0CzGoQcEz_cqfvVox-73" value="1. disk space를 낭비하지 않을 수 있다.&lt;br&gt;2. 항상 최신 버전을 사용할 수 있다." style="whiteSpace=wrap;html=1;fontSize=14;fontColor=#FFFFFF;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="oRP0CzGoQcEz_cqfvVox-73" value="&lt;font style=&quot;font-weight: normal; font-size: 24px;&quot;&gt;App.js&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;React Router Dom&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=14;fontColor=#FFFFFF;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="-3" y="3330" width="830" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oRP0CzGoQcEz_cqfvVox-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontSize=24;fontColor=#000000;" edge="1" parent="1" source="oRP0CzGoQcEz_cqfvVox-74" target="oRP0CzGoQcEz_cqfvVox-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oRP0CzGoQcEz_cqfvVox-74" value="&lt;font style=&quot;&quot;&gt;페이지 이동을 할때&amp;nbsp;&lt;br&gt;React Router Dom이라는 것을&lt;br&gt;사용한다.&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="127.5" y="3450" width="242" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="oRP0CzGoQcEz_cqfvVox-78" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontSize=24;fontColor=#000000;" edge="1" parent="1" source="oRP0CzGoQcEz_cqfvVox-75" target="oRP0CzGoQcEz_cqfvVox-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oRP0CzGoQcEz_cqfvVox-75" value="&lt;font style=&quot;&quot;&gt;어떻게 사용하는지 웹사이트 참조&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="127.5" y="3620" width="242" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="oRP0CzGoQcEz_cqfvVox-80" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontSize=24;fontColor=#000000;" edge="1" parent="1" source="oRP0CzGoQcEz_cqfvVox-77" target="oRP0CzGoQcEz_cqfvVox-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KQh175nZYX5cH4F8r8HU-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;fontSize=24;fontColor=#000000;" edge="1" parent="1" source="oRP0CzGoQcEz_cqfvVox-77" target="KQh175nZYX5cH4F8r8HU-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oRP0CzGoQcEz_cqfvVox-77" value="&lt;font style=&quot;&quot;&gt;Dependency 다운로드!&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="127.5" y="3740" width="242" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="oRP0CzGoQcEz_cqfvVox-79" value="&lt;font style=&quot;&quot;&gt;npm install reate-router-dom --save&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="467.5" y="3740" width="242" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KQh175nZYX5cH4F8r8HU-1" value="&lt;font style=&quot;&quot;&gt;react router dom 코드&lt;br&gt;Documentation에서 복사해서 붙여넣기&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="127.5" y="3860" width="242" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram name="Frontend" id="wE_yGzpXLcuxHNGQyTZH">
-    <mxGraphModel dx="3990" dy="2035" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="9560" dy="5267" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
