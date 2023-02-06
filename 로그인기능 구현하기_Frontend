@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-06T02:24:29.625Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="nJt3UOBPJLWusHskaFV8" version="20.8.16" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-02-06T02:28:01.522Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="z74_xZnd2zXoL86bFaj6" version="20.8.16" type="github" pages="2">
   <diagram id="orYG0s56h6taJi6NCz0r" name="React">
-    <mxGraphModel dx="1140" dy="2919" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2195" dy="3036" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -177,6 +177,12 @@
         </mxCell>
         <mxCell id="cReXpltG7g4qW1wUXVO4-57" value="&lt;font style=&quot;&quot;&gt;이 과정을 &quot;diffing&quot;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="1310" y="-605" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cReXpltG7g4qW1wUXVO4-63" value="&lt;h1&gt;DOM&lt;br&gt;&lt;/h1&gt;&lt;div&gt;Document Object Model&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;여러 프로그램들이 페이지의 콘텐츠 및 구조, 그리고 스타일을 읽고 조작할 수 있도록 API를 제공&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="-960" width="210" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="NrbHnml6WZs0rvsQctgh-1" value="&lt;b&gt;API&lt;/b&gt;:&amp;nbsp;정의 및 프로토콜 집합을 사용하여 두 소프트웨어 구성 요소가 서로 통신할 수 있게 하는 메커니즘" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="-820" width="290" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
