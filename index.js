@@ -36,7 +36,7 @@ app.get('/api/hello', (req,res) =>{
 
 
 //post: 서버의 값이나 상태 바꿀때
-app.post('/register',(req,res)=>{
+app.post('/api/user/register',(req,res)=>{
     //회원가입시 필요한 정보를 client(postman)에게서 가져오면
     //데이터베이스에 넣어준다
 
@@ -66,7 +66,7 @@ app.post('/register',(req,res)=>{
 
 
 //로그인
-app.post('/login',(req,res)=>{
+app.post('/api/user/login',(req,res)=>{
   //요청된 이메일을 데이터 베이스에서 있는지 찾는다.
   User.findOne({ email: req.body.email }, (err, user) => {
     if(!user){
@@ -101,7 +101,7 @@ app.post('/login',(req,res)=>{
 
 //middleware 폴더 생성
 //auth를 미들웨어로 보내줌 -> require middleware/auth
-app.get('/auth',auth,(req,res)=>{
+app.get('/api/user/auth',auth,(req,res)=>{
 
   //여기까지 미들웨어를 통과해왔다는 얘기는 Authentification이 True
   res.status(200).json({
@@ -119,7 +119,7 @@ app.get('/auth',auth,(req,res)=>{
 
 
 //로그아웃 Logout: DB에서 해당 유저를 찾아서 그 토큰을 지워준다.
-app.get('/logout',auth, (req, res) => {
+app.get('/api/user/logout',auth, (req, res) => {
   User.findOneAndUpdate({_id: req.user._id}, //filter 
     {token: ""} //update 정보
     ,(err,user)=>{ //callback 함수
