@@ -1,47 +1,47 @@
-<mxfile host="app.diagrams.net" modified="2023-02-06T04:06:42.698Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="R8mVHqVkG1BvvhXXqbO9" version="20.8.16" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-02-06T04:59:29.683Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="Abn1kC937_C1YeoYt7ZK" version="20.8.16" type="github" pages="2">
   <diagram id="orYG0s56h6taJi6NCz0r" name="React">
-    <mxGraphModel dx="1967" dy="2919" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2423" dy="3152" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="kc6fqQr_1zVE3wnOEG-N-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#000000;strokeColor=#FFFFFF;strokeWidth=2;fontSize=18;fontColor=#000000;fillColor=none;fontStyle=0" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1080" y="-90" as="sourcePoint" />
-            <mxPoint x="1150" y="-90" as="targetPoint" />
+            <mxPoint x="970" y="-210" as="sourcePoint" />
+            <mxPoint x="1040" y="-210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="kc6fqQr_1zVE3wnOEG-N-10" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;NPM vs NPX&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="940" y="-240" width="480" height="60" as="geometry" />
+          <mxGeometry x="830" y="-360" width="480" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kc6fqQr_1zVE3wnOEG-N-11" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;npm&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="940" y="-120" width="140" height="60" as="geometry" />
+          <mxGeometry x="830" y="-240" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kc6fqQr_1zVE3wnOEG-N-12" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;저장소 역할&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="1130" y="-120" width="140" height="60" as="geometry" />
+          <mxGeometry x="1020" y="-240" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cReXpltG7g4qW1wUXVO4-1" value="node package manager" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="960" y="-240" width="335" height="30" as="geometry" />
+          <mxGeometry x="850" y="-360" width="335" height="30" as="geometry" />
         </mxCell>
         <mxCell id="cReXpltG7g4qW1wUXVO4-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#000000;strokeColor=#FFFFFF;strokeWidth=2;fontSize=18;fontColor=#000000;fillColor=none;fontStyle=0" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1080" y="30" as="sourcePoint" />
-            <mxPoint x="1150" y="30" as="targetPoint" />
+            <mxPoint x="970" y="-90" as="sourcePoint" />
+            <mxPoint x="1040" y="-90" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="cReXpltG7g4qW1wUXVO4-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#F0F0F0;fontStyle=0" edge="1" parent="1" source="cReXpltG7g4qW1wUXVO4-3" target="cReXpltG7g4qW1wUXVO4-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="cReXpltG7g4qW1wUXVO4-3" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;왜 npx 쓰나?&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="940" width="140" height="60" as="geometry" />
+          <mxGeometry x="830" y="-120" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cReXpltG7g4qW1wUXVO4-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#F0F0F0;fontStyle=0" edge="1" parent="1" source="cReXpltG7g4qW1wUXVO4-4" target="cReXpltG7g4qW1wUXVO4-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="cReXpltG7g4qW1wUXVO4-4" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;npm처럼 다운이 아니라 그냥 가져와서 사용&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="1130" width="300" height="60" as="geometry" />
+          <mxGeometry x="1020" y="-120" width="300" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cReXpltG7g4qW1wUXVO4-5" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;disk space 확보&lt;br&gt;항상 최신 버전 사용 가능&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="1480" width="300" height="60" as="geometry" />
+          <mxGeometry x="1370" y="-120" width="300" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cReXpltG7g4qW1wUXVO4-8" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;&lt;b&gt;what is ReactJS?&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
           <mxGeometry y="-2010" width="830" height="60" as="geometry" />
@@ -224,16 +224,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NrbHnml6WZs0rvsQctgh-18" value="&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;원래 create-reat-app할때 npm install -g create-react-app 이렇게 했었다. global 디렉토리에 다운받음&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="240" y="-360" width="360" height="60" as="geometry" />
+          <mxGeometry x="236.5" y="590" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HaaxXPsJbxLnAu__RBcY-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=default;" edge="1" parent="1" source="NrbHnml6WZs0rvsQctgh-19" target="HaaxXPsJbxLnAu__RBcY-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NrbHnml6WZs0rvsQctgh-19" value="&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;이제는 npx를 이용하여 &lt;br&gt;create-react-app&amp;nbsp;&lt;/span&gt;사용가능하다&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="240" y="-240" width="360" height="60" as="geometry" />
+          <mxGeometry x="236.5" y="710" width="360" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NrbHnml6WZs0rvsQctgh-21" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://res.cloudinary.com/practicaldev/image/fetch/s--dN20wy5n--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/axsz1an92timxpamwc3u.png;" vertex="1" parent="1">
           <mxGeometry x="645" y="-750" width="520" height="218" as="geometry" />
         </mxCell>
         <mxCell id="NrbHnml6WZs0rvsQctgh-24" value="&lt;font style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 36px;&quot;&gt;NPM &lt;/b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;(Node package manager)&lt;/font&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="-3" y="210" width="830" height="60" as="geometry" />
+          <mxGeometry x="-1.5" width="830" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NrbHnml6WZs0rvsQctgh-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=default;" edge="1" parent="1" source="NrbHnml6WZs0rvsQctgh-25" target="NrbHnml6WZs0rvsQctgh-26">
           <mxGeometry relative="1" as="geometry" />
@@ -241,30 +244,285 @@
         <mxCell id="NrbHnml6WZs0rvsQctgh-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.002;entryY=0.592;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=18;fontColor=default;" edge="1" parent="1" source="NrbHnml6WZs0rvsQctgh-25" target="NrbHnml6WZs0rvsQctgh-28">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="200" y="506" />
+              <mxPoint x="201.5" y="296" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="NrbHnml6WZs0rvsQctgh-25" value="&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;what is NPM?&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry y="370" width="400" height="60" as="geometry" />
+          <mxGeometry x="1.5" y="160" width="400" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NrbHnml6WZs0rvsQctgh-26" value="open-source nodejs projects를 publish하기 위한 online repository" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="440" y="370" width="390" height="60" as="geometry" />
+          <mxGeometry x="441.5" y="160" width="390" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NrbHnml6WZs0rvsQctgh-28" value="index.js처럼 package 시작(+version관리, dependency 관리)을 &lt;br&gt;호출하는 repository와 interating 하는 command line" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="440" y="470" width="390" height="60" as="geometry" />
+          <mxGeometry x="441.5" y="260" width="390" height="60" as="geometry" />
         </mxCell>
         <mxCell id="HaaxXPsJbxLnAu__RBcY-1" value="&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;npm install -g =&amp;gt; global 다운&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="427.5" y="610" width="400" height="60" as="geometry" />
+          <mxGeometry x="429" y="400" width="400" height="60" as="geometry" />
         </mxCell>
         <mxCell id="HaaxXPsJbxLnAu__RBcY-2" value="&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;npm install =&amp;gt; local 다운&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry y="610" width="400" height="60" as="geometry" />
+          <mxGeometry x="1.5" y="400" width="400" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HaaxXPsJbxLnAu__RBcY-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=default;" edge="1" parent="1" source="HaaxXPsJbxLnAu__RBcY-3" target="HaaxXPsJbxLnAu__RBcY-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HaaxXPsJbxLnAu__RBcY-3" value="&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;HOW !!??&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="236.5" y="830" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Jr7Qizm8hkNUkgEjmloS-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#000000;" edge="1" parent="1" source="HaaxXPsJbxLnAu__RBcY-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="416.5" y="1089.9999999999995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HaaxXPsJbxLnAu__RBcY-5" value="&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;npx이 npm registry에서&lt;br&gt;&lt;/span&gt;create-react-app을 찾아서(look up) 다운로드 없이 실행시켜준다!&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="236.5" y="950" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Jr7Qizm8hkNUkgEjmloS-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#FFFFFF;" edge="1" parent="1" source="Jr7Qizm8hkNUkgEjmloS-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="1185" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Jr7Qizm8hkNUkgEjmloS-4" value="&lt;b&gt;Advantages to use NPX&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="247.5" y="1090" width="335" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Jr7Qizm8hkNUkgEjmloS-9" value="1. disk space를 낭비하지 않을 수 있다.&lt;br&gt;2. 항상 최신 버전을 사용할 수 있다." style="whiteSpace=wrap;html=1;fontSize=14;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-3" y="1320" width="830" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Jr7Qizm8hkNUkgEjmloS-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="1480" as="sourcePoint" />
+            <mxPoint x="60" y="1520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Jr7Qizm8hkNUkgEjmloS-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="1540" as="sourcePoint" />
+            <mxPoint x="287.5" y="1540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Jr7Qizm8hkNUkgEjmloS-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#FFFFFF;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="1540" as="sourcePoint" />
+            <mxPoint x="470" y="1540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Jr7Qizm8hkNUkgEjmloS-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fontSize=24;fontColor=#FFFFFF;labelBackgroundColor=none;" edge="1" parent="1" source="Jr7Qizm8hkNUkgEjmloS-19" target="Jr7Qizm8hkNUkgEjmloS-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Jr7Qizm8hkNUkgEjmloS-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=24;fontColor=#FFFFFF;labelBackgroundColor=none;" edge="1" parent="1" source="Jr7Qizm8hkNUkgEjmloS-19" target="Jr7Qizm8hkNUkgEjmloS-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Jr7Qizm8hkNUkgEjmloS-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=24;fontColor=#FFFFFF;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;" edge="1" parent="1" source="Jr7Qizm8hkNUkgEjmloS-19" target="Jr7Qizm8hkNUkgEjmloS-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Jr7Qizm8hkNUkgEjmloS-19" value="&lt;font color=&quot;#000000&quot;&gt;Client&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=14;fontColor=#FFFFFF;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-800" y="1740" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Jr7Qizm8hkNUkgEjmloS-20" value="node_modules" style="whiteSpace=wrap;html=1;fontSize=14;fontColor=#FFFFFF;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-715" y="1800" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Jr7Qizm8hkNUkgEjmloS-21" value="public" style="whiteSpace=wrap;html=1;fontSize=14;fontColor=#FFFFFF;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-715" y="1860" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Jr7Qizm8hkNUkgEjmloS-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=24;fontColor=#FFFFFF;labelBackgroundColor=none;" edge="1" parent="1" source="Jr7Qizm8hkNUkgEjmloS-22" target="Jr7Qizm8hkNUkgEjmloS-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-655" y="2000" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Jr7Qizm8hkNUkgEjmloS-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.005;entryY=0.585;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=24;fontColor=#FFFFFF;labelBackgroundColor=none;" edge="1" parent="1" source="Jr7Qizm8hkNUkgEjmloS-22" target="Jr7Qizm8hkNUkgEjmloS-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-655" y="2063" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Jr7Qizm8hkNUkgEjmloS-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=24;fontColor=#FFFFFF;labelBackgroundColor=none;" edge="1" parent="1" source="Jr7Qizm8hkNUkgEjmloS-22" target="Jr7Qizm8hkNUkgEjmloS-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-655" y="2120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Jr7Qizm8hkNUkgEjmloS-22" value="src" style="whiteSpace=wrap;html=1;fontSize=14;fontColor=#FFFFFF;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-715" y="1920" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Jr7Qizm8hkNUkgEjmloS-23" value="_actions" style="whiteSpace=wrap;html=1;fontSize=14;fontColor=#FFFFFF;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-575" y="1980" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Jr7Qizm8hkNUkgEjmloS-28" value="_reducers" style="whiteSpace=wrap;html=1;fontSize=14;fontColor=#FFFFFF;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-575" y="2040" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Jr7Qizm8hkNUkgEjmloS-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=24;fontColor=#FFFFFF;entryX=0.003;entryY=0.567;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;" edge="1" parent="1" source="Jr7Qizm8hkNUkgEjmloS-29" target="Jr7Qizm8hkNUkgEjmloS-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-515" y="2220" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-515" y="2183" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Jr7Qizm8hkNUkgEjmloS-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=24;fontColor=#FFFFFF;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;" edge="1" parent="1" source="Jr7Qizm8hkNUkgEjmloS-29" target="Jr7Qizm8hkNUkgEjmloS-44">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-450" y="2540" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-515" y="2540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Jr7Qizm8hkNUkgEjmloS-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=24;fontColor=#FFFFFF;labelBackgroundColor=none;" edge="1" parent="1" source="Jr7Qizm8hkNUkgEjmloS-29" target="Jr7Qizm8hkNUkgEjmloS-46">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-515" y="2610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Jr7Qizm8hkNUkgEjmloS-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=24;fontColor=#FFFFFF;labelBackgroundColor=none;" edge="1" parent="1" source="Jr7Qizm8hkNUkgEjmloS-29" target="Jr7Qizm8hkNUkgEjmloS-48">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-515" y="2680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Jr7Qizm8hkNUkgEjmloS-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=24;fontColor=#FFFFFF;labelBackgroundColor=none;" edge="1" parent="1" source="Jr7Qizm8hkNUkgEjmloS-29" target="Jr7Qizm8hkNUkgEjmloS-49">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-515" y="2750" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Jr7Qizm8hkNUkgEjmloS-29" value="components" style="whiteSpace=wrap;html=1;fontSize=14;fontColor=#FFFFFF;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-575" y="2100" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Jr7Qizm8hkNUkgEjmloS-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.01;entryY=0.629;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=24;fontColor=#FFFFFF;labelBackgroundColor=none;" edge="1" parent="1" source="Jr7Qizm8hkNUkgEjmloS-30" target="Jr7Qizm8hkNUkgEjmloS-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-383" y="2245" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Jr7Qizm8hkNUkgEjmloS-30" value="views" style="whiteSpace=wrap;html=1;fontSize=14;fontColor=#FFFFFF;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-443.5" y="2160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Jr7Qizm8hkNUkgEjmloS-31" value="Footer" style="whiteSpace=wrap;html=1;fontSize=14;fontColor=#FFFFFF;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="2220" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Jr7Qizm8hkNUkgEjmloS-40" value="LandingPage" style="whiteSpace=wrap;html=1;fontSize=14;fontColor=#FFFFFF;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="2281" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Jr7Qizm8hkNUkgEjmloS-41" value="LoginPage" style="whiteSpace=wrap;html=1;fontSize=14;fontColor=#FFFFFF;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="2340" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Jr7Qizm8hkNUkgEjmloS-42" value="NavBar" style="whiteSpace=wrap;html=1;fontSize=14;fontColor=#FFFFFF;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="2400" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Jr7Qizm8hkNUkgEjmloS-43" value="RegisterPage" style="whiteSpace=wrap;html=1;fontSize=14;fontColor=#FFFFFF;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="2460" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Jr7Qizm8hkNUkgEjmloS-44" value="App.js" style="whiteSpace=wrap;html=1;fontSize=14;fontColor=#FFFFFF;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-443.5" y="2520" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Jr7Qizm8hkNUkgEjmloS-46" value="Config.js" style="whiteSpace=wrap;html=1;fontSize=14;fontColor=#FFFFFF;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-443.5" y="2590" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Jr7Qizm8hkNUkgEjmloS-48" value="hoc" style="whiteSpace=wrap;html=1;fontSize=14;fontColor=#FFFFFF;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-443.5" y="2660" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Jr7Qizm8hkNUkgEjmloS-49" value="utils" style="whiteSpace=wrap;html=1;fontSize=14;fontColor=#FFFFFF;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-443.5" y="2730" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Jr7Qizm8hkNUkgEjmloS-53" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Recux를 위한 폴더들&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0;labelBackgroundColor=none;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-720" y="2014" width="117.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Jr7Qizm8hkNUkgEjmloS-54" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;fontSize=24;fontColor=#FFFFFF;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-602.5" y="1968" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Jr7Qizm8hkNUkgEjmloS-55" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;이 안에는 Page들을 넣는다&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0;labelBackgroundColor=none;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-358.5" y="2165" width="131" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Jr7Qizm8hkNUkgEjmloS-56" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;font&gt;&lt;b&gt;webpack이 관리 하는 곳은 src뿐. (public 폴더 관리X)&lt;br&gt;img 같은 거 넣고 싶으면 src부분에 넣어야 webpack이 모아주는 역할 할 수 있음&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-577" y="1925" width="371" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Jr7Qizm8hkNUkgEjmloS-57" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Recux를 위한 폴더들&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0;labelBackgroundColor=none;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="2024" width="117.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Jr7Qizm8hkNUkgEjmloS-58" value="&lt;font style=&quot;&quot;&gt;1. disk space를 낭비하지 않을 수 있다.&lt;br style=&quot;border-color: var(--border-color); font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;2. 항상 최신 버전을 사용할 수 있다.&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="236.5" y="1190" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Jr7Qizm8hkNUkgEjmloS-60" value="&lt;font style=&quot;&quot;&gt;cd client&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="1.5" y="1440" width="118.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Jr7Qizm8hkNUkgEjmloS-62" value="&lt;font style=&quot;&quot;&gt;npm run start&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="1.5" y="1521" width="118.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Jr7Qizm8hkNUkgEjmloS-63" value="&lt;b&gt;react 켜짐&amp;nbsp;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="151.5" y="1526" width="96" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Jr7Qizm8hkNUkgEjmloS-64" value="&lt;b style=&quot;font-size: 14px;&quot;&gt;App.js에서 page rendering&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="309" y="1526" width="105" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Jr7Qizm8hkNUkgEjmloS-65" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b style=&quot;&quot;&gt;index.js&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="477.5" y="1526" width="105" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oRP0CzGoQcEz_cqfvVox-2" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;왜 index.js에 App.js를 넣어야 화면에 보이지?&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;document.getElementsId(&#39;root&#39;) -&amp;gt; public 폴더의 index.html에서 id=root인 div를 잡아서 보여줄 것을 App.js에서 rendering&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="610" y="1490" width="340" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="oRP0CzGoQcEz_cqfvVox-4" value="&lt;font style=&quot;&quot;&gt;Client&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="1.5" y="1720" width="118.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oRP0CzGoQcEz_cqfvVox-5" value="&lt;font style=&quot;&quot;&gt;node_modules&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="120" y="1790" width="118.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oRP0CzGoQcEz_cqfvVox-6" value="&lt;font style=&quot;&quot;&gt;public&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="121.5" y="1850" width="118.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oRP0CzGoQcEz_cqfvVox-7" value="&lt;font style=&quot;&quot;&gt;src&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="121.5" y="1910" width="118.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oRP0CzGoQcEz_cqfvVox-9" value="&lt;font style=&quot;&quot;&gt;_actions&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="281" y="1960" width="118.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oRP0CzGoQcEz_cqfvVox-10" value="&lt;font style=&quot;&quot;&gt;_reducers&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="281" y="2024" width="118.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oRP0CzGoQcEz_cqfvVox-11" value="&lt;font style=&quot;&quot;&gt;components&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="281" y="2088" width="118.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oRP0CzGoQcEz_cqfvVox-12" value="&lt;font style=&quot;&quot;&gt;views&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="441.5" y="2160" width="118.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oRP0CzGoQcEz_cqfvVox-13" value="&lt;font style=&quot;&quot;&gt;Footer&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="600.75" y="2241" width="118.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oRP0CzGoQcEz_cqfvVox-14" value="&lt;font style=&quot;&quot;&gt;LangindPage&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="600.75" y="2300" width="118.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oRP0CzGoQcEz_cqfvVox-15" value="&lt;font style=&quot;&quot;&gt;LoginPage&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="600.75" y="2360" width="118.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oRP0CzGoQcEz_cqfvVox-16" value="&lt;font style=&quot;&quot;&gt;NavBar&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="600.75" y="2420" width="118.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oRP0CzGoQcEz_cqfvVox-17" value="&lt;font style=&quot;&quot;&gt;RegisterPage&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="600.75" y="2480" width="118.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oRP0CzGoQcEz_cqfvVox-18" value="&lt;font style=&quot;&quot;&gt;App.js&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="441.5" y="2540" width="118.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oRP0CzGoQcEz_cqfvVox-19" value="&lt;font style=&quot;&quot;&gt;Config.js&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="441.5" y="2600" width="118.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oRP0CzGoQcEz_cqfvVox-20" value="&lt;font style=&quot;&quot;&gt;hoc&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="441.5" y="2660" width="118.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oRP0CzGoQcEz_cqfvVox-21" value="&lt;font style=&quot;&quot;&gt;utils&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="441.5" y="2720" width="118.5" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram name="Frontend" id="wE_yGzpXLcuxHNGQyTZH">
-    <mxGraphModel dx="1651" dy="842" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3990" dy="2035" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -359,7 +617,7 @@
         <mxCell id="Ol-GIm4VQXagcsWr8nHF-40" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://d33wubrfki0l68.cloudfront.net/ad84329dd5954534bf33efccee44ed626cfac0e0/b50a1/static/2230e860e08c131512cc87f7fd80a923/0b533/0.png;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="395" y="1470" width="500" height="315" as="geometry" />
         </mxCell>
-        <mxCell id="Ol-GIm4VQXagcsWr8nHF-41" value="보라색에서 action이 발생하면 최상위 component까지 타고 올라가서 알려줘야 (내려올때도 같음)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
+        <mxCell id="Ol-GIm4VQXagcsWr8nHF-41" value="&lt;font color=&quot;#000000&quot;&gt;보라색에서 action이 발생하면 최상위 component까지 타고 올라가서 알려줘야 (내려올때도 같음)&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="395" y="1740" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Ol-GIm4VQXagcsWr8nHF-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1" parent="1" source="Ol-GIm4VQXagcsWr8nHF-43" target="Ol-GIm4VQXagcsWr8nHF-44" edge="1">
