@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-06T02:23:06.574Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="9Mz8DdNmrtdr_puyFvii" version="20.8.16" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-02-06T02:23:42.192Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="C0McxA8eimS8pTjPfJnT" version="20.8.16" type="github" pages="2">
   <diagram id="orYG0s56h6taJi6NCz0r" name="React">
     <mxGraphModel dx="1651" dy="3180" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -169,7 +169,7 @@
         <mxCell id="cReXpltG7g4qW1wUXVO4-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;fontColor=none;" edge="1" parent="1" source="cReXpltG7g4qW1wUXVO4-54" target="cReXpltG7g4qW1wUXVO4-55">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cReXpltG7g4qW1wUXVO4-54" value="&lt;font style=&quot;&quot;&gt;2. Virtual DOM이 이전 virtual DOM에서 찍어둔 Snapshot과 비교를 해서 바뀐 부분을 찾는다&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="cReXpltG7g4qW1wUXVO4-54" value="&lt;font style=&quot;&quot;&gt;2. Virtual DOM이 이전 virtual DOM에서 찍어둔 &lt;b&gt;Snapshot&lt;/b&gt;과 비교를 해서 바뀐 부분을 찾는다&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="1001" y="-605" width="269" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cReXpltG7g4qW1wUXVO4-55" value="&lt;font style=&quot;&quot;&gt;3. 그 바뀐 부분만 Real DOM에서 바꿔준다.&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
