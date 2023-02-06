@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-06T01:44:44.716Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="WqAcU2ekxOV9RkzNXWOS" version="20.8.16" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-02-06T02:10:40.543Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="m54cGsFqM4jMAHulEu4f" version="20.8.16" type="github" pages="2">
   <diagram id="orYG0s56h6taJi6NCz0r" name="React">
-    <mxGraphModel dx="1368" dy="698" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1368" dy="3036" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -42,6 +42,69 @@
         </mxCell>
         <mxCell id="cReXpltG7g4qW1wUXVO4-5" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;disk space 확보&lt;br&gt;항상 최신 버전 사용 가능&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="670" y="480" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cReXpltG7g4qW1wUXVO4-8" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;what is ReactJS?&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="130" y="-1360" width="480" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cReXpltG7g4qW1wUXVO4-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#F0F0F0;" edge="1" parent="1" source="cReXpltG7g4qW1wUXVO4-9" target="cReXpltG7g4qW1wUXVO4-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cReXpltG7g4qW1wUXVO4-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#F0F0F0;" edge="1" parent="1" source="cReXpltG7g4qW1wUXVO4-9" target="cReXpltG7g4qW1wUXVO4-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cReXpltG7g4qW1wUXVO4-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#F0F0F0;" edge="1" parent="1" source="cReXpltG7g4qW1wUXVO4-9" target="cReXpltG7g4qW1wUXVO4-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cReXpltG7g4qW1wUXVO4-9" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;React JS?&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="130" y="-1230" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cReXpltG7g4qW1wUXVO4-10" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;1. 2013년 페이스북이 만든 라이브러리&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="450" y="-1230" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cReXpltG7g4qW1wUXVO4-12" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;2. Components&lt;br&gt;module과 비슷하게 컴포넌트로 이뤄져 &lt;br&gt;있어서 reusable이 뛰어남&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="450" y="-1150" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cReXpltG7g4qW1wUXVO4-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;fontColor=#F0F0F0;" edge="1" parent="1" source="cReXpltG7g4qW1wUXVO4-12" target="cReXpltG7g4qW1wUXVO4-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cReXpltG7g4qW1wUXVO4-15" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;3. Virtual DOM&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="450" y="-1070" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cReXpltG7g4qW1wUXVO4-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;fontColor=none;" edge="1" parent="1" source="cReXpltG7g4qW1wUXVO4-17" target="cReXpltG7g4qW1wUXVO4-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cReXpltG7g4qW1wUXVO4-17" value="&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Real DOM&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="130" y="-960" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cReXpltG7g4qW1wUXVO4-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;fontColor=none;" edge="1" parent="1" source="cReXpltG7g4qW1wUXVO4-18" target="cReXpltG7g4qW1wUXVO4-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cReXpltG7g4qW1wUXVO4-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;fontColor=none;" edge="1" parent="1" source="cReXpltG7g4qW1wUXVO4-18" target="cReXpltG7g4qW1wUXVO4-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cReXpltG7g4qW1wUXVO4-18" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Virtual DOM&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="450" y="-960" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cReXpltG7g4qW1wUXVO4-21" value="VS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="389" y="-945" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cReXpltG7g4qW1wUXVO4-22" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Virtual DOM&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="770" y="-960" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cReXpltG7g4qW1wUXVO4-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;fontColor=none;" edge="1" parent="1" source="cReXpltG7g4qW1wUXVO4-24" target="cReXpltG7g4qW1wUXVO4-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cReXpltG7g4qW1wUXVO4-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=none;" edge="1" parent="1" source="cReXpltG7g4qW1wUXVO4-24" target="cReXpltG7g4qW1wUXVO4-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cReXpltG7g4qW1wUXVO4-24" value="&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;font style=&quot;&quot;&gt;1. 만약 10개의 리스트가 있다&lt;br&gt;&lt;/font&gt;2. 그 중에 한가지 리스트만 Update됨&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="294" y="-850" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cReXpltG7g4qW1wUXVO4-26" value="&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;3. &lt;u&gt;전체&lt;/u&gt; 리스트를 다시 Reload 해야됨&lt;br&gt;4. super expensive 한 작업&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="130" y="-740" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cReXpltG7g4qW1wUXVO4-27" value="&lt;font style=&quot;&quot;&gt;3. 그 바뀐 &lt;u&gt;한 가지 아이템만&lt;/u&gt; DOM에서 바꿔준다!&lt;br&gt;4. How??&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="450" y="-740" width="240" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
