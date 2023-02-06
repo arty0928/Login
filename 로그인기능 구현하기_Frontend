@@ -1,522 +1,463 @@
-<mxfile host="app.diagrams.net" modified="2023-02-06T04:59:29.683Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="Abn1kC937_C1YeoYt7ZK" version="20.8.16" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-02-06T05:07:37.902Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="ijVIlOsdGVm2O1cnSsxV" version="20.8.16" type="github" pages="2">
   <diagram id="orYG0s56h6taJi6NCz0r" name="React">
-    <mxGraphModel dx="2423" dy="3152" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2822" dy="3384" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="kc6fqQr_1zVE3wnOEG-N-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#000000;strokeColor=#FFFFFF;strokeWidth=2;fontSize=18;fontColor=#000000;fillColor=none;fontStyle=0" edge="1" parent="1">
+        <mxCell id="kc6fqQr_1zVE3wnOEG-N-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#000000;strokeColor=#FFFFFF;strokeWidth=2;fontSize=18;fontColor=#000000;fillColor=none;fontStyle=1" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="970" y="-210" as="sourcePoint" />
             <mxPoint x="1040" y="-210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kc6fqQr_1zVE3wnOEG-N-10" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;NPM vs NPX&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="kc6fqQr_1zVE3wnOEG-N-10" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;NPM vs NPX&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="830" y="-360" width="480" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="kc6fqQr_1zVE3wnOEG-N-11" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;npm&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="kc6fqQr_1zVE3wnOEG-N-11" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;npm&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="830" y="-240" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="kc6fqQr_1zVE3wnOEG-N-12" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;저장소 역할&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="kc6fqQr_1zVE3wnOEG-N-12" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;저장소 역할&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="1020" y="-240" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="cReXpltG7g4qW1wUXVO4-1" value="node package manager" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="cReXpltG7g4qW1wUXVO4-1" value="node package manager" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="850" y="-360" width="335" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="cReXpltG7g4qW1wUXVO4-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#000000;strokeColor=#FFFFFF;strokeWidth=2;fontSize=18;fontColor=#000000;fillColor=none;fontStyle=0" edge="1" parent="1">
+        <mxCell id="cReXpltG7g4qW1wUXVO4-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#000000;strokeColor=#FFFFFF;strokeWidth=2;fontSize=18;fontColor=#000000;fillColor=none;fontStyle=1" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="970" y="-90" as="sourcePoint" />
             <mxPoint x="1040" y="-90" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cReXpltG7g4qW1wUXVO4-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#F0F0F0;fontStyle=0" edge="1" parent="1" source="cReXpltG7g4qW1wUXVO4-3" target="cReXpltG7g4qW1wUXVO4-4">
+        <mxCell id="cReXpltG7g4qW1wUXVO4-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#F0F0F0;fontStyle=1" edge="1" parent="1" source="cReXpltG7g4qW1wUXVO4-3" target="cReXpltG7g4qW1wUXVO4-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cReXpltG7g4qW1wUXVO4-3" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;왜 npx 쓰나?&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="cReXpltG7g4qW1wUXVO4-3" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;왜 npx 쓰나?&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="830" y="-120" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="cReXpltG7g4qW1wUXVO4-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#F0F0F0;fontStyle=0" edge="1" parent="1" source="cReXpltG7g4qW1wUXVO4-4" target="cReXpltG7g4qW1wUXVO4-5">
+        <mxCell id="cReXpltG7g4qW1wUXVO4-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#F0F0F0;fontStyle=1" edge="1" parent="1" source="cReXpltG7g4qW1wUXVO4-4" target="cReXpltG7g4qW1wUXVO4-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cReXpltG7g4qW1wUXVO4-4" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;npm처럼 다운이 아니라 그냥 가져와서 사용&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="cReXpltG7g4qW1wUXVO4-4" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;npm처럼 다운이 아니라 그냥 가져와서 사용&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="1020" y="-120" width="300" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="cReXpltG7g4qW1wUXVO4-5" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;disk space 확보&lt;br&gt;항상 최신 버전 사용 가능&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="cReXpltG7g4qW1wUXVO4-5" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;disk space 확보&lt;br&gt;항상 최신 버전 사용 가능&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="1370" y="-120" width="300" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="cReXpltG7g4qW1wUXVO4-8" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;&lt;b&gt;what is ReactJS?&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="cReXpltG7g4qW1wUXVO4-8" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;&lt;span&gt;what is ReactJS?&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry y="-2010" width="830" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="cReXpltG7g4qW1wUXVO4-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#F0F0F0;fontStyle=0" edge="1" parent="1" source="cReXpltG7g4qW1wUXVO4-9" target="cReXpltG7g4qW1wUXVO4-10">
+        <mxCell id="cReXpltG7g4qW1wUXVO4-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#F0F0F0;fontStyle=1" edge="1" parent="1" source="cReXpltG7g4qW1wUXVO4-9" target="cReXpltG7g4qW1wUXVO4-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cReXpltG7g4qW1wUXVO4-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#F0F0F0;fontStyle=0" edge="1" parent="1" source="cReXpltG7g4qW1wUXVO4-9" target="cReXpltG7g4qW1wUXVO4-12">
+        <mxCell id="cReXpltG7g4qW1wUXVO4-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#F0F0F0;fontStyle=1" edge="1" parent="1" source="cReXpltG7g4qW1wUXVO4-9" target="cReXpltG7g4qW1wUXVO4-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cReXpltG7g4qW1wUXVO4-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#F0F0F0;fontStyle=0" edge="1" parent="1" source="cReXpltG7g4qW1wUXVO4-9" target="cReXpltG7g4qW1wUXVO4-15">
+        <mxCell id="cReXpltG7g4qW1wUXVO4-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=#F0F0F0;fontStyle=1" edge="1" parent="1" source="cReXpltG7g4qW1wUXVO4-9" target="cReXpltG7g4qW1wUXVO4-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cReXpltG7g4qW1wUXVO4-9" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;React JS?&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="cReXpltG7g4qW1wUXVO4-9" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;React JS?&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="190" y="-1880" width="240" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="cReXpltG7g4qW1wUXVO4-10" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;1. 2013년 페이스북이 만든 라이브러리&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="cReXpltG7g4qW1wUXVO4-10" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;1. 2013년 페이스북이 만든 라이브러리&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="510" y="-1880" width="240" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="cReXpltG7g4qW1wUXVO4-12" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;2. Components&lt;br&gt;module과 비슷하게 컴포넌트로 이뤄져 &lt;br&gt;있어서 reusable이 뛰어남&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="cReXpltG7g4qW1wUXVO4-12" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;2. Components&lt;br&gt;module과 비슷하게 컴포넌트로 이뤄져 &lt;br&gt;있어서 reusable이 뛰어남&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="510" y="-1800" width="240" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="cReXpltG7g4qW1wUXVO4-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;fontColor=#F0F0F0;fontStyle=0" edge="1" parent="1" source="cReXpltG7g4qW1wUXVO4-12" target="cReXpltG7g4qW1wUXVO4-12">
+        <mxCell id="cReXpltG7g4qW1wUXVO4-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=12;fontColor=#F0F0F0;fontStyle=1" edge="1" parent="1" source="cReXpltG7g4qW1wUXVO4-12" target="cReXpltG7g4qW1wUXVO4-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cReXpltG7g4qW1wUXVO4-15" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;3. Virtual DOM&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="cReXpltG7g4qW1wUXVO4-15" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;3. Virtual DOM&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="510" y="-1720" width="240" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="cReXpltG7g4qW1wUXVO4-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;fontColor=none;fontStyle=0" edge="1" parent="1" source="cReXpltG7g4qW1wUXVO4-17" target="cReXpltG7g4qW1wUXVO4-26">
+        <mxCell id="cReXpltG7g4qW1wUXVO4-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;fontColor=none;fontStyle=1" edge="1" parent="1" source="cReXpltG7g4qW1wUXVO4-17" target="cReXpltG7g4qW1wUXVO4-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cReXpltG7g4qW1wUXVO4-17" value="&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Real DOM&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="cReXpltG7g4qW1wUXVO4-17" value="&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Real DOM&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="190" y="-1610" width="240" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="cReXpltG7g4qW1wUXVO4-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;fontColor=none;fontStyle=0" edge="1" parent="1" source="cReXpltG7g4qW1wUXVO4-18" target="cReXpltG7g4qW1wUXVO4-27">
+        <mxCell id="cReXpltG7g4qW1wUXVO4-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;fontColor=none;fontStyle=1" edge="1" parent="1" source="cReXpltG7g4qW1wUXVO4-18" target="cReXpltG7g4qW1wUXVO4-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cReXpltG7g4qW1wUXVO4-18" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Virtual DOM&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="cReXpltG7g4qW1wUXVO4-18" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Virtual DOM&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="510" y="-1610" width="240" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="cReXpltG7g4qW1wUXVO4-21" value="VS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="cReXpltG7g4qW1wUXVO4-21" value="VS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="449" y="-1595" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="cReXpltG7g4qW1wUXVO4-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;fontColor=none;fontStyle=0" edge="1" parent="1" source="cReXpltG7g4qW1wUXVO4-24" target="cReXpltG7g4qW1wUXVO4-26">
+        <mxCell id="cReXpltG7g4qW1wUXVO4-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;fontColor=none;fontStyle=1" edge="1" parent="1" source="cReXpltG7g4qW1wUXVO4-24" target="cReXpltG7g4qW1wUXVO4-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cReXpltG7g4qW1wUXVO4-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=none;fontStyle=0" edge="1" parent="1" source="cReXpltG7g4qW1wUXVO4-24" target="cReXpltG7g4qW1wUXVO4-27">
+        <mxCell id="cReXpltG7g4qW1wUXVO4-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=none;fontStyle=1" edge="1" parent="1" source="cReXpltG7g4qW1wUXVO4-24" target="cReXpltG7g4qW1wUXVO4-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cReXpltG7g4qW1wUXVO4-24" value="&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;font style=&quot;&quot;&gt;1. 만약 10개의 리스트가 있다&lt;br&gt;&lt;/font&gt;2. 그 중에 한가지 리스트만 Update됨&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="cReXpltG7g4qW1wUXVO4-24" value="&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;font style=&quot;&quot;&gt;1. 만약 10개의 리스트가 있다&lt;br&gt;&lt;/font&gt;2. 그 중에 한가지 리스트만 Update됨&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="354" y="-1500" width="240" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="cReXpltG7g4qW1wUXVO4-26" value="&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;3. &lt;u&gt;전체&lt;/u&gt; 리스트를 다시 Reload 해야됨&lt;br&gt;4. super expensive 한 작업&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="cReXpltG7g4qW1wUXVO4-26" value="&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;3. &lt;u&gt;전체&lt;/u&gt; 리스트를 다시 Reload 해야됨&lt;br&gt;4. super expensive 한 작업&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="190" y="-1360" width="240" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="cReXpltG7g4qW1wUXVO4-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=none;fontStyle=0" edge="1" parent="1" source="cReXpltG7g4qW1wUXVO4-27" target="cReXpltG7g4qW1wUXVO4-51">
+        <mxCell id="cReXpltG7g4qW1wUXVO4-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=none;fontStyle=1" edge="1" parent="1" source="cReXpltG7g4qW1wUXVO4-27" target="cReXpltG7g4qW1wUXVO4-51">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cReXpltG7g4qW1wUXVO4-27" value="&lt;font style=&quot;&quot;&gt;3. 그 바뀐 &lt;u&gt;한 가지 아이템만&lt;/u&gt; DOM에서 바꿔준다!&lt;br&gt;4. How??&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="cReXpltG7g4qW1wUXVO4-27" value="&lt;font style=&quot;&quot;&gt;3. 그 바뀐 &lt;u&gt;한 가지 아이템만&lt;/u&gt; DOM에서 바꿔준다!&lt;br&gt;4. How??&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="510" y="-1360" width="240" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="cReXpltG7g4qW1wUXVO4-33" value="&lt;span style=&quot;&quot;&gt;module화해서 가독성&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="cReXpltG7g4qW1wUXVO4-33" value="&lt;span style=&quot;&quot;&gt;module화해서 가독성&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="760" y="-1785" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="cReXpltG7g4qW1wUXVO4-34" value="&lt;font style=&quot;&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="cReXpltG7g4qW1wUXVO4-34" value="&lt;font style=&quot;&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="187.5" y="-1225" width="240" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="cReXpltG7g4qW1wUXVO4-35" value="&lt;font style=&quot;&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="cReXpltG7g4qW1wUXVO4-35" value="&lt;font style=&quot;&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="197.5" y="-1215" width="240" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="cReXpltG7g4qW1wUXVO4-36" value="&lt;font style=&quot;&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="cReXpltG7g4qW1wUXVO4-36" value="&lt;font style=&quot;&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="207.5" y="-1205" width="240" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="cReXpltG7g4qW1wUXVO4-37" value="&lt;font style=&quot;&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="cReXpltG7g4qW1wUXVO4-37" value="&lt;font style=&quot;&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="217.5" y="-1195" width="240" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="cReXpltG7g4qW1wUXVO4-38" value="&lt;font style=&quot;&quot;&gt;얘만 수정되어도&amp;nbsp;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="cReXpltG7g4qW1wUXVO4-38" value="&lt;font style=&quot;&quot;&gt;얘만 수정되어도&amp;nbsp;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="227.5" y="-1185" width="240" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="cReXpltG7g4qW1wUXVO4-39" value="&lt;font style=&quot;&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="cReXpltG7g4qW1wUXVO4-39" value="&lt;font style=&quot;&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="510" y="-1225" width="240" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="cReXpltG7g4qW1wUXVO4-40" value="&lt;font style=&quot;&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="cReXpltG7g4qW1wUXVO4-40" value="&lt;font style=&quot;&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="520" y="-1215" width="240" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="cReXpltG7g4qW1wUXVO4-41" value="&lt;font style=&quot;&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="cReXpltG7g4qW1wUXVO4-41" value="&lt;font style=&quot;&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="530" y="-1205" width="240" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="cReXpltG7g4qW1wUXVO4-42" value="&lt;font style=&quot;&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="cReXpltG7g4qW1wUXVO4-42" value="&lt;font style=&quot;&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="540" y="-1195" width="240" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="cReXpltG7g4qW1wUXVO4-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=none;fontStyle=0" edge="1" parent="1" source="cReXpltG7g4qW1wUXVO4-43" target="cReXpltG7g4qW1wUXVO4-48">
+        <mxCell id="cReXpltG7g4qW1wUXVO4-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=none;fontStyle=1" edge="1" parent="1" source="cReXpltG7g4qW1wUXVO4-43" target="cReXpltG7g4qW1wUXVO4-48">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="810" y="-1154" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="cReXpltG7g4qW1wUXVO4-43" value="&lt;font style=&quot;&quot;&gt;얘만 수정되면 얘만 업데이트&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="cReXpltG7g4qW1wUXVO4-43" value="&lt;font style=&quot;&quot;&gt;얘만 수정되면 얘만 업데이트&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="550" y="-1185" width="240" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="cReXpltG7g4qW1wUXVO4-44" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;fontSize=12;fontColor=none;rotation=90;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="cReXpltG7g4qW1wUXVO4-44" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;fontSize=12;fontColor=none;rotation=90;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="315" y="-1230" width="30" height="284" as="geometry" />
         </mxCell>
-        <mxCell id="cReXpltG7g4qW1wUXVO4-45" value="&lt;span style=&quot;&quot;&gt;전체가 다 업데이트&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="cReXpltG7g4qW1wUXVO4-45" value="&lt;span style=&quot;&quot;&gt;전체가 다 업데이트&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="255" y="-1071" width="150" height="53.5" as="geometry" />
         </mxCell>
-        <mxCell id="cReXpltG7g4qW1wUXVO4-48" value="&lt;span style=&quot;&quot;&gt;수정된 얘만 업데이트&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="cReXpltG7g4qW1wUXVO4-48" value="&lt;span style=&quot;&quot;&gt;수정된 얘만 업데이트&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="830" y="-1165" width="150" height="22.75" as="geometry" />
         </mxCell>
-        <mxCell id="cReXpltG7g4qW1wUXVO4-50" value="&lt;span style=&quot;&quot;&gt;Virtual DOM은 Real DOM과 같은 properties들을 갖고 있으며, 그냥 가변게 RealDOM을 Copy한거라 보면 된다.&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="cReXpltG7g4qW1wUXVO4-50" value="&lt;span style=&quot;&quot;&gt;Virtual DOM은 Real DOM과 같은 properties들을 갖고 있으며, 그냥 가변게 RealDOM을 Copy한거라 보면 된다.&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="790" y="-1587.75" width="330" height="22.75" as="geometry" />
         </mxCell>
-        <mxCell id="cReXpltG7g4qW1wUXVO4-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=none;" edge="1" parent="1" source="cReXpltG7g4qW1wUXVO4-51">
+        <mxCell id="cReXpltG7g4qW1wUXVO4-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=none;fontStyle=1" edge="1" parent="1" source="cReXpltG7g4qW1wUXVO4-51">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1195.5" y="-1260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cReXpltG7g4qW1wUXVO4-51" value="&lt;font style=&quot;&quot;&gt;1. JSX(우선 html로 알아두기) 을 렌더링&lt;br&gt;-&amp;gt; Virtual DOM이 Update됨&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="cReXpltG7g4qW1wUXVO4-51" value="&lt;font style=&quot;&quot;&gt;1. JSX(우선 html로 알아두기) 을 렌더링&lt;br&gt;-&amp;gt; Virtual DOM이 Update됨&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="1061" y="-1360" width="269" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="cReXpltG7g4qW1wUXVO4-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=none;fontStyle=0" edge="1" parent="1" source="cReXpltG7g4qW1wUXVO4-54" target="cReXpltG7g4qW1wUXVO4-57">
+        <mxCell id="cReXpltG7g4qW1wUXVO4-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;fontColor=none;fontStyle=1" edge="1" parent="1" source="cReXpltG7g4qW1wUXVO4-54" target="cReXpltG7g4qW1wUXVO4-57">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cReXpltG7g4qW1wUXVO4-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;fontColor=none;" edge="1" parent="1" source="cReXpltG7g4qW1wUXVO4-54" target="cReXpltG7g4qW1wUXVO4-55">
+        <mxCell id="cReXpltG7g4qW1wUXVO4-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;fontColor=none;fontStyle=1" edge="1" parent="1" source="cReXpltG7g4qW1wUXVO4-54" target="cReXpltG7g4qW1wUXVO4-55">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cReXpltG7g4qW1wUXVO4-54" value="&lt;font style=&quot;&quot;&gt;2. &lt;b&gt;Virtual DOM&lt;/b&gt;이 이전 virtual DOM에서 찍어둔 &lt;b&gt;&lt;u&gt;Snapshot&lt;/u&gt;&lt;/b&gt;과 비교를 해서 바뀐 부분을 찾는다&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="cReXpltG7g4qW1wUXVO4-54" value="&lt;font style=&quot;&quot;&gt;2. &lt;span&gt;Virtual DOM&lt;/span&gt;이 이전 virtual DOM에서 찍어둔 &lt;span&gt;&lt;u&gt;Snapshot&lt;/u&gt;&lt;/span&gt;과 비교를 해서 바뀐 부분을 찾는다&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="1061" y="-1255" width="269" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="cReXpltG7g4qW1wUXVO4-55" value="&lt;font style=&quot;&quot;&gt;3. 그 바뀐 부분만 &lt;b&gt;&lt;u&gt;Real DOM&lt;/u&gt;&lt;/b&gt;에서 바꿔준다.&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="cReXpltG7g4qW1wUXVO4-55" value="&lt;font style=&quot;&quot;&gt;3. 그 바뀐 부분만 &lt;span&gt;&lt;u&gt;Real DOM&lt;/u&gt;&lt;/span&gt;에서 바꿔준다.&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="1061" y="-1140" width="269" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="cReXpltG7g4qW1wUXVO4-57" value="&lt;font style=&quot;&quot;&gt;이 과정을 &quot;diffing&quot;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="cReXpltG7g4qW1wUXVO4-57" value="&lt;font style=&quot;&quot;&gt;이 과정을 &quot;diffing&quot;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="1370" y="-1255" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="cReXpltG7g4qW1wUXVO4-63" value="&lt;h1&gt;DOM&lt;br&gt;&lt;/h1&gt;&lt;div&gt;Document Object Model&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;여러 프로그램들이 페이지의 콘텐츠 및 구조, 그리고 스타일을 읽고 조작할 수 있도록 API를 제공&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=12;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="cReXpltG7g4qW1wUXVO4-63" value="&lt;h1&gt;DOM&lt;br&gt;&lt;/h1&gt;&lt;div&gt;Document Object Model&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;여러 프로그램들이 페이지의 콘텐츠 및 구조, 그리고 스타일을 읽고 조작할 수 있도록 API를 제공&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=12;fontColor=default;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="-30" y="-1610" width="210" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="NrbHnml6WZs0rvsQctgh-1" value="&lt;b&gt;API&lt;/b&gt;:&amp;nbsp;정의 및 프로토콜 집합을 사용하여 두 소프트웨어 구성 요소가 서로 통신할 수 있게 하는 메커니즘" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=default;" vertex="1" parent="1">
+        <mxCell id="NrbHnml6WZs0rvsQctgh-1" value="&lt;span&gt;API&lt;/span&gt;:&amp;nbsp;정의 및 프로토콜 집합을 사용하여 두 소프트웨어 구성 요소가 서로 통신할 수 있게 하는 메커니즘" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=default;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="-20" y="-1470" width="290" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="NrbHnml6WZs0rvsQctgh-2" value="&lt;font style=&quot;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 36px;&quot;&gt;Create React App으로 리액트 시작하기&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="NrbHnml6WZs0rvsQctgh-2" value="&lt;font style=&quot;&quot;&gt;&lt;span&gt;&lt;font style=&quot;font-size: 36px;&quot;&gt;Create React App으로 리액트 시작하기&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry y="-980" width="830" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NrbHnml6WZs0rvsQctgh-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=36;fontColor=default;" edge="1" parent="1" source="NrbHnml6WZs0rvsQctgh-3" target="NrbHnml6WZs0rvsQctgh-4">
+        <mxCell id="NrbHnml6WZs0rvsQctgh-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=36;fontColor=default;fontStyle=1" edge="1" parent="1" source="NrbHnml6WZs0rvsQctgh-3" target="NrbHnml6WZs0rvsQctgh-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NrbHnml6WZs0rvsQctgh-3" value="&lt;font style=&quot;&quot;&gt;원래 리액트 앱을 처음 실행하기 위해선 webpack이나 babel같은 것을 설정하기 위해서 엄청나게 많은 시간이 걸렸다.&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="NrbHnml6WZs0rvsQctgh-3" value="&lt;font style=&quot;&quot;&gt;원래 리액트 앱을 처음 실행하기 위해선 webpack이나 babel같은 것을 설정하기 위해서 엄청나게 많은 시간이 걸렸다.&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry y="-880" width="240" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NrbHnml6WZs0rvsQctgh-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=36;fontColor=default;" edge="1" parent="1" source="NrbHnml6WZs0rvsQctgh-4" target="NrbHnml6WZs0rvsQctgh-10">
+        <mxCell id="NrbHnml6WZs0rvsQctgh-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=36;fontColor=default;fontStyle=1" edge="1" parent="1" source="NrbHnml6WZs0rvsQctgh-4" target="NrbHnml6WZs0rvsQctgh-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NrbHnml6WZs0rvsQctgh-4" value="&lt;font style=&quot;&quot;&gt;하지만 이제 &lt;b&gt;create-reat-app&lt;/b&gt; command로 &lt;br&gt;바로 시작 가능&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="NrbHnml6WZs0rvsQctgh-4" value="&lt;font style=&quot;&quot;&gt;하지만 이제 &lt;span&gt;create-reat-app&lt;/span&gt; command로 &lt;br&gt;바로 시작 가능&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry y="-720" width="240" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NrbHnml6WZs0rvsQctgh-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=36;fontColor=default;" edge="1" parent="1" source="NrbHnml6WZs0rvsQctgh-6" target="NrbHnml6WZs0rvsQctgh-7">
+        <mxCell id="NrbHnml6WZs0rvsQctgh-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=36;fontColor=default;fontStyle=1" edge="1" parent="1" source="NrbHnml6WZs0rvsQctgh-6" target="NrbHnml6WZs0rvsQctgh-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NrbHnml6WZs0rvsQctgh-6" value="&lt;font style=&quot;&quot;&gt;Babel&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="NrbHnml6WZs0rvsQctgh-6" value="&lt;font style=&quot;&quot;&gt;Babel&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="320" y="-880" width="240" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NrbHnml6WZs0rvsQctgh-7" value="&lt;font style=&quot;&quot;&gt;최신 js 문법을 지원하지 않는 브라우저들을 위해서 최신 js문법을 구형 브라우저에서도 돌수 있게 변환시켜줌&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="NrbHnml6WZs0rvsQctgh-7" value="&lt;font style=&quot;&quot;&gt;최신 js 문법을 지원하지 않는 브라우저들을 위해서 최신 js문법을 구형 브라우저에서도 돌수 있게 변환시켜줌&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="320" y="-780" width="240" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NrbHnml6WZs0rvsQctgh-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=default;" edge="1" parent="1" source="NrbHnml6WZs0rvsQctgh-9" target="NrbHnml6WZs0rvsQctgh-21">
+        <mxCell id="NrbHnml6WZs0rvsQctgh-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=default;fontStyle=1" edge="1" parent="1" source="NrbHnml6WZs0rvsQctgh-9" target="NrbHnml6WZs0rvsQctgh-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NrbHnml6WZs0rvsQctgh-9" value="&lt;font style=&quot;&quot;&gt;Webpack&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="NrbHnml6WZs0rvsQctgh-9" value="&lt;font style=&quot;&quot;&gt;Webpack&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="640" y="-880" width="190" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NrbHnml6WZs0rvsQctgh-10" value="&lt;font style=&quot;&quot;&gt;하지만 이제 &lt;b&gt;create-reat-app&lt;/b&gt; command로 &lt;br&gt;바로 시작 가능&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="NrbHnml6WZs0rvsQctgh-10" value="&lt;font style=&quot;&quot;&gt;하지만 이제 &lt;span&gt;create-reat-app&lt;/span&gt; command로 &lt;br&gt;바로 시작 가능&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry y="-610" width="240" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NrbHnml6WZs0rvsQctgh-17" value="&lt;font style=&quot;&quot;&gt;&lt;b&gt;&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;npx create-react-app . &lt;/span&gt;&lt;br&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;(점까지)&lt;/font&gt;&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="NrbHnml6WZs0rvsQctgh-17" value="&lt;font style=&quot;&quot;&gt;&lt;span&gt;&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;npx create-react-app . &lt;/span&gt;&lt;br&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;(점까지)&lt;/font&gt;&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry y="-490" width="240" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NrbHnml6WZs0rvsQctgh-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;fontColor=default;" edge="1" parent="1" source="NrbHnml6WZs0rvsQctgh-18" target="NrbHnml6WZs0rvsQctgh-19">
+        <mxCell id="NrbHnml6WZs0rvsQctgh-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;fontColor=default;fontStyle=1" edge="1" parent="1" source="NrbHnml6WZs0rvsQctgh-18" target="NrbHnml6WZs0rvsQctgh-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NrbHnml6WZs0rvsQctgh-18" value="&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;원래 create-reat-app할때 npm install -g create-react-app 이렇게 했었다. global 디렉토리에 다운받음&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="NrbHnml6WZs0rvsQctgh-18" value="&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;원래 create-reat-app할때 npm install -g create-react-app 이렇게 했었다. global 디렉토리에 다운받음&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="236.5" y="590" width="360" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HaaxXPsJbxLnAu__RBcY-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=default;" edge="1" parent="1" source="NrbHnml6WZs0rvsQctgh-19" target="HaaxXPsJbxLnAu__RBcY-3">
+        <mxCell id="HaaxXPsJbxLnAu__RBcY-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=default;fontStyle=1" edge="1" parent="1" source="NrbHnml6WZs0rvsQctgh-19" target="HaaxXPsJbxLnAu__RBcY-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NrbHnml6WZs0rvsQctgh-19" value="&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;이제는 npx를 이용하여 &lt;br&gt;create-react-app&amp;nbsp;&lt;/span&gt;사용가능하다&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="NrbHnml6WZs0rvsQctgh-19" value="&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;이제는 npx를 이용하여 &lt;br&gt;create-react-app&amp;nbsp;&lt;/span&gt;사용가능하다&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="236.5" y="710" width="360" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NrbHnml6WZs0rvsQctgh-21" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://res.cloudinary.com/practicaldev/image/fetch/s--dN20wy5n--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/axsz1an92timxpamwc3u.png;" vertex="1" parent="1">
+        <mxCell id="NrbHnml6WZs0rvsQctgh-21" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://res.cloudinary.com/practicaldev/image/fetch/s--dN20wy5n--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/axsz1an92timxpamwc3u.png;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="645" y="-750" width="520" height="218" as="geometry" />
         </mxCell>
-        <mxCell id="NrbHnml6WZs0rvsQctgh-24" value="&lt;font style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 36px;&quot;&gt;NPM &lt;/b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;(Node package manager)&lt;/font&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="NrbHnml6WZs0rvsQctgh-24" value="&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 36px;&quot;&gt;NPM &lt;/span&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;(Node package manager)&lt;/font&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="-1.5" width="830" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NrbHnml6WZs0rvsQctgh-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=default;" edge="1" parent="1" source="NrbHnml6WZs0rvsQctgh-25" target="NrbHnml6WZs0rvsQctgh-26">
+        <mxCell id="NrbHnml6WZs0rvsQctgh-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=default;fontStyle=1" edge="1" parent="1" source="NrbHnml6WZs0rvsQctgh-25" target="NrbHnml6WZs0rvsQctgh-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NrbHnml6WZs0rvsQctgh-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.002;entryY=0.592;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=18;fontColor=default;" edge="1" parent="1" source="NrbHnml6WZs0rvsQctgh-25" target="NrbHnml6WZs0rvsQctgh-28">
+        <mxCell id="NrbHnml6WZs0rvsQctgh-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.002;entryY=0.592;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=18;fontColor=default;fontStyle=1" edge="1" parent="1" source="NrbHnml6WZs0rvsQctgh-25" target="NrbHnml6WZs0rvsQctgh-28">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="201.5" y="296" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="NrbHnml6WZs0rvsQctgh-25" value="&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;what is NPM?&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="NrbHnml6WZs0rvsQctgh-25" value="&lt;span style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;what is NPM?&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="1.5" y="160" width="400" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NrbHnml6WZs0rvsQctgh-26" value="open-source nodejs projects를 publish하기 위한 online repository" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="NrbHnml6WZs0rvsQctgh-26" value="open-source nodejs projects를 publish하기 위한 online repository" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="441.5" y="160" width="390" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NrbHnml6WZs0rvsQctgh-28" value="index.js처럼 package 시작(+version관리, dependency 관리)을 &lt;br&gt;호출하는 repository와 interating 하는 command line" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="NrbHnml6WZs0rvsQctgh-28" value="index.js처럼 package 시작(+version관리, dependency 관리)을 &lt;br&gt;호출하는 repository와 interating 하는 command line" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="441.5" y="260" width="390" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HaaxXPsJbxLnAu__RBcY-1" value="&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;npm install -g =&amp;gt; global 다운&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="HaaxXPsJbxLnAu__RBcY-1" value="&lt;span style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;npm install -g =&amp;gt; global 다운&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="429" y="400" width="400" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HaaxXPsJbxLnAu__RBcY-2" value="&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;npm install =&amp;gt; local 다운&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="HaaxXPsJbxLnAu__RBcY-2" value="&lt;span style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;npm install =&amp;gt; local 다운&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="1.5" y="400" width="400" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="HaaxXPsJbxLnAu__RBcY-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=default;" edge="1" parent="1" source="HaaxXPsJbxLnAu__RBcY-3" target="HaaxXPsJbxLnAu__RBcY-5">
+        <mxCell id="HaaxXPsJbxLnAu__RBcY-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=default;fontStyle=1" edge="1" parent="1" source="HaaxXPsJbxLnAu__RBcY-3" target="HaaxXPsJbxLnAu__RBcY-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HaaxXPsJbxLnAu__RBcY-3" value="&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;HOW !!??&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="HaaxXPsJbxLnAu__RBcY-3" value="&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;HOW !!??&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="236.5" y="830" width="360" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Jr7Qizm8hkNUkgEjmloS-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#000000;" edge="1" parent="1" source="HaaxXPsJbxLnAu__RBcY-5">
+        <mxCell id="Jr7Qizm8hkNUkgEjmloS-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#000000;fontStyle=1" edge="1" parent="1" source="HaaxXPsJbxLnAu__RBcY-5">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="416.5" y="1089.9999999999995" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HaaxXPsJbxLnAu__RBcY-5" value="&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;npx이 npm registry에서&lt;br&gt;&lt;/span&gt;create-react-app을 찾아서(look up) 다운로드 없이 실행시켜준다!&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="HaaxXPsJbxLnAu__RBcY-5" value="&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;npx이 npm registry에서&lt;br&gt;&lt;/span&gt;create-react-app을 찾아서(look up) 다운로드 없이 실행시켜준다!&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="236.5" y="950" width="360" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Jr7Qizm8hkNUkgEjmloS-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#FFFFFF;" edge="1" parent="1" source="Jr7Qizm8hkNUkgEjmloS-4">
+        <mxCell id="Jr7Qizm8hkNUkgEjmloS-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#FFFFFF;fontStyle=1" edge="1" parent="1" source="Jr7Qizm8hkNUkgEjmloS-4">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="415" y="1185" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Jr7Qizm8hkNUkgEjmloS-4" value="&lt;b&gt;Advantages to use NPX&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="Jr7Qizm8hkNUkgEjmloS-4" value="&lt;span&gt;Advantages to use NPX&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="247.5" y="1090" width="335" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Jr7Qizm8hkNUkgEjmloS-9" value="1. disk space를 낭비하지 않을 수 있다.&lt;br&gt;2. 항상 최신 버전을 사용할 수 있다." style="whiteSpace=wrap;html=1;fontSize=14;fontColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="Jr7Qizm8hkNUkgEjmloS-9" value="1. disk space를 낭비하지 않을 수 있다.&lt;br&gt;2. 항상 최신 버전을 사용할 수 있다." style="whiteSpace=wrap;html=1;fontSize=14;fontColor=#FFFFFF;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="-3" y="1320" width="830" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Jr7Qizm8hkNUkgEjmloS-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#FFFFFF;" edge="1" parent="1">
+        <mxCell id="Jr7Qizm8hkNUkgEjmloS-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#FFFFFF;fontStyle=1" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="60" y="1480" as="sourcePoint" />
             <mxPoint x="60" y="1520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Jr7Qizm8hkNUkgEjmloS-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#FFFFFF;" edge="1" parent="1">
+        <mxCell id="Jr7Qizm8hkNUkgEjmloS-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#FFFFFF;fontStyle=1" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="250" y="1540" as="sourcePoint" />
             <mxPoint x="287.5" y="1540" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Jr7Qizm8hkNUkgEjmloS-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#FFFFFF;" edge="1" parent="1">
+        <mxCell id="Jr7Qizm8hkNUkgEjmloS-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#FFFFFF;fontStyle=1" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="430" y="1540" as="sourcePoint" />
             <mxPoint x="470" y="1540" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Jr7Qizm8hkNUkgEjmloS-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fontSize=24;fontColor=#FFFFFF;labelBackgroundColor=none;" edge="1" parent="1" source="Jr7Qizm8hkNUkgEjmloS-19" target="Jr7Qizm8hkNUkgEjmloS-20">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="Jr7Qizm8hkNUkgEjmloS-54" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;fontSize=24;fontColor=#FFFFFF;labelBackgroundColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="255" y="1950" width="20" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="Jr7Qizm8hkNUkgEjmloS-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=24;fontColor=#FFFFFF;labelBackgroundColor=none;" edge="1" parent="1" source="Jr7Qizm8hkNUkgEjmloS-19" target="Jr7Qizm8hkNUkgEjmloS-21">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Jr7Qizm8hkNUkgEjmloS-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=24;fontColor=#FFFFFF;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;" edge="1" parent="1" source="Jr7Qizm8hkNUkgEjmloS-19" target="Jr7Qizm8hkNUkgEjmloS-22">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Jr7Qizm8hkNUkgEjmloS-19" value="&lt;font color=&quot;#000000&quot;&gt;Client&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=14;fontColor=#FFFFFF;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-800" y="1740" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="Jr7Qizm8hkNUkgEjmloS-20" value="node_modules" style="whiteSpace=wrap;html=1;fontSize=14;fontColor=#FFFFFF;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-715" y="1800" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="Jr7Qizm8hkNUkgEjmloS-21" value="public" style="whiteSpace=wrap;html=1;fontSize=14;fontColor=#FFFFFF;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-715" y="1860" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="Jr7Qizm8hkNUkgEjmloS-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=24;fontColor=#FFFFFF;labelBackgroundColor=none;" edge="1" parent="1" source="Jr7Qizm8hkNUkgEjmloS-22" target="Jr7Qizm8hkNUkgEjmloS-23">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="-655" y="2000" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Jr7Qizm8hkNUkgEjmloS-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.005;entryY=0.585;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=24;fontColor=#FFFFFF;labelBackgroundColor=none;" edge="1" parent="1" source="Jr7Qizm8hkNUkgEjmloS-22" target="Jr7Qizm8hkNUkgEjmloS-28">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="-655" y="2063" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Jr7Qizm8hkNUkgEjmloS-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=24;fontColor=#FFFFFF;labelBackgroundColor=none;" edge="1" parent="1" source="Jr7Qizm8hkNUkgEjmloS-22" target="Jr7Qizm8hkNUkgEjmloS-29">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="-655" y="2120" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Jr7Qizm8hkNUkgEjmloS-22" value="src" style="whiteSpace=wrap;html=1;fontSize=14;fontColor=#FFFFFF;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-715" y="1920" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="Jr7Qizm8hkNUkgEjmloS-23" value="_actions" style="whiteSpace=wrap;html=1;fontSize=14;fontColor=#FFFFFF;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-575" y="1980" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="Jr7Qizm8hkNUkgEjmloS-28" value="_reducers" style="whiteSpace=wrap;html=1;fontSize=14;fontColor=#FFFFFF;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-575" y="2040" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="Jr7Qizm8hkNUkgEjmloS-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=24;fontColor=#FFFFFF;entryX=0.003;entryY=0.567;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;" edge="1" parent="1" source="Jr7Qizm8hkNUkgEjmloS-29" target="Jr7Qizm8hkNUkgEjmloS-30">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-515" y="2220" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="-515" y="2183" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Jr7Qizm8hkNUkgEjmloS-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=24;fontColor=#FFFFFF;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;" edge="1" parent="1" source="Jr7Qizm8hkNUkgEjmloS-29" target="Jr7Qizm8hkNUkgEjmloS-44">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-450" y="2540" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="-515" y="2540" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Jr7Qizm8hkNUkgEjmloS-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=24;fontColor=#FFFFFF;labelBackgroundColor=none;" edge="1" parent="1" source="Jr7Qizm8hkNUkgEjmloS-29" target="Jr7Qizm8hkNUkgEjmloS-46">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="-515" y="2610" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Jr7Qizm8hkNUkgEjmloS-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=24;fontColor=#FFFFFF;labelBackgroundColor=none;" edge="1" parent="1" source="Jr7Qizm8hkNUkgEjmloS-29" target="Jr7Qizm8hkNUkgEjmloS-48">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="-515" y="2680" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Jr7Qizm8hkNUkgEjmloS-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=24;fontColor=#FFFFFF;labelBackgroundColor=none;" edge="1" parent="1" source="Jr7Qizm8hkNUkgEjmloS-29" target="Jr7Qizm8hkNUkgEjmloS-49">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="-515" y="2750" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Jr7Qizm8hkNUkgEjmloS-29" value="components" style="whiteSpace=wrap;html=1;fontSize=14;fontColor=#FFFFFF;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-575" y="2100" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="Jr7Qizm8hkNUkgEjmloS-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.01;entryY=0.629;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=24;fontColor=#FFFFFF;labelBackgroundColor=none;" edge="1" parent="1" source="Jr7Qizm8hkNUkgEjmloS-30" target="Jr7Qizm8hkNUkgEjmloS-31">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="-383" y="2245" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Jr7Qizm8hkNUkgEjmloS-30" value="views" style="whiteSpace=wrap;html=1;fontSize=14;fontColor=#FFFFFF;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-443.5" y="2160" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="Jr7Qizm8hkNUkgEjmloS-31" value="Footer" style="whiteSpace=wrap;html=1;fontSize=14;fontColor=#FFFFFF;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-290" y="2220" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="Jr7Qizm8hkNUkgEjmloS-40" value="LandingPage" style="whiteSpace=wrap;html=1;fontSize=14;fontColor=#FFFFFF;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-290" y="2281" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="Jr7Qizm8hkNUkgEjmloS-41" value="LoginPage" style="whiteSpace=wrap;html=1;fontSize=14;fontColor=#FFFFFF;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-290" y="2340" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="Jr7Qizm8hkNUkgEjmloS-42" value="NavBar" style="whiteSpace=wrap;html=1;fontSize=14;fontColor=#FFFFFF;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-290" y="2400" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="Jr7Qizm8hkNUkgEjmloS-43" value="RegisterPage" style="whiteSpace=wrap;html=1;fontSize=14;fontColor=#FFFFFF;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-290" y="2460" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="Jr7Qizm8hkNUkgEjmloS-44" value="App.js" style="whiteSpace=wrap;html=1;fontSize=14;fontColor=#FFFFFF;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-443.5" y="2520" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="Jr7Qizm8hkNUkgEjmloS-46" value="Config.js" style="whiteSpace=wrap;html=1;fontSize=14;fontColor=#FFFFFF;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-443.5" y="2590" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="Jr7Qizm8hkNUkgEjmloS-48" value="hoc" style="whiteSpace=wrap;html=1;fontSize=14;fontColor=#FFFFFF;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-443.5" y="2660" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="Jr7Qizm8hkNUkgEjmloS-49" value="utils" style="whiteSpace=wrap;html=1;fontSize=14;fontColor=#FFFFFF;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-443.5" y="2730" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="Jr7Qizm8hkNUkgEjmloS-53" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Recux를 위한 폴더들&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0;labelBackgroundColor=none;fontColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="-720" y="2014" width="117.5" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="Jr7Qizm8hkNUkgEjmloS-54" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;fontSize=24;fontColor=#FFFFFF;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-602.5" y="1968" width="20" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="Jr7Qizm8hkNUkgEjmloS-55" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;이 안에는 Page들을 넣는다&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0;labelBackgroundColor=none;fontColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="-358.5" y="2165" width="131" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="Jr7Qizm8hkNUkgEjmloS-56" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;&lt;font&gt;&lt;b&gt;webpack이 관리 하는 곳은 src뿐. (public 폴더 관리X)&lt;br&gt;img 같은 거 넣고 싶으면 src부분에 넣어야 webpack이 모아주는 역할 할 수 있음&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0;fontColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="-577" y="1925" width="371" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="Jr7Qizm8hkNUkgEjmloS-57" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Recux를 위한 폴더들&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0;labelBackgroundColor=none;fontColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="-180" y="2024" width="117.5" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="Jr7Qizm8hkNUkgEjmloS-58" value="&lt;font style=&quot;&quot;&gt;1. disk space를 낭비하지 않을 수 있다.&lt;br style=&quot;border-color: var(--border-color); font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;2. 항상 최신 버전을 사용할 수 있다.&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="Jr7Qizm8hkNUkgEjmloS-58" value="&lt;font style=&quot;&quot;&gt;1. disk space를 낭비하지 않을 수 있다.&lt;br style=&quot;border-color: var(--border-color); font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;2. 항상 최신 버전을 사용할 수 있다.&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="236.5" y="1190" width="360" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Jr7Qizm8hkNUkgEjmloS-60" value="&lt;font style=&quot;&quot;&gt;cd client&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="Jr7Qizm8hkNUkgEjmloS-60" value="&lt;font style=&quot;&quot;&gt;cd client&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="1.5" y="1440" width="118.5" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Jr7Qizm8hkNUkgEjmloS-62" value="&lt;font style=&quot;&quot;&gt;npm run start&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="Jr7Qizm8hkNUkgEjmloS-62" value="&lt;font style=&quot;&quot;&gt;npm run start&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="1.5" y="1521" width="118.5" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Jr7Qizm8hkNUkgEjmloS-63" value="&lt;b&gt;react 켜짐&amp;nbsp;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="Jr7Qizm8hkNUkgEjmloS-63" value="&lt;span&gt;react 켜짐&amp;nbsp;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="151.5" y="1526" width="96" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Jr7Qizm8hkNUkgEjmloS-64" value="&lt;b style=&quot;font-size: 14px;&quot;&gt;App.js에서 page rendering&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="Jr7Qizm8hkNUkgEjmloS-64" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;App.js에서 page rendering&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="309" y="1526" width="105" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Jr7Qizm8hkNUkgEjmloS-65" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b style=&quot;&quot;&gt;index.js&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="Jr7Qizm8hkNUkgEjmloS-65" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;&quot;&gt;index.js&lt;/span&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="477.5" y="1526" width="105" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="oRP0CzGoQcEz_cqfvVox-2" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;왜 index.js에 App.js를 넣어야 화면에 보이지?&lt;/font&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;document.getElementsId(&#39;root&#39;) -&amp;gt; public 폴더의 index.html에서 id=root인 div를 잡아서 보여줄 것을 App.js에서 rendering&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="oRP0CzGoQcEz_cqfvVox-2" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;왜 index.js에 App.js를 넣어야 화면에 보이지?&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;document.getElementsId(&#39;root&#39;) -&amp;gt; public 폴더의 index.html에서 id=root인 div를 잡아서 보여줄 것을 App.js에서 rendering&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="610" y="1490" width="340" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="oRP0CzGoQcEz_cqfvVox-4" value="&lt;font style=&quot;&quot;&gt;Client&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="oRP0CzGoQcEz_cqfvVox-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;fontSize=24;fontColor=#000000;fontStyle=1" edge="1" parent="1" source="oRP0CzGoQcEz_cqfvVox-4" target="oRP0CzGoQcEz_cqfvVox-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oRP0CzGoQcEz_cqfvVox-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;fontSize=24;fontColor=#000000;fontStyle=1" edge="1" parent="1" source="oRP0CzGoQcEz_cqfvVox-4" target="oRP0CzGoQcEz_cqfvVox-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="61" y="1805" />
+              <mxPoint x="60" y="1805" />
+              <mxPoint x="60" y="1870" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oRP0CzGoQcEz_cqfvVox-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;fontSize=24;fontColor=#000000;fontStyle=1" edge="1" parent="1" source="oRP0CzGoQcEz_cqfvVox-4" target="oRP0CzGoQcEz_cqfvVox-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="61" y="1835" />
+              <mxPoint x="60" y="1835" />
+              <mxPoint x="60" y="1930" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oRP0CzGoQcEz_cqfvVox-4" value="&lt;font style=&quot;&quot;&gt;Client&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="1.5" y="1720" width="118.5" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="oRP0CzGoQcEz_cqfvVox-5" value="&lt;font style=&quot;&quot;&gt;node_modules&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="oRP0CzGoQcEz_cqfvVox-5" value="&lt;font style=&quot;&quot;&gt;node_modules&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="120" y="1790" width="118.5" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="oRP0CzGoQcEz_cqfvVox-6" value="&lt;font style=&quot;&quot;&gt;public&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="oRP0CzGoQcEz_cqfvVox-6" value="&lt;font style=&quot;&quot;&gt;public&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="121.5" y="1850" width="118.5" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="oRP0CzGoQcEz_cqfvVox-7" value="&lt;font style=&quot;&quot;&gt;src&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="oRP0CzGoQcEz_cqfvVox-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.003;entryY=0.65;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;fontSize=24;fontColor=#000000;fontStyle=1" edge="1" parent="1" source="oRP0CzGoQcEz_cqfvVox-7" target="oRP0CzGoQcEz_cqfvVox-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="181" y="1986" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oRP0CzGoQcEz_cqfvVox-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;fontSize=24;fontColor=#000000;fontStyle=1" edge="1" parent="1" source="oRP0CzGoQcEz_cqfvVox-7" target="oRP0CzGoQcEz_cqfvVox-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="181" y="2044" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oRP0CzGoQcEz_cqfvVox-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;fontSize=24;fontColor=#000000;fontStyle=1" edge="1" parent="1" source="oRP0CzGoQcEz_cqfvVox-7" target="oRP0CzGoQcEz_cqfvVox-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="181" y="2108" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oRP0CzGoQcEz_cqfvVox-7" value="&lt;font style=&quot;&quot;&gt;src&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="121.5" y="1910" width="118.5" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="oRP0CzGoQcEz_cqfvVox-9" value="&lt;font style=&quot;&quot;&gt;_actions&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="oRP0CzGoQcEz_cqfvVox-9" value="&lt;font style=&quot;&quot;&gt;_actions&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="281" y="1960" width="118.5" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="oRP0CzGoQcEz_cqfvVox-10" value="&lt;font style=&quot;&quot;&gt;_reducers&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="oRP0CzGoQcEz_cqfvVox-10" value="&lt;font style=&quot;&quot;&gt;_reducers&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="281" y="2024" width="118.5" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="oRP0CzGoQcEz_cqfvVox-11" value="&lt;font style=&quot;&quot;&gt;components&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="oRP0CzGoQcEz_cqfvVox-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;fontSize=24;fontColor=#000000;fontStyle=1" edge="1" parent="1" source="oRP0CzGoQcEz_cqfvVox-11" target="oRP0CzGoQcEz_cqfvVox-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oRP0CzGoQcEz_cqfvVox-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;labelBackgroundColor=none;fontSize=24;fontColor=#000000;fontStyle=1" edge="1" parent="1" source="oRP0CzGoQcEz_cqfvVox-11" target="oRP0CzGoQcEz_cqfvVox-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oRP0CzGoQcEz_cqfvVox-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;labelBackgroundColor=none;fontSize=24;fontColor=#000000;fontStyle=1" edge="1" parent="1" source="oRP0CzGoQcEz_cqfvVox-11" target="oRP0CzGoQcEz_cqfvVox-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oRP0CzGoQcEz_cqfvVox-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;labelBackgroundColor=none;fontSize=24;fontColor=#000000;fontStyle=1" edge="1" parent="1" source="oRP0CzGoQcEz_cqfvVox-11" target="oRP0CzGoQcEz_cqfvVox-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oRP0CzGoQcEz_cqfvVox-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;fontSize=24;fontColor=#000000;fontStyle=1" edge="1" parent="1" source="oRP0CzGoQcEz_cqfvVox-11" target="oRP0CzGoQcEz_cqfvVox-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oRP0CzGoQcEz_cqfvVox-11" value="&lt;font style=&quot;&quot;&gt;components&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="281" y="2088" width="118.5" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="oRP0CzGoQcEz_cqfvVox-12" value="&lt;font style=&quot;&quot;&gt;views&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="oRP0CzGoQcEz_cqfvVox-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;fontSize=24;fontColor=#000000;fontStyle=1" edge="1" parent="1" source="oRP0CzGoQcEz_cqfvVox-12" target="oRP0CzGoQcEz_cqfvVox-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oRP0CzGoQcEz_cqfvVox-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;labelBackgroundColor=none;fontSize=24;fontColor=#000000;fontStyle=1" edge="1" parent="1" source="oRP0CzGoQcEz_cqfvVox-12" target="oRP0CzGoQcEz_cqfvVox-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oRP0CzGoQcEz_cqfvVox-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;labelBackgroundColor=none;fontSize=24;fontColor=#000000;fontStyle=1" edge="1" parent="1" source="oRP0CzGoQcEz_cqfvVox-12" target="oRP0CzGoQcEz_cqfvVox-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oRP0CzGoQcEz_cqfvVox-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;labelBackgroundColor=none;fontSize=24;fontColor=#000000;fontStyle=1" edge="1" parent="1" source="oRP0CzGoQcEz_cqfvVox-12" target="oRP0CzGoQcEz_cqfvVox-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oRP0CzGoQcEz_cqfvVox-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;labelBackgroundColor=none;fontSize=24;fontColor=#000000;fontStyle=1" edge="1" parent="1" source="oRP0CzGoQcEz_cqfvVox-12" target="oRP0CzGoQcEz_cqfvVox-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oRP0CzGoQcEz_cqfvVox-12" value="&lt;font style=&quot;&quot;&gt;views&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="441.5" y="2160" width="118.5" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="oRP0CzGoQcEz_cqfvVox-13" value="&lt;font style=&quot;&quot;&gt;Footer&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="600.75" y="2241" width="118.5" height="40" as="geometry" />
+        <mxCell id="oRP0CzGoQcEz_cqfvVox-13" value="&lt;font style=&quot;&quot;&gt;Footer&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="600.75" y="2220" width="118.5" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="oRP0CzGoQcEz_cqfvVox-14" value="&lt;font style=&quot;&quot;&gt;LangindPage&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="600.75" y="2300" width="118.5" height="40" as="geometry" />
+        <mxCell id="oRP0CzGoQcEz_cqfvVox-14" value="&lt;font style=&quot;&quot;&gt;LangindPage&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="600.75" y="2280" width="118.5" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="oRP0CzGoQcEz_cqfvVox-15" value="&lt;font style=&quot;&quot;&gt;LoginPage&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="600.75" y="2360" width="118.5" height="40" as="geometry" />
+        <mxCell id="oRP0CzGoQcEz_cqfvVox-15" value="&lt;font style=&quot;&quot;&gt;LoginPage&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="600.75" y="2340" width="118.5" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="oRP0CzGoQcEz_cqfvVox-16" value="&lt;font style=&quot;&quot;&gt;NavBar&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="600.75" y="2420" width="118.5" height="40" as="geometry" />
+        <mxCell id="oRP0CzGoQcEz_cqfvVox-16" value="&lt;font style=&quot;&quot;&gt;NavBar&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="600.75" y="2400" width="118.5" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="oRP0CzGoQcEz_cqfvVox-17" value="&lt;font style=&quot;&quot;&gt;RegisterPage&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="600.75" y="2480" width="118.5" height="40" as="geometry" />
+        <mxCell id="oRP0CzGoQcEz_cqfvVox-17" value="&lt;font style=&quot;&quot;&gt;RegisterPage&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="600.75" y="2460" width="118.5" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="oRP0CzGoQcEz_cqfvVox-18" value="&lt;font style=&quot;&quot;&gt;App.js&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="441.5" y="2540" width="118.5" height="40" as="geometry" />
+        <mxCell id="oRP0CzGoQcEz_cqfvVox-18" value="&lt;font style=&quot;&quot;&gt;App.js&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="441.5" y="2550" width="118.5" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="oRP0CzGoQcEz_cqfvVox-19" value="&lt;font style=&quot;&quot;&gt;Config.js&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="441.5" y="2600" width="118.5" height="40" as="geometry" />
+        <mxCell id="oRP0CzGoQcEz_cqfvVox-19" value="&lt;font style=&quot;&quot;&gt;Config.js&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="441.5" y="2610" width="118.5" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="oRP0CzGoQcEz_cqfvVox-20" value="&lt;font style=&quot;&quot;&gt;hoc&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="441.5" y="2660" width="118.5" height="40" as="geometry" />
+        <mxCell id="oRP0CzGoQcEz_cqfvVox-20" value="&lt;font style=&quot;&quot;&gt;hoc&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="441.5" y="2670" width="118.5" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="oRP0CzGoQcEz_cqfvVox-21" value="&lt;font style=&quot;&quot;&gt;utils&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="441.5" y="2720" width="118.5" height="40" as="geometry" />
+        <mxCell id="oRP0CzGoQcEz_cqfvVox-21" value="&lt;font style=&quot;&quot;&gt;utils&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="441.5" y="2730" width="118.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oRP0CzGoQcEz_cqfvVox-22" value="&lt;span&gt;redux를 위한 폴더&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="127.5" y="1994" width="127.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="oRP0CzGoQcEz_cqfvVox-42" value="&lt;span&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;webpack이 관리하는 곳은 src뿐, (public 폴더 관리x)&lt;br&gt;img 같은 거 넣고 싶으면 src부분에 넣어야 webpack이 모아주는 역할 할 수 있음&lt;/span&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="275" y="1915" width="522.25" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
