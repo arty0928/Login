@@ -1,6 +1,5 @@
 const express = require('express');
 const app = express();
-const port = 5000
 const bodyParser = require('body-parser');
 const cookieParser = require('cookie-parser');
 const config = require('./config/key.js');
@@ -133,6 +132,7 @@ app.get('/api/user/logout',auth, (req, res) => {
 })
 
 
+const port = 5000;
 
 console.log(app.listen); //function: listen
 app.listen(port, () => {

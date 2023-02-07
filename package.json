@@ -94,7 +94,6 @@
     "dev": "concurrently \"npm run backend\" \"npm run start --prefix client\""
   },
   "repository": {
-    
     "type": "git",
     "url": "git+https://github.com/arty0928/Login.git"
   },

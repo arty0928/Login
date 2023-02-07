@@ -11,10 +11,9 @@
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}",
-            "runtimeExecutable": "nodemon",
-            "restart": true
-
+            "program": "${file}",
+            "runtimeExecutable" : "nodemon",
+            "restart" : true
         }
     ]
 }
