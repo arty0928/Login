@@ -2,12 +2,12 @@ import React, { useState } from 'react'
 import { useDispatch } from 'react-redux';
 import { registerUser } from '../../../_actions/user_action';
 import { useNavigate } from 'react-router-dom';
+import Auth from '../../../hoc/auth';
 
 
-function Register(props) {
+function Register() {
 
   const dispatch = useDispatch();
-
   const navigate = useNavigate();
 
   // email, password의 상태를 변경해주기 위한 state
@@ -88,4 +88,6 @@ function Register(props) {
   )
 }
 
-export default Register
+// export default Auth(Register, false);
+export default Register;
+
