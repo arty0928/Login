@@ -2,8 +2,12 @@ import { Axios } from 'axios';
 import React, { useState } from 'react'
 import { useDispatch } from 'react-redux';
 import { loginUser } from '../../../_actions/user_action';
-function LoginPage() {
+import { useNavigate } from 'react-router-dom';
+
+function LoginPage(props) {
   const dispatch = useDispatch();
+
+  const navigate = useNavigate();
 
   // email, password의 상태를 변경해주기 위한 state
   const [Email,setEmail] =  useState("");
@@ -19,7 +23,7 @@ function LoginPage() {
   }
 
   const onSubmitHandler = (event) => {
-    // event.preventDefault();
+    event.preventDefault();
 
     // console.log('email',Email);
     // console.log('password',Password);
@@ -27,11 +31,16 @@ function LoginPage() {
     let body ={
       email: Email,
       password: Password
-    }
+    };
 
     dispatch(loginUser(body))
-
-    
+    .then(response => {
+      if(response.payload.loginSuccess){
+        navigate('/');
+      }else{
+        alert('Error');
+      }
+    })
   }
 
 
