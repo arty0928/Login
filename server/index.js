@@ -85,7 +85,7 @@ app.post('/api/user/login',(req,res)=>{
     user.generateToken((err, user) =>{
       if(err) return res.status(400).send(err);
 
-      console.log(`1:1로 매핑된 db의 user = ${user}`);
+      //console.log(`1:1로 매핑된 db의 user = ${user}`);
       //토큰을 저장한다. 어디에? 쿠키, 로컬스토리지 ...
       //cookieParser 라이브러리 설치 
       //x_auth라는 이름의 쿠키에 생성한 user.token을 넣어주고 res로 보냄
@@ -134,7 +134,7 @@ app.get('/api/user/logout',auth, (req, res) => {
 
 const port = 5000;
 
-console.log(app.listen); //function: listen
+//console.log(app.listen); //function: listen
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
   }

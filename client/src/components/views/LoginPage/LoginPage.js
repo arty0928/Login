@@ -23,6 +23,7 @@ function LoginPage() {
   }
 
   const onSubmitHandler = (event) => {
+    //이벤트가 발생했을때 페이지 새로고침 방지
     event.preventDefault();
 
     // console.log('email',Email);

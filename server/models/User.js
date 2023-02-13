@@ -137,7 +137,7 @@ userSchema.statics.findByToken = function (token, cb){
 
     //토큰을 decode한다.
     //generateToken시 secretToken(keyObject)을 했으니까
-    console.log('jwt.verify');
+    //console.log('jwt.verify');
 
     //'secretToken' 은 대칭키(암호화, 복화화시 같은 키 사용)
     jwt.verify(token, 'secretToken', function(err,decoded){ 
@@ -154,8 +154,8 @@ userSchema.statics.findByToken = function (token, cb){
     });
 }
 
-console.log(`typeof(userSchema) : ${typeof(userSchema)}`); //object
+//console.log(`typeof(userSchema) : ${typeof(userSchema)}`); //object
 const User = mongoose.model('User',userSchema); //스키마를 모델로 감싸줌
-console.log(`typeof(User): ${typeof(User)}`); //funciton
+//console.log(`typeof(User): ${typeof(User)}`); //funciton
 
 module.exports = {User};

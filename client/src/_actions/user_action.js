@@ -5,6 +5,7 @@ import {
     AUTH_USER
 }from './types';
 
+//LoginPage에서 body로 email과 pw로 넣어준것을 dataToSubmit으로 받음
 export function loginUser(dataToSubmit){
 
     const request = axios.post('/api/user/login',dataToSubmit)
