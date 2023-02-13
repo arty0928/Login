@@ -11,12 +11,16 @@ import promiseMiddleware from 'redux-promise';
 import ReduxThunk from 'redux-thunk';
 import Reducer from './_reducers';
 
+//원래는 createStore만해서 store 생성해도 되는데, store는 객체만 받아야하므로 promise와 function도 받기 위해서 
+//middleware를 합친 store만들기
 const createStoreWithMiddleware = applyMiddleware(promiseMiddleware,ReduxThunk)(createStore)
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    {/* App에 redux(state 관리)를 연결하기 위해 Provider */}
     <Provider 
+    // state을 감싸주는 store
       store={createStoreWithMiddleware(
         Reducer,
         window.__REDUX_DEVTOOLS_EXTENSION__ &&
