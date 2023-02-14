@@ -119,7 +119,7 @@ userSchema.methods.generateToken = function(cb){
     
     var token = jwt.sign(user._id.toHexString(),'secretToken');
     //xxxxx.yyyyy.zzz
-    console.log(`'generatetoken' after signing token = ${token}`);
+    //console.log(`'generatetoken' after signing token = ${token}`);
 
     //'secretToken은 keyObject
     user.token = token;

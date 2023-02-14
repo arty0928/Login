@@ -5,7 +5,7 @@ let auth = (req,res, next) => {
     //1. 클라이언트 쿠키에서 토큰을 가져온다.
     //index.js에서 generateToken에서 x_auth로 쿠키를 넣음
     let token = req.cookies.x_auth;
-    console.log(`req.cookies.x_auth: ${token}`)
+    //console.log(`req.cookies.x_auth: ${token}`)
 
     //2. 가져온 토큰을 decode한 후, 유저가 있는지 찾는다
     //user model에서 메소드를 만들어서 불러옴
