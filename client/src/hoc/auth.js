@@ -15,6 +15,7 @@ export default function Auth(SpecificComponent, option, adminRoute = null){
 
     function AuthenticiationCheck(){
         const dispatch = useDispatch();
+
         const navigate = useNavigate();
 
         //useEffet: 리액트 컴포넌트가 렌더링 될때마다 특정작업을 실행할 수 있도록 하는 Hook

@@ -23,9 +23,10 @@ export function loginUser(dataToSubmit){
     
     //return해서 reducer에 넘겨줘야
     //reducer: pre와 next action을 조합해서 다음 state을 만들어야 
+    //action은 무엇이 일어났는지 설명한다
     return {
-        type: LOGIN_USER,
-        payload: request
+        type: LOGIN_USER, //LOGIN_USER가 발생했고,
+        payload: request  //그 LOGIN_USER이 정상 작동한 설명을 payload에
     }
 }
 
@@ -46,6 +47,8 @@ export function registerUser(dataToSubmit){
     //return해서 reducer에 넘겨줘야
     //reducer: pre와 next action을 조합해서 다음 state을 만들어야 
     return {
+        //action에는 type과 payload field 가 2개 있음
+        //이름을 다르게 하면 오류남
         type: REGISTER_USER,
         payload: request
     }
