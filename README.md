@@ -6,6 +6,6 @@ React, Redux, proxy
 
 Node, JWT
 
-<img src="Img/login.png">
+<img src="./Img/login.png">
 
-<img src="Img/register.png">
+<img src="./Img/register.png">
