@@ -56,6 +56,7 @@ app.post('/api/user/register',(req,res)=>{
           return res.json({success: false, err});
         }
 
+        console.log("server register 완료");
         //회원정보를 잘 저장했으면 status 200 success status response 
         return res.status(200).json({
             success: true,
@@ -82,9 +83,10 @@ app.post('/api/user/login',(req,res)=>{
     return res.json({loginSuccess: false, message: "비밀번호가 틀렸습니다"})
 
     //비밀번호까지 맞다면 토큰 생성하기
-    user.generateToken((err, user) =>{
-      if(err) return res.status(400).send(err);
+  user.generateToken((err, user) =>{
+    if(err) return res.status(400).send(err);
 
+      console.log("서버 로그인 완료");
       //console.log(`1:1로 매핑된 db의 user = ${user}`);
       //토큰을 저장한다. 어디에? 쿠키, 로컬스토리지 ...
       //cookieParser 라이브러리 설치 
@@ -101,7 +103,8 @@ app.post('/api/user/login',(req,res)=>{
 //middleware 폴더 생성
 //auth를 미들웨어로 보내줌 -> require middleware/auth
 app.get('/api/user/auth',auth,(req,res)=>{
-
+  
+  console.log('server auth 완료');
   //여기까지 미들웨어를 통과해왔다는 얘기는 Authentification이 True
   res.status(200).json({
     _id: req.user._id, //auth에서 user를 req에 넣어서 req.user._id 접근 가능
@@ -123,7 +126,9 @@ app.get('/api/user/logout',auth, (req, res) => {
     {token: ""} //update 정보
     ,(err,user)=>{ //callback 함수
       if(err) return res.json({success: false, err});
-      //console.log(user);
+
+      console.log('server logout 완료');
+      
       return res.status(200).send({
         success: true,
         message: "Logout 완료"

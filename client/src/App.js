@@ -1,4 +1,3 @@
-import './App.css';
 import React from "react";
 import {
   BrowserRouter as Router,
@@ -23,6 +22,7 @@ function App() {
   return (
     <Router>
       <div>
+      {/* <Routes>컴포넌트는 여러 Route를 감싸서 그 중 규칙이 일치하는 라우트 단 하나만을 렌더링 시켜주는 역할 */}
         <Routes>
           <Route exact path="/" element = {<NewLandingPage />} />
           <Route exact path="/login" element = {<NewLoginPage />} />

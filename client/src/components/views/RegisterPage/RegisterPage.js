@@ -46,6 +46,7 @@ function Register() {
 
     dispatch(registerUser(body))
     .then(response => {
+      console.log(`response.payload.success: ${response.payload.success}`)
       if(response.payload.success){
         navigate('/login');
       }else{

@@ -8,6 +8,7 @@ function LoginPage() {
 
   const navigate = useNavigate();
 
+  //mount, update,rendering 기능을 위한 Hook의 useState
   // email, password의 상태를 변경해주기 위한 state
   const [Email,setEmail] =  useState("");
   const [Password,setPassword] =  useState("");
@@ -33,8 +34,14 @@ function LoginPage() {
       password: Password
     };
 
+    // console.log(`Login dispatch : ${dispatch}`); //function
+    //action loginUser에 객체 형식의 body를 넣어 진행
     dispatch(loginUser(body))
     .then(response => {
+
+      //reducer에서 보낸 return 값이 response로
+      console.log(`login dispatch response`);
+      console.log(response);
       if(response.payload.loginSuccess){
         navigate('/');
       }else{
