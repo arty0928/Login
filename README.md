@@ -1,2 +1,3 @@
-# Login
-Node + Mysql + Json
+Front: React, Redux, proxy
+
+Server: Nodejs, JWT
