@@ -1,8 +1,8 @@
-#### Front
+## Front
 
 React, Redux, proxy
 
-#### Server:
+## Server:
 
 Node, JWT
 
