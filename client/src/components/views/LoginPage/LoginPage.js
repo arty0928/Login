@@ -41,7 +41,25 @@ function LoginPage() {
 
       //reducer에서 보낸 return 값이 response로
       console.log(`login dispatch response`);
-      console.log(response)
+      // console.log(response);
+          //{
+          //    type: "login_user",
+          //    payload : {
+          //      loginSuccess: true,
+          //      userId: ~~
+          //  }
+          //}
+      
+
+      //redux "스토어"에는 
+        //userData:
+        //loginSuccess: {loginSuccess: , userId: }
+        //만 있고 payload는 없다. redux를 사용할때는 스토어에 들어있는 값을 사용하는 게 아닌 요청을 보낸 후 바로 처리
+      //action에서 보낸 
+        //type: {}
+        //payload: {} 
+      //로 접근
+      //payload: 리덕스를 사용해서 reponse를 받을 때 리덕스 안에서 사용하는 값
       if(response.payload.loginSuccess){
         navigate('/');
       }else{
