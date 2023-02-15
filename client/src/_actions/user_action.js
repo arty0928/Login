@@ -38,7 +38,11 @@ export function registerUser(dataToSubmit){
     //console.log(response.data) : {success: true} : server에서 json 타입으로 보낸 response
         .then(response =>response.data)
     
-    console.log(`registerUser: request: ${request}`);
+    //console.log(request);
+        // Promise result
+            // success : true   
+
+
     //return해서 reducer에 넘겨줘야
     //reducer: pre와 next action을 조합해서 다음 state을 만들어야 
     return {
@@ -55,6 +59,7 @@ export function auth(){
     //서버에서 받은 데이터를 request에 저장
         .then(response =>response.data)
     
+        console.log(request)
     //return해서 reducer에 넘겨줘야
     //reducer: pre와 next action을 조합해서 다음 state을 만들어야 
     return {

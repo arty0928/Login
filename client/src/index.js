@@ -24,6 +24,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   // npx로 react를 실행하면 strictmode생김
   // 렌더링 보다 커밋이 더 빠른데, 렌더링에서 메소드가 중복 호출되는 경우(useState사용시 발생 가능성) 이를 방지 
+  // 1. Rendering : react 는 무엇을 display해야 하는지 component에게 요청함
+  // 2. Committing: rendering 후, react가 DOM을 수정
   //strict mode는 개발 과정에만 적용, 배포후에는 작동x 
   <React.StrictMode>
     {/* App에 redux(state 관리)를 연결하기 위해 Provider(store에 접근할 수 있도록) */}

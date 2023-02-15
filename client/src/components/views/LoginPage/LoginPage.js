@@ -41,7 +41,7 @@ function LoginPage() {
 
       //reducer에서 보낸 return 값이 response로
       console.log(`login dispatch response`);
-      console.log(response);
+      console.log(response)
       if(response.payload.loginSuccess){
         navigate('/');
       }else{
