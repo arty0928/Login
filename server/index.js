@@ -23,7 +23,13 @@ mongoose.connect(config.mongoURI)
 .catch(err => console.log(err));
 
 //get 가져오기
-app.get("/",(req,res) => res.send("Hello world"));
+app.get("/",(req,res) => {
+  res.send({
+    home: "success"
+  })
+});
+
+
 app.get('/hello', (req, res) => {
   res.send('Hello World!')
 })
@@ -122,6 +128,8 @@ app.get('/api/user/auth',auth,(req,res)=>{
 
 //로그아웃 Logout: DB에서 해당 유저를 찾아서 그 토큰을 지워준다.
 app.get('/api/user/logout',auth, (req, res) => {
+  console.log(typeof(req.user._id));
+
   User.findOneAndUpdate({_id: req.user._id}, //filter 
     {token: ""} //update 정보
     ,(err,user)=>{ //callback 함수

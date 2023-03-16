@@ -23,6 +23,11 @@ function LandingPage() {
     //     //server와 client 주소가 다름 -> 데이터 못 받음 -> concurrently
     // },[])
 
+    axios.get('/')
+    .then(response =>{
+        console.log(response);
+    })
+
     const onClickHandler = () => {
         axios.get('/api/user/logout')
         .then(response => {
